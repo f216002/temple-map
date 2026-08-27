@@ -1,0 +1,2461 @@
+{
+  "temples": [
+    {
+      "country": "日本",
+      "temple": "本德佛堂",
+      "address": "7-7-17, Shinimazato, Osaka Shi Ikuno Ku, Osaka, 544-0001, Japan\n544-0001 大阪府大阪市生野区新今里７丁目7−17",
+      "lat": 34.66069286947332,
+      "lng": 135.55185275882266,
+      "masters": [
+        "余秀珍",
+        "劉展宏",
+        "吳展宏",
+        "吳玉英",
+        "李宗勳",
+        "李菁菁",
+        "林建明",
+        "林玉霜",
+        "林育霜",
+        "梁益銘",
+        "楊文傑",
+        "王延平",
+        "王秀容",
+        "蔡季洪",
+        "陳枝財",
+        "陳讚昌"
+      ],
+      "media": [],
+      "city": "日本"
+    },
+    {
+      "country": "日本",
+      "temple": "石塚氏佛堂",
+      "address": "日本國栃木県真岡市さくら1丁目4一2",
+      "lat": 36.4428,
+      "lng": 139.9982,
+      "masters": [
+        "曹慧珍",
+        "蘇建利",
+        "鄧秋玲"
+      ],
+      "media": [],
+      "city": "日本"
+    },
+    {
+      "country": "加拿大",
+      "temple": "真慈佛堂",
+      "address": "407-1501 Queensway, Prince George, BC V2L 1L5\n加拿大卑詩省喬治王子市1501號407室",
+      "lat": 53.910339829102256,
+      "lng": -122.74266262964325,
+      "masters": [
+        "廖桂玉",
+        "彭慧玲",
+        "許麗君",
+        "陳泰宇",
+        "黃貴美"
+      ],
+      "media": [],
+      "city": "加拿大"
+    },
+    {
+      "country": "加拿大",
+      "temple": "華恩佛堂",
+      "address": "3-488 Furness St New Westminster BC Canada\n佛那士街新西敏俾诗省加拿大",
+      "lat": 49.1958633888254,
+      "lng": -122.92774197047095,
+      "masters": [
+        "李麗卿"
+      ],
+      "media": [],
+      "city": "加拿大"
+    },
+    {
+      "country": "加拿大",
+      "temple": "極理佛堂",
+      "address": "加拿大 佛堂",
+      "lat": 49.21302102198863,
+      "lng": -122.92445584375633,
+      "masters": [
+        "余玉連"
+      ],
+      "media": [],
+      "city": "加拿大"
+    },
+    {
+      "country": "加拿大",
+      "temple": "義慈佛堂",
+      "address": "Moose Jaw, Saskatchewan",
+      "lat": 50.4185555,
+      "lng": -105.5467393,
+      "masters": [
+        "許麗君"
+      ],
+      "media": [],
+      "city": "加拿大"
+    },
+    {
+      "country": "台灣",
+      "temple": "金門佛堂",
+      "address": "金門縣環島北路一段88號",
+      "lat": 24.441935077747235,
+      "lng": 118.32362579999992,
+      "masters": [
+        "杜獻琮",
+        "蘇成儀"
+      ],
+      "media": [],
+      "city": "台灣"
+    },
+    {
+      "country": "台灣",
+      "temple": "崇正寶宮佛堂",
+      "address": "台中市太平區東平路766號",
+      "lat": 24.133944862351946,
+      "lng": 120.71770227979734,
+      "masters": [
+        "妙極大帝",
+        "樞紐"
+      ],
+      "media": [
+        {
+          "type": "youtube",
+          "id": "caetYbunhfE",
+          "thumbUrl": "https://img.youtube.com/vi/caetYbunhfE/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/caetYbunhfE?autoplay=1&rel=0",
+          "downloadUrl": "https://youtu.be/caetYbunhfE?si=iIt1LRjpscVL-h4a",
+          "title": "YouTube 影片"
+        },
+        {
+          "type": "youtube",
+          "id": "zhLk39SCdco",
+          "thumbUrl": "https://img.youtube.com/vi/zhLk39SCdco/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/zhLk39SCdco?autoplay=1&rel=0",
+          "downloadUrl": "https://www.youtube.com/watch?v=zhLk39SCdco",
+          "title": "YouTube 影片"
+        },
+        {
+          "type": "youtube",
+          "id": "dBboyg_-2Pk",
+          "thumbUrl": "https://img.youtube.com/vi/dBboyg_-2Pk/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/dBboyg_-2Pk?autoplay=1&rel=0",
+          "downloadUrl": "https://www.youtube.com/watch?v=dBboyg_-2Pk",
+          "title": "YouTube 影片"
+        },
+        {
+          "type": "youtube",
+          "id": "OrN_DvUPVLA",
+          "thumbUrl": "https://img.youtube.com/vi/OrN_DvUPVLA/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/OrN_DvUPVLA?autoplay=1&rel=0",
+          "downloadUrl": "https://www.youtube.com/watch?v=OrN_DvUPVLA",
+          "title": "YouTube 影片"
+        },
+        {
+          "type": "drive_video",
+          "id": "1rxJUCf4ysPMoxA7m-ajmb2fA5cfckkn8",
+          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=1rxJUCf4ysPMoxA7m-ajmb2fA5cfckkn8",
+          "embedUrl": "https://drive.google.com/file/d/1rxJUCf4ysPMoxA7m-ajmb2fA5cfckkn8/preview",
+          "viewUrl": "https://drive.google.com/file/d/1rxJUCf4ysPMoxA7m-ajmb2fA5cfckkn8/view",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1rxJUCf4ysPMoxA7m-ajmb2fA5cfckkn8",
+          "title": "123"
+        }
+      ],
+      "city": "台灣"
+    },
+    {
+      "country": "尼泊爾",
+      "temple": "加家佛堂",
+      "address": "1. नम्बर १७९, उबाकामागा, पोखरा १२, निबोर्गास्की\n2. 尼博爾加斯基博卡拉一二烏巴卡瑪加一七九號",
+      "lat": 28.218,
+      "lng": 83.992,
+      "masters": [
+        "吳榮濱",
+        "蔡煜欽",
+        "黃雅惠"
+      ],
+      "media": [],
+      "city": "尼泊爾"
+    },
+    {
+      "country": "尼泊爾",
+      "temple": "加德佛堂",
+      "address": "尼泊爾居住地址: 44600,Kathmandu,Lakhe Chaur Marg Place of Worship",
+      "lat": 27.694,
+      "lng": 85.335,
+      "masters": [
+        "王延平",
+        "賴顥元",
+        "鄧永強",
+        "黃松俊"
+      ],
+      "media": [],
+      "city": "尼泊爾"
+    },
+    {
+      "country": "尼泊爾",
+      "temple": "加德滿都1佛堂",
+      "address": "1.८६, पूर्व एकता सडक, रल्लीधपुर, बागमती प्रदेश, नेपाल\n2.尼泊爾巴格馬蒂省勒利德布爾團結東路86號",
+      "lat": 27.651089,
+      "lng": 85.320659,
+      "masters": [
+        "蔡山林",
+        "蔡麗香"
+      ],
+      "media": [],
+      "city": "尼泊爾"
+    },
+    {
+      "country": "尼泊爾",
+      "temple": "卡洛普佛堂",
+      "address": "27.711531877008348, 85.33759680769123",
+      "lat": 27.711531877008348,
+      "lng": 85.33759680769123,
+      "masters": [
+        "徐子嫻"
+      ],
+      "media": [],
+      "city": "尼泊爾"
+    },
+    {
+      "country": "尼泊爾",
+      "temple": "尼加佛堂",
+      "address": "Directly opposite the Panchakumari Foundation, Kathmandu Metropolitan City, Ward No. 10, Nepal.                                                                                                                                                                       尼泊爾加德滿都十都會區潘恰庫馬里基金會正對面",
+      "lat": 27.6925,
+      "lng": 85.337,
+      "masters": [
+        "吳秀蓮",
+        "吳美榆",
+        "周育芳",
+        "李宗勳",
+        "李玉麟",
+        "林玉霜",
+        "楊智傑",
+        "楊雅娟",
+        "王延平",
+        "王秀容",
+        "王秀燕",
+        "翁瑋鍼",
+        "蔡岳廷",
+        "蔡淑如",
+        "陳麗寬"
+      ],
+      "media": [],
+      "city": "尼泊爾"
+    },
+    {
+      "country": "尼泊爾",
+      "temple": "尼松佛堂",
+      "address": "Kathmandu, Nepal\nLalitpur, District 13\nPitmaga Road 531-78\n\n尼泊爾加德滿都 \n拉利特普爾第十三區\n皮特瑪加路 五三一之七八號-",
+      "lat": 27.671,
+      "lng": 85.318,
+      "masters": [
+        "吳美蘭",
+        "徐定華",
+        "戴嘉漾",
+        "王信發",
+        "邱朝洲",
+        "郭淑粉",
+        "陳妍蓁",
+        "黃秀娟"
+      ],
+      "media": [],
+      "city": "尼泊爾"
+    },
+    {
+      "country": "尼泊爾",
+      "temple": "尼格佛堂",
+      "address": "1.304/69 Bagdole Marg, Bagdole-4, Lalitpur, Bagmati, Nepal\n2.尼泊爾巴格馬蒂省勒利德布爾市巴格多爾路304/69",
+      "lat": 27.6686143,
+      "lng": 85.30368,
+      "masters": [
+        "何凱筑",
+        "余秀珍",
+        "劉宛怡",
+        "劉瑞梅",
+        "吳秋玲",
+        "吳綉蘭",
+        "彭姝惟",
+        "彭淑禎",
+        "徐瑞霞",
+        "徐麒智",
+        "曾世璋",
+        "曾文信",
+        "李菁菁",
+        "林翠娟",
+        "林鳳梅",
+        "洪忠和",
+        "游志鵠",
+        "莊振銘",
+        "葉瑞綿",
+        "蔡廣生",
+        "許鳳凰",
+        "陽銘輝"
+      ],
+      "media": [],
+      "city": "尼泊爾"
+    },
+    {
+      "country": "尼泊爾",
+      "temple": "尼發佛堂",
+      "address": "बागमती प्रदेश, काठमाडौं, ग्वार्को हाटी वन मार्ग, वडा नं. ११२७ को छेउको दोस्रो तला\n尼泊爾巴格馬蒂省加德滿都格瓦科哈蒂萬路一千一百二十七號隔壁二樓",
+      "lat": 27.657349,
+      "lng": 85.334207,
+      "masters": [
+        "張鼎運",
+        "羅悅敏",
+        "鄭信宏"
+      ],
+      "media": [],
+      "city": "尼泊爾"
+    },
+    {
+      "country": "尼泊爾",
+      "temple": "尼德佛堂",
+      "address": "Lalipur 拉利普特",
+      "lat": 27.732,
+      "lng": 85.298,
+      "masters": [
+        "施丁仁",
+        "施吉安",
+        "施善月",
+        "施怡年",
+        "施林來于",
+        "林來于"
+      ],
+      "media": [],
+      "city": "尼泊爾"
+    },
+    {
+      "country": "印尼",
+      "temple": "天德佛堂",
+      "address": "Komplek Nagoya Point B 5-6 (Belakang DC Mall, Jl. Duyung) Batu Selicin, Kec. Lubuk Baja, Kota Batam, Kepulauan Riau 29444\n\n印尼國巴淡島那果雅柏印社區B座5-6號",
+      "lat": 1.1419242525792461,
+      "lng": 104.00430543303314,
+      "masters": [
+        "陳韻竹"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "id": "1AB5AH5pHXlfD6zWp1ckDsIaS4WsFkOkX",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1AB5AH5pHXlfD6zWp1ckDsIaS4WsFkOkX",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1AB5AH5pHXlfD6zWp1ckDsIaS4WsFkOkX",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1AB5AH5pHXlfD6zWp1ckDsIaS4WsFkOkX",
+          "title": "179180.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1sn_BPbHwof-RFrG8G2sGkdcnxOaEX6IX",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1sn_BPbHwof-RFrG8G2sGkdcnxOaEX6IX",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1sn_BPbHwof-RFrG8G2sGkdcnxOaEX6IX",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1sn_BPbHwof-RFrG8G2sGkdcnxOaEX6IX",
+          "title": "179185.jpg"
+        }
+      ],
+      "city": "印尼"
+    },
+    {
+      "country": "印尼",
+      "temple": "和仁佛堂",
+      "address": "1. Jl. Rustini No.155 kel. Sukamaju Kec. sako Kota Palembang, Sumatera Selatan 30961\n2. 印尼國巨港市祿士蒂尼路穌加瑪儒區一五五號",
+      "lat": -2.925061077055186,
+      "lng": 104.76872735794578,
+      "masters": [
+        "徐悅華",
+        "葉萬利"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "id": "174o_e1dzsBv_830bvNOcRXqYFXY-gfI9",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/174o_e1dzsBv_830bvNOcRXqYFXY-gfI9",
+          "viewUrl": "https://lh3.googleusercontent.com/d/174o_e1dzsBv_830bvNOcRXqYFXY-gfI9",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=174o_e1dzsBv_830bvNOcRXqYFXY-gfI9",
+          "title": "179200_0.jpg"
+        },
+        {
+          "type": "image",
+          "id": "18ohCToOSw6uJVMUkKp7M7YTidHOfuFCm",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/18ohCToOSw6uJVMUkKp7M7YTidHOfuFCm",
+          "viewUrl": "https://lh3.googleusercontent.com/d/18ohCToOSw6uJVMUkKp7M7YTidHOfuFCm",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=18ohCToOSw6uJVMUkKp7M7YTidHOfuFCm",
+          "title": "179199_0.jpg"
+        },
+        {
+          "type": "youtube",
+          "id": "ZlJb1SOXXWM",
+          "thumbUrl": "https://img.youtube.com/vi/ZlJb1SOXXWM/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/ZlJb1SOXXWM?autoplay=1&rel=0",
+          "downloadUrl": "https://www.youtube.com/watch?v=ZlJb1SOXXWM",
+          "title": "YouTube 影片"
+        }
+      ],
+      "city": "印尼"
+    },
+    {
+      "country": "印尼",
+      "temple": "和光佛堂",
+      "address": "Jl. Puri Anjasmono Blok J1/9 Tawangsari Semarang Barat 50144 Indonesia",
+      "lat": -6.988772838152482,
+      "lng": 110.40432217630222,
+      "masters": [
+        "張振豐",
+        "林玉玲",
+        "萬蘭青",
+        "蔡季洪",
+        "陳讚昌"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "id": "1HMs7hCXtidtOlQXqlS-TzPj_aePtz-iu",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1HMs7hCXtidtOlQXqlS-TzPj_aePtz-iu",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1HMs7hCXtidtOlQXqlS-TzPj_aePtz-iu",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1HMs7hCXtidtOlQXqlS-TzPj_aePtz-iu",
+          "title": "IMG_7234.JPG"
+        },
+        {
+          "type": "image",
+          "id": "1XF1EQJbre00-iVACjBdWby3sjIFcIW90",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1XF1EQJbre00-iVACjBdWby3sjIFcIW90",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1XF1EQJbre00-iVACjBdWby3sjIFcIW90",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1XF1EQJbre00-iVACjBdWby3sjIFcIW90",
+          "title": "IMG_7236.JPG"
+        },
+        {
+          "type": "image",
+          "id": "1PLaf_OIoyrhBDq4Hljdv0QPtIb88KI2F",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1PLaf_OIoyrhBDq4Hljdv0QPtIb88KI2F",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1PLaf_OIoyrhBDq4Hljdv0QPtIb88KI2F",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1PLaf_OIoyrhBDq4Hljdv0QPtIb88KI2F",
+          "title": "IMG_7233.JPG"
+        },
+        {
+          "type": "image",
+          "id": "1qyuvqeLmgM5iWGvGfOff1vVQzNM8yKAc",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1qyuvqeLmgM5iWGvGfOff1vVQzNM8yKAc",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1qyuvqeLmgM5iWGvGfOff1vVQzNM8yKAc",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1qyuvqeLmgM5iWGvGfOff1vVQzNM8yKAc",
+          "title": "IMG_7241.JPG"
+        },
+        {
+          "type": "image",
+          "id": "1vYt9yZ4jNtDv9GydjBg9eQrbNmkxlxCN",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1vYt9yZ4jNtDv9GydjBg9eQrbNmkxlxCN",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1vYt9yZ4jNtDv9GydjBg9eQrbNmkxlxCN",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1vYt9yZ4jNtDv9GydjBg9eQrbNmkxlxCN",
+          "title": "IMG_7239.JPG"
+        },
+        {
+          "type": "image",
+          "id": "1X-y_kuTwegDfAxu6pdDC1P-_B9AwwzbY",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1X-y_kuTwegDfAxu6pdDC1P-_B9AwwzbY",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1X-y_kuTwegDfAxu6pdDC1P-_B9AwwzbY",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1X-y_kuTwegDfAxu6pdDC1P-_B9AwwzbY",
+          "title": "IMG_7232.JPG"
+        },
+        {
+          "type": "image",
+          "id": "1irSPZtt77BY9JZ3UmkHI1rYXD9gv2xx9",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1irSPZtt77BY9JZ3UmkHI1rYXD9gv2xx9",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1irSPZtt77BY9JZ3UmkHI1rYXD9gv2xx9",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1irSPZtt77BY9JZ3UmkHI1rYXD9gv2xx9",
+          "title": "IMG_7240.JPG"
+        },
+        {
+          "type": "image",
+          "id": "1JVKnzDibmPBSnEWO3zfhF2vfik_kL23M",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1JVKnzDibmPBSnEWO3zfhF2vfik_kL23M",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1JVKnzDibmPBSnEWO3zfhF2vfik_kL23M",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1JVKnzDibmPBSnEWO3zfhF2vfik_kL23M",
+          "title": "IMG_7235.JPG"
+        },
+        {
+          "type": "image",
+          "id": "162oHV2r_MP8MMR_cQdTwhafAmho7aEKt",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/162oHV2r_MP8MMR_cQdTwhafAmho7aEKt",
+          "viewUrl": "https://lh3.googleusercontent.com/d/162oHV2r_MP8MMR_cQdTwhafAmho7aEKt",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=162oHV2r_MP8MMR_cQdTwhafAmho7aEKt",
+          "title": "IMG_7237.JPG"
+        },
+        {
+          "type": "image",
+          "id": "1XEUUzroxd2Y-H_Qv7vcyMkQxXnofHZjo",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1XEUUzroxd2Y-H_Qv7vcyMkQxXnofHZjo",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1XEUUzroxd2Y-H_Qv7vcyMkQxXnofHZjo",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1XEUUzroxd2Y-H_Qv7vcyMkQxXnofHZjo",
+          "title": "IMG_7238.JPG"
+        },
+        {
+          "type": "image",
+          "id": "16c8QBp1dFPY59FknsujowWfgVk1EjbF_",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/16c8QBp1dFPY59FknsujowWfgVk1EjbF_",
+          "viewUrl": "https://lh3.googleusercontent.com/d/16c8QBp1dFPY59FknsujowWfgVk1EjbF_",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=16c8QBp1dFPY59FknsujowWfgVk1EjbF_",
+          "title": "22125.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1cLYbzZgS-EFWSsSb5jK9foaftbYNFixj",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1cLYbzZgS-EFWSsSb5jK9foaftbYNFixj",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1cLYbzZgS-EFWSsSb5jK9foaftbYNFixj",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1cLYbzZgS-EFWSsSb5jK9foaftbYNFixj",
+          "title": "73626.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1oLifOfyTg1EgJnekAPXFeGYgyfWKRpsp",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1oLifOfyTg1EgJnekAPXFeGYgyfWKRpsp",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1oLifOfyTg1EgJnekAPXFeGYgyfWKRpsp",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1oLifOfyTg1EgJnekAPXFeGYgyfWKRpsp",
+          "title": "74233.jpg"
+        }
+      ],
+      "city": "印尼"
+    },
+    {
+      "country": "印尼",
+      "temple": "和泗佛堂",
+      "address": "jalan PLOSO TIMUR 5 A no 46 SURABAYA 60133",
+      "lat": -7.255216083700367,
+      "lng": 112.77515022348398,
+      "masters": [
+        "吳敏義"
+      ],
+      "media": [],
+      "city": "印尼"
+    },
+    {
+      "country": "印尼",
+      "temple": "和祥佛堂",
+      "address": "1 Jl. Raya pajintan no 68. Rt/Rw 005/002 Kelurahan. Pajintan Kecamatan Singkawang Timur Kota Singkawang\nKalimantan barat\n2 印度尼西亞西加里曼丹省新克旺市新克旺東區帕金丹村，帕金丹大街68號，RT/RW 005/002。",
+      "lat": 0.9068,
+      "lng": 109.021,
+      "masters": [
+        "吳淑敏"
+      ],
+      "media": [],
+      "city": "印尼"
+    },
+    {
+      "country": "印尼",
+      "temple": "和善佛院",
+      "address": "Sunter Kemayoran No168   Jakarta Utara Indonesia",
+      "lat": -6.160614057729638,
+      "lng": 106.87427681769259,
+      "masters": [
+        "翁士婷等"
+      ],
+      "media": [
+        {
+          "type": "youtube",
+          "id": "a7l7xgJFuso",
+          "thumbUrl": "https://img.youtube.com/vi/a7l7xgJFuso/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/a7l7xgJFuso?autoplay=1&rel=0",
+          "downloadUrl": "https://youtu.be/a7l7xgJFuso",
+          "title": "YouTube 影片"
+        },
+        {
+          "type": "youtube",
+          "id": "tqSTb1956tc",
+          "thumbUrl": "https://img.youtube.com/vi/tqSTb1956tc/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/tqSTb1956tc?autoplay=1&rel=0",
+          "downloadUrl": "https://youtu.be/tqSTb1956tc?si=2qnEu7tPqcm_uhNr",
+          "title": "YouTube 影片"
+        },
+        {
+          "type": "image",
+          "id": "1zW-Q8FqMYvlp3Mm54rbGYPPYKSyA4l3W",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1zW-Q8FqMYvlp3Mm54rbGYPPYKSyA4l3W",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1zW-Q8FqMYvlp3Mm54rbGYPPYKSyA4l3W",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1zW-Q8FqMYvlp3Mm54rbGYPPYKSyA4l3W",
+          "title": "Screenshot 2026-08-23 104836.png"
+        },
+        {
+          "type": "image",
+          "id": "1-83ea4-TAwXSj5alN7oNY1fYDCeLUQUP",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1-83ea4-TAwXSj5alN7oNY1fYDCeLUQUP",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1-83ea4-TAwXSj5alN7oNY1fYDCeLUQUP",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1-83ea4-TAwXSj5alN7oNY1fYDCeLUQUP",
+          "title": "Screenshot 2026-08-23 104233.png"
+        },
+        {
+          "type": "image",
+          "id": "1-3HV6VwbTwiaYY0Pq1lEbnUmiSGko5ki",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1-3HV6VwbTwiaYY0Pq1lEbnUmiSGko5ki",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1-3HV6VwbTwiaYY0Pq1lEbnUmiSGko5ki",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1-3HV6VwbTwiaYY0Pq1lEbnUmiSGko5ki",
+          "title": "104231.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1-wvW7dgp2O5X3JOspfnqTeZVjwWgX6GW",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1-wvW7dgp2O5X3JOspfnqTeZVjwWgX6GW",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1-wvW7dgp2O5X3JOspfnqTeZVjwWgX6GW",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1-wvW7dgp2O5X3JOspfnqTeZVjwWgX6GW",
+          "title": "和善佛院02.jpg"
+        },
+        {
+          "type": "image",
+          "id": "12WG9r5zP5PG2GIO93k2VtYCfkguocnoy",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/12WG9r5zP5PG2GIO93k2VtYCfkguocnoy",
+          "viewUrl": "https://lh3.googleusercontent.com/d/12WG9r5zP5PG2GIO93k2VtYCfkguocnoy",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=12WG9r5zP5PG2GIO93k2VtYCfkguocnoy",
+          "title": "104234.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1H8KkBR0CWjBxuqVs8wH0kDaU8izCGCMv",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1H8KkBR0CWjBxuqVs8wH0kDaU8izCGCMv",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1H8KkBR0CWjBxuqVs8wH0kDaU8izCGCMv",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1H8KkBR0CWjBxuqVs8wH0kDaU8izCGCMv",
+          "title": "和善佛院03.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1JILFE-6kAcjyERSlk96qDw6Wq_NBHmaZ",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1JILFE-6kAcjyERSlk96qDw6Wq_NBHmaZ",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1JILFE-6kAcjyERSlk96qDw6Wq_NBHmaZ",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1JILFE-6kAcjyERSlk96qDw6Wq_NBHmaZ",
+          "title": "104232.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1LRNWLEa_JEGWFMe2pd8eVsMcKQcw5654",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1LRNWLEa_JEGWFMe2pd8eVsMcKQcw5654",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1LRNWLEa_JEGWFMe2pd8eVsMcKQcw5654",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1LRNWLEa_JEGWFMe2pd8eVsMcKQcw5654",
+          "title": "84163.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1RslvIC8WpKvqrCafMkWQj3Yv10-EEDEX",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1RslvIC8WpKvqrCafMkWQj3Yv10-EEDEX",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1RslvIC8WpKvqrCafMkWQj3Yv10-EEDEX",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1RslvIC8WpKvqrCafMkWQj3Yv10-EEDEX",
+          "title": "104233.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1ZpjJqL8n7yLQoKv_Gbu7z-n1HgncD8mn",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1ZpjJqL8n7yLQoKv_Gbu7z-n1HgncD8mn",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1ZpjJqL8n7yLQoKv_Gbu7z-n1HgncD8mn",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1ZpjJqL8n7yLQoKv_Gbu7z-n1HgncD8mn",
+          "title": "378225_n.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1uWsSJhukcyr1OBQe06XwtOSF-8AP4Hu0",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1uWsSJhukcyr1OBQe06XwtOSF-8AP4Hu0",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1uWsSJhukcyr1OBQe06XwtOSF-8AP4Hu0",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1uWsSJhukcyr1OBQe06XwtOSF-8AP4Hu0",
+          "title": "123882_n.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1uocFDE4KtrAw_TBA-3HzcKg2N2VXPLZz",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1uocFDE4KtrAw_TBA-3HzcKg2N2VXPLZz",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1uocFDE4KtrAw_TBA-3HzcKg2N2VXPLZz",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1uocFDE4KtrAw_TBA-3HzcKg2N2VXPLZz",
+          "title": "28293.jpg"
+        }
+      ],
+      "city": "印尼"
+    },
+    {
+      "country": "印尼",
+      "temple": "和隆佛堂",
+      "address": "JL.JENDRAL SUDIRMAN NO.91 MASUK SUDIRMAN CENTER RUKO BLOK.B NO.2.BANDUNG INDONESIA.\n印尼萬隆市 蘇帝曼將軍街 91號 入蘇帝曼中心 B棟2號。",
+      "lat": 15,
+      "lng": 100,
+      "masters": [
+        "張景稂"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "id": "18zNJwxUJQb9h18bKde7OUJk1qLgAT2AM",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/18zNJwxUJQb9h18bKde7OUJk1qLgAT2AM",
+          "viewUrl": "https://lh3.googleusercontent.com/d/18zNJwxUJQb9h18bKde7OUJk1qLgAT2AM",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=18zNJwxUJQb9h18bKde7OUJk1qLgAT2AM",
+          "title": "80233.jpg"
+        }
+      ],
+      "city": "印尼"
+    },
+    {
+      "country": "印尼",
+      "temple": "和德講堂",
+      "address": "Kompelek Asia mega mas Jl Asia raya blok N 34-36 Medan 印尼國 棉蘭市美嘉馬史區N巷三十六號",
+      "lat": 3.5855,
+      "lng": 98.6945,
+      "masters": [
+        "吳秀莉",
+        "李承勝",
+        "林長勝",
+        "邱美珠"
+      ],
+      "media": [],
+      "city": "印尼"
+    },
+    {
+      "country": "印尼",
+      "temple": "和賴佛堂",
+      "address": "Pasar Naga Mas No.131, Tanjung Balai Karimun, Indonesia (Naga Mas Mare 的後面)\n印尼國丹絨瑪賴咖哩文市金龍市場131號",
+      "lat": 0.993220041227486,
+      "lng": 103.40372431739324,
+      "masters": [
+        "陳韻竹"
+      ],
+      "media": [],
+      "city": "印尼"
+    },
+    {
+      "country": "印尼",
+      "temple": "善精佛堂",
+      "address": "印度尼西亚，廖内省，北干巴鲁市，马波扬达迈区，登格朗巴尔，南卡佩尔迈小区，D22号",
+      "lat": 15,
+      "lng": 100,
+      "masters": [
+        "蔡淑如"
+      ],
+      "media": [],
+      "city": "印尼"
+    },
+    {
+      "country": "印度",
+      "temple": "印德佛堂",
+      "address": "Flat602,Nalanda Heritage City,Nalanda, Bihar,India,803111印度比哈爾邦那爛陀區那爛陀文化遺產城602室",
+      "lat": 25.130131477290774,
+      "lng": 85.46478246795276,
+      "masters": [
+        "王承祺"
+      ],
+      "media": [
+        {
+          "type": "youtube",
+          "id": "0Im_bEmQihw",
+          "thumbUrl": "https://img.youtube.com/vi/0Im_bEmQihw/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/0Im_bEmQihw?autoplay=1&rel=0",
+          "downloadUrl": "https://www.youtube.com/watch?v=0Im_bEmQihw&t=16s",
+          "title": "YouTube 影片"
+        },
+        {
+          "type": "youtube",
+          "id": "Sw3Vmehthyk",
+          "thumbUrl": "https://img.youtube.com/vi/Sw3Vmehthyk/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/Sw3Vmehthyk?autoplay=1&rel=0",
+          "downloadUrl": "https://www.youtube.com/watch?v=Sw3Vmehthyk&t=91s",
+          "title": "YouTube 影片"
+        },
+        {
+          "type": "drive_video",
+          "id": "1I2581AJqbwZhIgydIOdgRMfTVeWVze5b",
+          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=1I2581AJqbwZhIgydIOdgRMfTVeWVze5b",
+          "embedUrl": "https://drive.google.com/file/d/1I2581AJqbwZhIgydIOdgRMfTVeWVze5b/preview",
+          "viewUrl": "https://drive.google.com/file/d/1I2581AJqbwZhIgydIOdgRMfTVeWVze5b/view",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1I2581AJqbwZhIgydIOdgRMfTVeWVze5b",
+          "title": "IMG_7250.MOV"
+        },
+        {
+          "type": "drive_video",
+          "id": "1ZOC3sRbp2ybGTJmNaHXsdytnAe2pxtlF",
+          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=1ZOC3sRbp2ybGTJmNaHXsdytnAe2pxtlF",
+          "embedUrl": "https://drive.google.com/file/d/1ZOC3sRbp2ybGTJmNaHXsdytnAe2pxtlF/preview",
+          "viewUrl": "https://drive.google.com/file/d/1ZOC3sRbp2ybGTJmNaHXsdytnAe2pxtlF/view",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1ZOC3sRbp2ybGTJmNaHXsdytnAe2pxtlF",
+          "title": "IMG_7246.MOV"
+        },
+        {
+          "type": "drive_video",
+          "id": "1fE6_WOD0ur6COW4VElYU2zmov2cnTTXE",
+          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=1fE6_WOD0ur6COW4VElYU2zmov2cnTTXE",
+          "embedUrl": "https://drive.google.com/file/d/1fE6_WOD0ur6COW4VElYU2zmov2cnTTXE/preview",
+          "viewUrl": "https://drive.google.com/file/d/1fE6_WOD0ur6COW4VElYU2zmov2cnTTXE/view",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1fE6_WOD0ur6COW4VElYU2zmov2cnTTXE",
+          "title": "IMG_7210.MOV"
+        },
+        {
+          "type": "image",
+          "id": "1Cf8XVF2zE7JlPB9J-J3JDP9Q32-NsrR3",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1Cf8XVF2zE7JlPB9J-J3JDP9Q32-NsrR3",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1Cf8XVF2zE7JlPB9J-J3JDP9Q32-NsrR3",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1Cf8XVF2zE7JlPB9J-J3JDP9Q32-NsrR3",
+          "title": "印德04.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1GaE0AMdai-qKoXTRzTEFdvTdT9O_YylA",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1GaE0AMdai-qKoXTRzTEFdvTdT9O_YylA",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1GaE0AMdai-qKoXTRzTEFdvTdT9O_YylA",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1GaE0AMdai-qKoXTRzTEFdvTdT9O_YylA",
+          "title": "印德03.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1sBQGS2YDn9eq_A2V-XnyW2deVAHmnM0w",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1sBQGS2YDn9eq_A2V-XnyW2deVAHmnM0w",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1sBQGS2YDn9eq_A2V-XnyW2deVAHmnM0w",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1sBQGS2YDn9eq_A2V-XnyW2deVAHmnM0w",
+          "title": "印德02.jpg"
+        },
+        {
+          "type": "image",
+          "id": "15takfQhzYCSp4d0uTEL-4HJzhC8lwYfk",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/15takfQhzYCSp4d0uTEL-4HJzhC8lwYfk",
+          "viewUrl": "https://lh3.googleusercontent.com/d/15takfQhzYCSp4d0uTEL-4HJzhC8lwYfk",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=15takfQhzYCSp4d0uTEL-4HJzhC8lwYfk",
+          "title": "印德01.jpg"
+        }
+      ],
+      "city": "印度"
+    },
+    {
+      "country": "印度",
+      "temple": "清德佛堂",
+      "address": "7/38, DAMODARAN STREET, S.V.P. NAGAR, ARUMBAKKAM, CHENNAI-600106\n印度泰米爾納德邦清奈市阿倫巴卡區莫達蘭街38-7號",
+      "lat": 13.0725,
+      "lng": 80.2105,
+      "masters": [
+        "張智為",
+        "徐麒智",
+        "黃郁仁"
+      ],
+      "media": [
+        {
+          "type": "drive_video",
+          "id": "1eDctgWzzbqHIqYya7TMl3NhA6ezFKx7T",
+          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=1eDctgWzzbqHIqYya7TMl3NhA6ezFKx7T",
+          "embedUrl": "https://drive.google.com/file/d/1eDctgWzzbqHIqYya7TMl3NhA6ezFKx7T/preview",
+          "viewUrl": "https://drive.google.com/file/d/1eDctgWzzbqHIqYya7TMl3NhA6ezFKx7T/view",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1eDctgWzzbqHIqYya7TMl3NhA6ezFKx7T",
+          "title": "9e258fb5-31bc-4e8a-8bc1-bc15eea481a7.MP4"
+        },
+        {
+          "type": "drive_video",
+          "id": "1-GSRDT36NvnQ1PiLWsi7dOKwxsHT4UHe",
+          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=1-GSRDT36NvnQ1PiLWsi7dOKwxsHT4UHe",
+          "embedUrl": "https://drive.google.com/file/d/1-GSRDT36NvnQ1PiLWsi7dOKwxsHT4UHe/preview",
+          "viewUrl": "https://drive.google.com/file/d/1-GSRDT36NvnQ1PiLWsi7dOKwxsHT4UHe/view",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1-GSRDT36NvnQ1PiLWsi7dOKwxsHT4UHe",
+          "title": "e15fe5a2-2ff2-4cae-ac45-410535e2f014.MP4"
+        },
+        {
+          "type": "drive_video",
+          "id": "1_RGy2XXDc3QTsDur1Z8trekCtXz6q_Sq",
+          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=1_RGy2XXDc3QTsDur1Z8trekCtXz6q_Sq",
+          "embedUrl": "https://drive.google.com/file/d/1_RGy2XXDc3QTsDur1Z8trekCtXz6q_Sq/preview",
+          "viewUrl": "https://drive.google.com/file/d/1_RGy2XXDc3QTsDur1Z8trekCtXz6q_Sq/view",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1_RGy2XXDc3QTsDur1Z8trekCtXz6q_Sq",
+          "title": "VIDEO-2026-08-06-09-16-32.MP4"
+        },
+        {
+          "type": "image",
+          "id": "1d_t9YSo0CIcYAgRigqg55A1NNycWikV-",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1d_t9YSo0CIcYAgRigqg55A1NNycWikV-",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1d_t9YSo0CIcYAgRigqg55A1NNycWikV-",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1d_t9YSo0CIcYAgRigqg55A1NNycWikV-",
+          "title": "IMG_7223.JPG"
+        },
+        {
+          "type": "image",
+          "id": "1-nYDbmzKAcrXMTwT8jDELgV45BHHLYXS",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1-nYDbmzKAcrXMTwT8jDELgV45BHHLYXS",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1-nYDbmzKAcrXMTwT8jDELgV45BHHLYXS",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1-nYDbmzKAcrXMTwT8jDELgV45BHHLYXS",
+          "title": "IMG_7222.JPG"
+        },
+        {
+          "type": "image",
+          "id": "1Tbg0A0K9T2r56Qp4DIaimp6FWLQFTqsk",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1Tbg0A0K9T2r56Qp4DIaimp6FWLQFTqsk",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1Tbg0A0K9T2r56Qp4DIaimp6FWLQFTqsk",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1Tbg0A0K9T2r56Qp4DIaimp6FWLQFTqsk",
+          "title": "IMG_7224.JPG"
+        }
+      ],
+      "city": "印度"
+    },
+    {
+      "country": "西班牙",
+      "temple": "哈恩佛堂",
+      "address": "No.3 Calle Catalina mir ,Jaen",
+      "lat": 37.7796,
+      "lng": -3.7849,
+      "masters": [
+        "翁瑋聰"
+      ],
+      "media": [],
+      "city": "西班牙"
+    },
+    {
+      "country": "柬埔寨",
+      "temple": "天揚佛堂",
+      "address": "1.ប្រទេសកម្ពុជា រាជធានីភ្នំពេញភូមិសេរីសម្បត្តិ ឃុំគងនយ  លេខ ៨៨៨ ផ្លូវលេខ ១០៤   2.柬埔寨國金邊市朗哥區光諾分區勝利宋巴村104路888號",
+      "lat": 11.472,
+      "lng": 104.885,
+      "masters": [
+        "姜德輝",
+        "楊雅娟",
+        "王秀燕",
+        "鄭人文",
+        "陳慶仁",
+        "陳春仁",
+        "黃稜惠"
+      ],
+      "media": [],
+      "city": "柬埔寨"
+    },
+    {
+      "country": "柬埔寨",
+      "temple": "天慈佛堂",
+      "address": "金邊市菩森芷區2003路5號 B",
+      "lat": 11.558,
+      "lng": 104.862,
+      "masters": [
+        "徐溫童",
+        "莊惠華"
+      ],
+      "media": [],
+      "city": "柬埔寨"
+    },
+    {
+      "country": "柬埔寨",
+      "temple": "光柬佛堂",
+      "address": "柬埔寨國金邊市郎哥區白梳分區培雷地度村土路八十九號",
+      "lat": 11.495,
+      "lng": 104.872,
+      "masters": [
+        "吳秀蓮",
+        "吳美愉",
+        "廖秀霞",
+        "王浩呈",
+        "陳麗寬"
+      ],
+      "media": [],
+      "city": "柬埔寨"
+    },
+    {
+      "country": "柬埔寨",
+      "temple": "妙長佛堂",
+      "address": "អាស័យដ្ឋាន\nផ្ទះលេខ 174 , ផ្លូវលេខ 6, បុរីពិភពថ្មីគួរស្រូវ, សង្កាត់ព្រែកកំពឹស, ខណ្ឌដង្កោ, រាជធានីភ្នំពេញ                        金邊市朗哥區貝公朋分區2號公路新世界社區6街174號",
+      "lat": 11.437789182431978,
+      "lng": 104.89224738518884,
+      "masters": [
+        "劉宛怡",
+        "宋音樂",
+        "徐瑞霞",
+        "游志鵠",
+        "游春燕",
+        "盧雪玲",
+        "莊振銘",
+        "許鳳凰",
+        "陳建學"
+      ],
+      "media": [],
+      "city": "柬埔寨"
+    },
+    {
+      "country": "柬埔寨",
+      "temple": "和宣佛堂",
+      "address": "#1345金邊市棉芷區上長夏社分區2號路1345號\nផ្ទះលេខ 1345 , ផ្លូវលេខ 2 , ភូមិព្រែកតាគង់2, សង្កាត់ ចាក់អង្រែលើ , ខណ្ឌមានជ័យ , ភ្នំពេញ។\n#1345, National Road No. 2, Phum PREK TA KONG 2, Sangkat Chak Angrae Leu, Khan Meanchey, Phnom Penh.",
+      "lat": 11.5285,
+      "lng": 104.9356,
+      "masters": [
+        "梁副領導",
+        "童琴",
+        "蔡泳洲",
+        "黃聖揚"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "id": "1BmtLh0VCcIcoDbKMh1DhrnbSZrN4ZbY2",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1BmtLh0VCcIcoDbKMh1DhrnbSZrN4ZbY2",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1BmtLh0VCcIcoDbKMh1DhrnbSZrN4ZbY2",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1BmtLh0VCcIcoDbKMh1DhrnbSZrN4ZbY2",
+          "title": "S__3522581.jpg"
+        },
+        {
+          "type": "image",
+          "id": "16qpn8q_I5cAWBR1-wmHGbnjemnxDVyeq",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/16qpn8q_I5cAWBR1-wmHGbnjemnxDVyeq",
+          "viewUrl": "https://lh3.googleusercontent.com/d/16qpn8q_I5cAWBR1-wmHGbnjemnxDVyeq",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=16qpn8q_I5cAWBR1-wmHGbnjemnxDVyeq",
+          "title": "400E3718-54F4-4656-A01E-348E8AD7C753.jpg"
+        },
+        {
+          "type": "image",
+          "id": "18L52w2lyiwUP8TioOFDWKU9UJHf6--NG",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/18L52w2lyiwUP8TioOFDWKU9UJHf6--NG",
+          "viewUrl": "https://lh3.googleusercontent.com/d/18L52w2lyiwUP8TioOFDWKU9UJHf6--NG",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=18L52w2lyiwUP8TioOFDWKU9UJHf6--NG",
+          "title": "688630CB-B4F0-4B40-84F0-1D333FF51E5E.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1FfgO6LE3obXxkOz214lJzmFsDMt1WQwV",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1FfgO6LE3obXxkOz214lJzmFsDMt1WQwV",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1FfgO6LE3obXxkOz214lJzmFsDMt1WQwV",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1FfgO6LE3obXxkOz214lJzmFsDMt1WQwV",
+          "title": "B12131B7-50BB-4363-9E08-43E3828FD297.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1TGhKN4r9hJFdGdvr5JFm-uB4EkqH-4bw",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1TGhKN4r9hJFdGdvr5JFm-uB4EkqH-4bw",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1TGhKN4r9hJFdGdvr5JFm-uB4EkqH-4bw",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1TGhKN4r9hJFdGdvr5JFm-uB4EkqH-4bw",
+          "title": "53FE5AD2-7F6A-4C4F-A1D2-751B4E9088E6.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1acjVMb7oOIH_dy5jJX2_PbpXUjHspMQC",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1acjVMb7oOIH_dy5jJX2_PbpXUjHspMQC",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1acjVMb7oOIH_dy5jJX2_PbpXUjHspMQC",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1acjVMb7oOIH_dy5jJX2_PbpXUjHspMQC",
+          "title": "8AC6CC3A-E0DA-42D2-AAB9-5570DC3D9FAA.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1gg1lEa5XePopsSZR2HmkU87BcZUxZPrJ",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1gg1lEa5XePopsSZR2HmkU87BcZUxZPrJ",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1gg1lEa5XePopsSZR2HmkU87BcZUxZPrJ",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1gg1lEa5XePopsSZR2HmkU87BcZUxZPrJ",
+          "title": "8CAF7799-8939-4565-9098-3CFB2570C10F.jpg"
+        },
+        {
+          "type": "drive_video",
+          "id": "1k_G_SqOtZAroJzDcOoWKcWBY0wg3khIc",
+          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=1k_G_SqOtZAroJzDcOoWKcWBY0wg3khIc",
+          "embedUrl": "https://drive.google.com/file/d/1k_G_SqOtZAroJzDcOoWKcWBY0wg3khIc/preview",
+          "viewUrl": "https://drive.google.com/file/d/1k_G_SqOtZAroJzDcOoWKcWBY0wg3khIc/view",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1k_G_SqOtZAroJzDcOoWKcWBY0wg3khIc",
+          "title": "推動搖籃的手.mp4"
+        },
+        {
+          "type": "image",
+          "id": "1lkNnUKBCCmc6pOLFS0VetD6SFIFwz-5O",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1lkNnUKBCCmc6pOLFS0VetD6SFIFwz-5O",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1lkNnUKBCCmc6pOLFS0VetD6SFIFwz-5O",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1lkNnUKBCCmc6pOLFS0VetD6SFIFwz-5O",
+          "title": "38B51E71-44DC-491E-BC1E-73A3F55C03A2.jpg"
+        },
+        {
+          "type": "drive_video",
+          "id": "1nR-Q3CxQ-CJGUFfpt0j7-WXs4IKfppeL",
+          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=1nR-Q3CxQ-CJGUFfpt0j7-WXs4IKfppeL",
+          "embedUrl": "https://drive.google.com/file/d/1nR-Q3CxQ-CJGUFfpt0j7-WXs4IKfppeL/preview",
+          "viewUrl": "https://drive.google.com/file/d/1nR-Q3CxQ-CJGUFfpt0j7-WXs4IKfppeL/view",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1nR-Q3CxQ-CJGUFfpt0j7-WXs4IKfppeL",
+          "title": "和宣佛堂落成.mp4"
+        }
+      ],
+      "city": "柬埔寨"
+    },
+    {
+      "country": "柬埔寨",
+      "temple": "和賢佛堂",
+      "address": "1. ភូមិទក្សិណត្បូង សង្កាត់គោកចក ស្រុកសៀមរាប ខេត្តសៀមរាប ប្រទេសកម្ពុជា\n2.柬埔寨國暹粒省暹粒市宮左分區帝申南村",
+      "lat": 13.382177750835835,
+      "lng": 103.84277159705621,
+      "masters": [
+        "葉文"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "id": "1mkQzDu-X8FfSGTNQM4BbbHWeeG4PqPfh",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1mkQzDu-X8FfSGTNQM4BbbHWeeG4PqPfh",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1mkQzDu-X8FfSGTNQM4BbbHWeeG4PqPfh",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1mkQzDu-X8FfSGTNQM4BbbHWeeG4PqPfh",
+          "title": "S__3522578.jpg"
+        }
+      ],
+      "city": "柬埔寨"
+    },
+    {
+      "country": "柬埔寨",
+      "temple": "和澤佛堂",
+      "address": "ផ្ទះលេខ257ផ្លូវ106ភូមិពាណិជ្ជកម្ម ក្រុងច្បារមន ខេត្តកំពង់ស្ពឺ\n\n柬埔寨磅士碑省查巴蒙市商業村106街257號",
+      "lat": 11.455,
+      "lng": 104.521,
+      "masters": [
+        "李麗香",
+        "王喬霖",
+        "莫艷玲",
+        "陳美惠",
+        "陳雅惠",
+        "陳雅慧",
+        "黃世揚",
+        "黃崇偉"
+      ],
+      "media": [],
+      "city": "柬埔寨"
+    },
+    {
+      "country": "柬埔寨",
+      "temple": "和鑫佛堂",
+      "address": "和鑫佛堂\n柬埔寨國干拉省實當縣真高鄉實若通村美東路9號\nNo. 9, Meidong Road, Sre Thum Village, Chheu Kach Commune, Sithor Kandal District, Kandal Province, Cambodia\n\nផ្ទះលេខ 9 ផ្លូវមេដុង ភូមិស្រែធំ ឃុំឈើកាច់ ស្រុកស៊ីធរកណ្តាល ខេត្តកណ្តាល ប្រទេសកម្ពុជា",
+      "lat": 11.433659723145535,
+      "lng": 104.88013929532086,
+      "masters": [
+        "劉育獅",
+        "吳榮濱",
+        "吳榮賓",
+        "吳秋玲",
+        "曾文信",
+        "林鳳梅",
+        "王延平",
+        "程凱生",
+        "蔡易龍",
+        "蔡玲君"
+      ],
+      "media": [],
+      "city": "柬埔寨"
+    },
+    {
+      "country": "柬埔寨",
+      "temple": "柬埔寨行政中心佛堂",
+      "address": "No. 89, Dirt Road, Prey Ti Tu Village, Sangkat Prey Sa, Khan Dangkao, Phnom Penh, Cambodia                                                                                                                                                                                 柬埔寨國金邊市朗哥區白梳分培雷地度村土路89号",
+      "lat": 11.5564,
+      "lng": 104.9282,
+      "masters": [
+        "吳秀蓮",
+        "吳美榆",
+        "廖秀霞",
+        "陳麗寬"
+      ],
+      "media": [],
+      "city": "柬埔寨"
+    },
+    {
+      "country": "柬埔寨",
+      "temple": "茶胶省佛堂",
+      "address": "柬埔寨茶胶省省会二号公路78公里独立碑附近",
+      "lat": 11.5564,
+      "lng": 104.9282,
+      "masters": [
+        "鄭媛衣",
+        "鄭志勇",
+        "鄭梨娟"
+      ],
+      "media": [],
+      "city": "柬埔寨"
+    },
+    {
+      "country": "柬埔寨",
+      "temple": "義德佛堂",
+      "address": "No.93T, St.350, Borey Vimean, Phum4, Chrang Chamreh 1, Russey Keo, 金邊，Abendan Lay 學校 (ALIS) 對面",
+      "lat": 11.6025,
+      "lng": 104.912,
+      "masters": [
+        "余秀珍",
+        "林翠娟",
+        "王麗茗",
+        "蔡富名"
+      ],
+      "media": [],
+      "city": "柬埔寨"
+    },
+    {
+      "country": "柬埔寨",
+      "temple": "達真佛堂",
+      "address": "一號公路154公里處",
+      "lat": 11.0805,
+      "lng": 106.1432,
+      "masters": [
+        "李佩容",
+        "李秀霞",
+        "陳瑞雄",
+        "高寶蓮",
+        "黃碧玉"
+      ],
+      "media": [],
+      "city": "柬埔寨"
+    },
+    {
+      "country": "柬埔寨",
+      "temple": "實居佛堂",
+      "address": "實居3 號路2 公里處",
+      "lat": 11.4542,
+      "lng": 104.5208,
+      "masters": [
+        "黃稜惠"
+      ],
+      "media": [],
+      "city": "柬埔寨"
+    },
+    {
+      "country": "柬埔寨",
+      "temple": "磅士卑佛堂",
+      "address": "柬埔寨磅士碑省查巴蒙市商業村106街257號\n No. 257, Street 106, Penechakam Village, Chbar Mon City, Krang Speu Province，Cambodia",
+      "lat": 11.470721427377546,
+      "lng": 104.52458925760712,
+      "masters": [
+        "李志雄",
+        "李麗香",
+        "楊宥森",
+        "洪忠和",
+        "王喬霖",
+        "莫艷玲",
+        "蔡季洪",
+        "許鴻文",
+        "陳美惠",
+        "陳美景",
+        "陳美英",
+        "陳讚昌",
+        "陳雅惠",
+        "陳雅慧",
+        "陳震宏",
+        "黃世揚",
+        "黃崇偉"
+      ],
+      "media": [],
+      "city": "柬埔寨"
+    },
+    {
+      "country": "柬埔寨",
+      "temple": "磅針省磅針市佛堂",
+      "address": "柬埔寨磅斟省磅斟市磅斟鄉蘇利耶跋摩二街D 16號",
+      "lat": 11.99313,
+      "lng": 105.45894,
+      "masters": [
+        "莊瑞巧",
+        "蔡佳桂",
+        "高榮岏"
+      ],
+      "media": [],
+      "city": "柬埔寨"
+    },
+    {
+      "country": "美國",
+      "temple": "天真佛院",
+      "address": "4192 park Ave Riverside CA 92507",
+      "lat": 33.97372681315221,
+      "lng": -117.36686189999989,
+      "masters": [
+        "廖桂玉",
+        "張淑卿",
+        "陳泰宇",
+        "黃貴美"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "id": "13sfiJ7N2ykxpeueetkgBlaxWv_IZ4tI4",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/13sfiJ7N2ykxpeueetkgBlaxWv_IZ4tI4",
+          "viewUrl": "https://lh3.googleusercontent.com/d/13sfiJ7N2ykxpeueetkgBlaxWv_IZ4tI4",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=13sfiJ7N2ykxpeueetkgBlaxWv_IZ4tI4",
+          "title": "unnamed (3).webp"
+        },
+        {
+          "type": "image",
+          "id": "1ULYvy9HAU9Tmp1NoXZrQXWHoOrRjCdFn",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1ULYvy9HAU9Tmp1NoXZrQXWHoOrRjCdFn",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1ULYvy9HAU9Tmp1NoXZrQXWHoOrRjCdFn",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1ULYvy9HAU9Tmp1NoXZrQXWHoOrRjCdFn",
+          "title": "unnamed (2).webp"
+        },
+        {
+          "type": "image",
+          "id": "1VGGwEQgHG5rxUyDMrrlUDHgsaFQMq2ya",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1VGGwEQgHG5rxUyDMrrlUDHgsaFQMq2ya",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1VGGwEQgHG5rxUyDMrrlUDHgsaFQMq2ya",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1VGGwEQgHG5rxUyDMrrlUDHgsaFQMq2ya",
+          "title": "unnamed (1).webp"
+        },
+        {
+          "type": "image",
+          "id": "18Q05Co_8p3xQ2lNd1RjiMAilagcD25mc",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/18Q05Co_8p3xQ2lNd1RjiMAilagcD25mc",
+          "viewUrl": "https://lh3.googleusercontent.com/d/18Q05Co_8p3xQ2lNd1RjiMAilagcD25mc",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=18Q05Co_8p3xQ2lNd1RjiMAilagcD25mc",
+          "title": "unnamed.webp"
+        },
+        {
+          "type": "image",
+          "id": "1dpldIsEEdWuNz54TS3H3-8kpAQuHhZe9",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1dpldIsEEdWuNz54TS3H3-8kpAQuHhZe9",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1dpldIsEEdWuNz54TS3H3-8kpAQuHhZe9",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1dpldIsEEdWuNz54TS3H3-8kpAQuHhZe9",
+          "title": "D7F23899-22BF-4CD5-B7A8-E39F6FDDAECD.png"
+        },
+        {
+          "type": "image",
+          "id": "1FXkWHHHAfEGu320ZFqw7dVeumge7XeVr",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1FXkWHHHAfEGu320ZFqw7dVeumge7XeVr",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1FXkWHHHAfEGu320ZFqw7dVeumge7XeVr",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1FXkWHHHAfEGu320ZFqw7dVeumge7XeVr",
+          "title": "messageImage_1787626711287.jpg"
+        }
+      ],
+      "city": "美國"
+    },
+    {
+      "country": "美國",
+      "temple": "天華佛堂",
+      "address": "601 North Polk St. Suite #N, Pineville, NC 28134 , USA",
+      "lat": 35.092690850025164,
+      "lng": -80.88634382382456,
+      "masters": [
+        "張淑卿"
+      ],
+      "media": [],
+      "city": "美國"
+    },
+    {
+      "country": "英國",
+      "temple": "英德佛堂",
+      "address": "2 Grosvenor Gardens, London E6 3EP, UK, 英國倫敦格羅夫納花園2號， 郵遞區號E63EP",
+      "lat": 51.532,
+      "lng": 0.052,
+      "masters": [
+        "邱怡慈",
+        "邱朝洲"
+      ],
+      "media": [],
+      "city": "英國"
+    },
+    {
+      "country": "泰國",
+      "temple": "天理佛堂",
+      "address": "16/169, (ซอยเสือใหญ่อุทิศ) รัชดาภิเษก 36 แยก 1-1(ซอย 6), , แขวง  จันทรเกษม เขต จตุจักร  กรุงเทพฯ 10900, ประเทศไทย\n泰國曼谷市乍都節區拉差達披色路三十六巷一之一弄十六之一六九號",
+      "lat": 13.824816,
+      "lng": 100.579132,
+      "masters": [
+        "吳秋玲",
+        "張智為",
+        "彭淑禎",
+        "彭道錦",
+        "曹甄文",
+        "曹薽文",
+        "林貴珠",
+        "賴玥秀",
+        "陳春華"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "id": "1_c_KDght0tKptYA8qWmHilc0IY38fXXT",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1_c_KDght0tKptYA8qWmHilc0IY38fXXT",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1_c_KDght0tKptYA8qWmHilc0IY38fXXT",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1_c_KDght0tKptYA8qWmHilc0IY38fXXT",
+          "title": "48676_0.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1_heQLXx46GlpsX5On3uraYaOFPtaB2C4",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1_heQLXx46GlpsX5On3uraYaOFPtaB2C4",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1_heQLXx46GlpsX5On3uraYaOFPtaB2C4",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1_heQLXx46GlpsX5On3uraYaOFPtaB2C4",
+          "title": "50734_0.jpg"
+        },
+        {
+          "type": "image",
+          "id": "111E0ganTiMck_2sCnPshlrpVw1SpGirC",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/111E0ganTiMck_2sCnPshlrpVw1SpGirC",
+          "viewUrl": "https://lh3.googleusercontent.com/d/111E0ganTiMck_2sCnPshlrpVw1SpGirC",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=111E0ganTiMck_2sCnPshlrpVw1SpGirC",
+          "title": "50732_0.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1OUqaIt4eI799OFns1D_6ZsOzqxtt3baj",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1OUqaIt4eI799OFns1D_6ZsOzqxtt3baj",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1OUqaIt4eI799OFns1D_6ZsOzqxtt3baj",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1OUqaIt4eI799OFns1D_6ZsOzqxtt3baj",
+          "title": "50735_0.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1sng-g_NlsEJ6Pp4b5VDE5PCSA75b2Ccv",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1sng-g_NlsEJ6Pp4b5VDE5PCSA75b2Ccv",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1sng-g_NlsEJ6Pp4b5VDE5PCSA75b2Ccv",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1sng-g_NlsEJ6Pp4b5VDE5PCSA75b2Ccv",
+          "title": "50736_0.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1Hej1bJAfmqKE8ohzvOVvbugRH34bkDJU",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1Hej1bJAfmqKE8ohzvOVvbugRH34bkDJU",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1Hej1bJAfmqKE8ohzvOVvbugRH34bkDJU",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1Hej1bJAfmqKE8ohzvOVvbugRH34bkDJU",
+          "title": "50738_0.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1f5BQPWlJBW1zBTWSI1HKRl6jy9hgpt-N",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1f5BQPWlJBW1zBTWSI1HKRl6jy9hgpt-N",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1f5BQPWlJBW1zBTWSI1HKRl6jy9hgpt-N",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1f5BQPWlJBW1zBTWSI1HKRl6jy9hgpt-N",
+          "title": "50737_0.jpg"
+        },
+        {
+          "type": "drive_video",
+          "id": "1G7VlCSQlsP2YiBHS11dCouf3I60EEntU",
+          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=1G7VlCSQlsP2YiBHS11dCouf3I60EEntU",
+          "embedUrl": "https://drive.google.com/file/d/1G7VlCSQlsP2YiBHS11dCouf3I60EEntU/preview",
+          "viewUrl": "https://drive.google.com/file/d/1G7VlCSQlsP2YiBHS11dCouf3I60EEntU/view",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1G7VlCSQlsP2YiBHS11dCouf3I60EEntU",
+          "title": "e2fbb89e-a8fd-43b8-b21d-015ed88f41a2.mp4"
+        },
+        {
+          "type": "image",
+          "id": "1sA4JGycHy0hg5Mi5780iip8-JvLI53Yb",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1sA4JGycHy0hg5Mi5780iip8-JvLI53Yb",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1sA4JGycHy0hg5Mi5780iip8-JvLI53Yb",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1sA4JGycHy0hg5Mi5780iip8-JvLI53Yb",
+          "title": "50518.jpg"
+        }
+      ],
+      "city": "泰國"
+    },
+    {
+      "country": "泰國",
+      "temple": "沙道縣佛堂",
+      "address": "泰國宋卡府沙道縣沙道鄉阮泰巷六十八號之四",
+      "lat": 6.6375,
+      "lng": 100.4215,
+      "masters": [
+        "林進貴",
+        "藍鑫龍",
+        "陳麗娟"
+      ],
+      "media": [],
+      "city": "泰國"
+    },
+    {
+      "country": "泰國",
+      "temple": "烏汶府佛堂",
+      "address": "烏汶府",
+      "lat": 15.095301375041275,
+      "lng": 105.19149421428779,
+      "masters": [
+        "吳兆倫",
+        "林姍廷"
+      ],
+      "media": [],
+      "city": "泰國"
+    },
+    {
+      "country": "泰國",
+      "temple": "曼谷1佛堂",
+      "address": "曼谷",
+      "lat": 13.7563,
+      "lng": 100.5018,
+      "masters": [
+        "洪筱媗"
+      ],
+      "media": [],
+      "city": "泰國"
+    },
+    {
+      "country": "泰國",
+      "temple": "清萊省 美發農縣佛堂",
+      "address": "清萊省 美發農縣 滿星疊乡 第6组 漂排村 門排68",
+      "lat": 13.7563,
+      "lng": 100.5018,
+      "masters": [
+        "吳麗美",
+        "蘇建利",
+        "鄧秋玲"
+      ],
+      "media": [],
+      "city": "泰國"
+    },
+    {
+      "country": "泰國",
+      "temple": "理涵佛堂",
+      "address": "1. no.28/15,sirithorn Rood,chiangPu District,Chiang Mai city, Chiang Mai provnc\n\nเลขที่ 28/15 ถนนศิริธร ตำบลช้างเผือก อำเภอเมืองเชียงใหม่ จังหวัดเชียงใหม่\n\n2.泰國清邁府清普區西里通路28-15號",
+      "lat": 18.802,
+      "lng": 98.985,
+      "masters": [
+        "林玉玲",
+        "許靖涵",
+        "黃美珠"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "id": "1P_f320OT4xld8Huj0qi6TaERF2UEdY4u",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1P_f320OT4xld8Huj0qi6TaERF2UEdY4u",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1P_f320OT4xld8Huj0qi6TaERF2UEdY4u",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1P_f320OT4xld8Huj0qi6TaERF2UEdY4u",
+          "title": "S__4276253.jpg"
+        }
+      ],
+      "city": "泰國"
+    },
+    {
+      "country": "泰國",
+      "temple": "理榮佛堂",
+      "address": "Chiang  Mai Chom Thong khuang Pao,No272,Village No5,Khong Khao Subdistrict,Chom Thong District,Chiang Mai 50160\n泰國清邁府宗通縣框標鎮第五村272號",
+      "lat": 18.423,
+      "lng": 98.678,
+      "masters": [
+        "吳幸珍",
+        "吳淑惠",
+        "吳華美",
+        "榮翊伶",
+        "許銘賢",
+        "黃憲瑜"
+      ],
+      "media": [],
+      "city": "泰國"
+    },
+    {
+      "country": "泰國",
+      "temple": "順真佛堂",
+      "address": "泰國素輦府帕薩縣岡甘鄉第16村152號",
+      "lat": 14.621,
+      "lng": 103.456,
+      "masters": [
+        "許欽漢"
+      ],
+      "media": [],
+      "city": "泰國"
+    },
+    {
+      "country": "馬來西亞",
+      "temple": "巴德佛堂",
+      "address": "巴德佛堂\nNasi kandar Anak mami Lintas \n5, Lorong Gunung Ledang, Lintas Plaza, Kota Kinabalu, 88300, Bahagian Pantai Barat, Sabah, Malaysia\n馬來西亞東馬沙巴州亞庇市連達斯路連達斯廣場三巷六號三樓",
+      "lat": 5.9472,
+      "lng": 116.0845,
+      "masters": [
+        "莊惠晴",
+        "鄭奇玲",
+        "陳志凱",
+        "陳福成",
+        "黃定泰",
+        "黃文源",
+        "黃溫芳"
+      ],
+      "media": [],
+      "city": "馬來西亞"
+    },
+    {
+      "country": "馬來西亞",
+      "temple": "明金講堂",
+      "address": "白陽聖地郵址：\tCommercial Block, The Bai Yang Heritage, \nJalan SB Dagang, Seri Kembangan, \n43300 Ulu Langat, Selangor.",
+      "lat": 3.0248678705860588,
+      "lng": 101.71861398622069,
+      "masters": [
+        "吳錦娣",
+        "黃國文"
+      ],
+      "media": [
+        {
+          "type": "youtube",
+          "id": "vO6UcYBWlrQ",
+          "thumbUrl": "https://img.youtube.com/vi/vO6UcYBWlrQ/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/vO6UcYBWlrQ?autoplay=1&rel=0",
+          "downloadUrl": "https://youtu.be/vO6UcYBWlrQ?si=VQO9lQqUCxQq2OQ9",
+          "title": "YouTube 影片"
+        },
+        {
+          "type": "youtube",
+          "id": "UBCbCEezizc",
+          "thumbUrl": "https://img.youtube.com/vi/UBCbCEezizc/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/UBCbCEezizc?autoplay=1&rel=0",
+          "downloadUrl": "https://www.youtube.com/watch?v=UBCbCEezizc",
+          "title": "YouTube 影片"
+        },
+        {
+          "type": "youtube",
+          "id": "-ZPzUfs4Fyc",
+          "thumbUrl": "https://img.youtube.com/vi/-ZPzUfs4Fyc/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/-ZPzUfs4Fyc?autoplay=1&rel=0",
+          "downloadUrl": "https://youtu.be/-ZPzUfs4Fyc",
+          "title": "YouTube 影片"
+        },
+        {
+          "type": "image",
+          "id": "1vJy7dFZkko9I-uhoNSSyHOw6s_ApKO2D",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1vJy7dFZkko9I-uhoNSSyHOw6s_ApKO2D",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1vJy7dFZkko9I-uhoNSSyHOw6s_ApKO2D",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1vJy7dFZkko9I-uhoNSSyHOw6s_ApKO2D",
+          "title": "S__160374792.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1ErzZ5VPyJGLiA4H9js6EbuMGEG8WT-UJ",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1ErzZ5VPyJGLiA4H9js6EbuMGEG8WT-UJ",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1ErzZ5VPyJGLiA4H9js6EbuMGEG8WT-UJ",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1ErzZ5VPyJGLiA4H9js6EbuMGEG8WT-UJ",
+          "title": "messageImage_1787420247436.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1bNhwLASAkQ7T6KAPcW0ZIy6zpB3fEId8",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1bNhwLASAkQ7T6KAPcW0ZIy6zpB3fEId8",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1bNhwLASAkQ7T6KAPcW0ZIy6zpB3fEId8",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1bNhwLASAkQ7T6KAPcW0ZIy6zpB3fEId8",
+          "title": "messageImage_1787421951609.jpg"
+        },
+        {
+          "type": "image",
+          "id": "13k-CAeA_uw3ht8JAFpRLfwtgugk1eH7Y",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/13k-CAeA_uw3ht8JAFpRLfwtgugk1eH7Y",
+          "viewUrl": "https://lh3.googleusercontent.com/d/13k-CAeA_uw3ht8JAFpRLfwtgugk1eH7Y",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=13k-CAeA_uw3ht8JAFpRLfwtgugk1eH7Y",
+          "title": "57612.jpg"
+        },
+        {
+          "type": "image",
+          "id": "14_4WHyIF5JjCuRRtif1Vhix3h-NDxz0f",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/14_4WHyIF5JjCuRRtif1Vhix3h-NDxz0f",
+          "viewUrl": "https://lh3.googleusercontent.com/d/14_4WHyIF5JjCuRRtif1Vhix3h-NDxz0f",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=14_4WHyIF5JjCuRRtif1Vhix3h-NDxz0f",
+          "title": "57613.jpg"
+        },
+        {
+          "type": "image",
+          "id": "16DZ-ynlah1c0_c2P_wlcexr4iQoaAVGg",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/16DZ-ynlah1c0_c2P_wlcexr4iQoaAVGg",
+          "viewUrl": "https://lh3.googleusercontent.com/d/16DZ-ynlah1c0_c2P_wlcexr4iQoaAVGg",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=16DZ-ynlah1c0_c2P_wlcexr4iQoaAVGg",
+          "title": "57644.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1XWHw-Cja-jliN329uaY8kboSooV2__WI",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1XWHw-Cja-jliN329uaY8kboSooV2__WI",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1XWHw-Cja-jliN329uaY8kboSooV2__WI",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1XWHw-Cja-jliN329uaY8kboSooV2__WI",
+          "title": "57646.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1a75yymuWPl1R7hRiEzwv34hPI6Of5N7d",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1a75yymuWPl1R7hRiEzwv34hPI6Of5N7d",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1a75yymuWPl1R7hRiEzwv34hPI6Of5N7d",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1a75yymuWPl1R7hRiEzwv34hPI6Of5N7d",
+          "title": "57645.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1hSFIGZwMT9yPLITtt-PzQr8D8oxHcgW8",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1hSFIGZwMT9yPLITtt-PzQr8D8oxHcgW8",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1hSFIGZwMT9yPLITtt-PzQr8D8oxHcgW8",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1hSFIGZwMT9yPLITtt-PzQr8D8oxHcgW8",
+          "title": "57643.jpg"
+        },
+        {
+          "type": "drive_video",
+          "id": "1xACMQOt6EGHLCn0R_voQyvSjUrJsNKuJ",
+          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=1xACMQOt6EGHLCn0R_voQyvSjUrJsNKuJ",
+          "embedUrl": "https://drive.google.com/file/d/1xACMQOt6EGHLCn0R_voQyvSjUrJsNKuJ/preview",
+          "viewUrl": "https://drive.google.com/file/d/1xACMQOt6EGHLCn0R_voQyvSjUrJsNKuJ/view",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1xACMQOt6EGHLCn0R_voQyvSjUrJsNKuJ",
+          "title": "明金講堂讀經會考.mp4"
+        }
+      ],
+      "city": "馬來西亞"
+    },
+    {
+      "country": "馬來西亞",
+      "temple": "皇城佛堂",
+      "address": "皇城佛堂地址：\n61, Lorong Bakap Indah 2, \nTaman Bakap Indah, \n14200 Sungai Bakap, Pulau Pinang, Malaysia.\n馬來西亞槟城威南爪夷百合花園二路六十一號",
+      "lat": 5.2285,
+      "lng": 100.4985,
+      "masters": [
+        "李志雄",
+        "陳威領"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "id": "1QMsZG89fNDomHgjLw4AqwwzBDCrXpfXx",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1QMsZG89fNDomHgjLw4AqwwzBDCrXpfXx",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1QMsZG89fNDomHgjLw4AqwwzBDCrXpfXx",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1QMsZG89fNDomHgjLw4AqwwzBDCrXpfXx",
+          "title": "S__160505873_0.jpg"
+        }
+      ],
+      "city": "馬來西亞"
+    },
+    {
+      "country": "馬來西亞",
+      "temple": "恩信佛堂",
+      "address": "42 persiaran Bercham Selatan 1Ipoh perak 31400",
+      "lat": 4.629650917885366,
+      "lng": 101.12720024866937,
+      "masters": [
+        "廖今富",
+        "陳奕愷",
+        "麥友華",
+        "黃愫霞"
+      ],
+      "media": [],
+      "city": "馬來西亞"
+    },
+    {
+      "country": "馬來西亞",
+      "temple": "恩毅佛堂",
+      "address": "14-1 Jalan Permata 2, Taman Yayasan  , 42600 Jenjarom , Selangor Malaysia  \n馬來西亞雪蘭莪州仁嘉隆斯里嘉隆花園柏瑪達二路十四號二樓",
+      "lat": 5.9804,
+      "lng": 116.0735,
+      "masters": [
+        "劉曉芳"
+      ],
+      "media": [],
+      "city": "馬來西亞"
+    },
+    {
+      "country": "馬來西亞",
+      "temple": "新山古來佛堂",
+      "address": "馬來西亞柔佛州古來優美城肯納格29區9路301座A號",
+      "lat": 1.658,
+      "lng": 103.6025,
+      "masters": [
+        "尤心伶",
+        "張惠玲"
+      ],
+      "media": [],
+      "city": "馬來西亞"
+    },
+    {
+      "country": "馬來西亞",
+      "temple": "新恩佛堂",
+      "address": "30 Jalan Anggerik 34 Taman Johor Jaya Johor Bahru Malaysia",
+      "lat": 1.5365,
+      "lng": 103.8055,
+      "masters": [
+        "葉愫湘"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "id": "10ZYyA_NaChaagRhflGk1conwTICx5mQ5",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/10ZYyA_NaChaagRhflGk1conwTICx5mQ5",
+          "viewUrl": "https://lh3.googleusercontent.com/d/10ZYyA_NaChaagRhflGk1conwTICx5mQ5",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=10ZYyA_NaChaagRhflGk1conwTICx5mQ5",
+          "title": "33823_0.jpg"
+        },
+        {
+          "type": "image",
+          "id": "19BoTvs0hP96MEHSUTgoeOnxQXOWunaI9",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/19BoTvs0hP96MEHSUTgoeOnxQXOWunaI9",
+          "viewUrl": "https://lh3.googleusercontent.com/d/19BoTvs0hP96MEHSUTgoeOnxQXOWunaI9",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=19BoTvs0hP96MEHSUTgoeOnxQXOWunaI9",
+          "title": "33824_0.jpg"
+        }
+      ],
+      "city": "馬來西亞"
+    },
+    {
+      "country": "馬來西亞",
+      "temple": "聖德佛堂",
+      "address": "馬來西亞 佛堂",
+      "lat": 5.962731898130403,
+      "lng": 116.09042661344685,
+      "masters": [
+        "余玉連",
+        "余遠清",
+        "劉一坤",
+        "楊豐賓",
+        "蘇致和"
+      ],
+      "media": [],
+      "city": "馬來西亞"
+    },
+    {
+      "country": "捷克",
+      "temple": "布拉格佛堂",
+      "address": "1. Dělená 982/32， prague 15500，捷克\n2. 捷克布拉格市劃分路982區32號",
+      "lat": 50.045,
+      "lng": 14.315,
+      "masters": [
+        "莫程安"
+      ],
+      "media": [],
+      "city": "捷克"
+    },
+    {
+      "country": "莫三比克",
+      "temple": "貝拉佛堂",
+      "address": "莫三比克貝拉機場45分鐘車程",
+      "lat": -19.8436,
+      "lng": 34.8389,
+      "masters": [
+        "林永凰"
+      ],
+      "media": [],
+      "city": "莫三比克"
+    },
+    {
+      "country": "斯里蘭卡",
+      "temple": "可倫坡佛堂",
+      "address": "No. 39-5 Horahena Rd., Hokandara East, Colombo\n可倫坡市賀坎德拉東區賀拉何那路39-5號",
+      "lat": 6.879,
+      "lng": 79.948,
+      "masters": [
+        "劉盛玄",
+        "劉盛璋",
+        "彭慧玲",
+        "洪筱媗",
+        "陳泰宇",
+        "黃貴美",
+        "黃郁仁"
+      ],
+      "media": [],
+      "city": "斯里蘭卡"
+    },
+    {
+      "country": "菲律賓",
+      "temple": "馬尼拉1佛堂",
+      "address": "992 Aurora Boulevard Infina Towers, Quezon City, Metro Manila 1100, Philippines",
+      "lat": 14.5995,
+      "lng": 120.9842,
+      "masters": [
+        "賴顥元",
+        "邱美珠",
+        "陳怡雄"
+      ],
+      "media": [],
+      "city": "菲律賓"
+    },
+    {
+      "country": "菲律賓",
+      "temple": "馬尼拉2佛堂",
+      "address": "馬尼拉",
+      "lat": 14.5995,
+      "lng": 120.9842,
+      "masters": [
+        "廖麗鳳",
+        "蔡玉珠",
+        "許有智",
+        "謝麗淑"
+      ],
+      "media": [],
+      "city": "菲律賓"
+    },
+    {
+      "country": "菲律賓",
+      "temple": "馬尼拉3佛堂",
+      "address": "菲律賓馬尼拉",
+      "lat": 14.5995,
+      "lng": 120.9842,
+      "masters": [
+        "林仁和"
+      ],
+      "media": [],
+      "city": "菲律賓"
+    },
+    {
+      "country": "越南",
+      "temple": "天祥佛堂",
+      "address": "（1）Duong Au Co P5 Q11 TP HCM (2)胡志明市第11郡第5坊歐姬路",
+      "lat": 10.8231,
+      "lng": 106.6297,
+      "masters": [
+        "郭義宏"
+      ],
+      "media": [],
+      "city": "越南"
+    },
+    {
+      "country": "越南",
+      "temple": "同奈省佛堂",
+      "address": "ĐT 759, Thôn Bàu Đĩa, Xã Phú Trung, tỉnh Đồng Nai, Việt Nam.\n越南國同奈省富忠公社巴烏迪亞村DT 759",
+      "lat": 10.8231,
+      "lng": 106.6297,
+      "masters": [
+        "吳榮濱",
+        "廖秀霞",
+        "程凱生",
+        "陳麗寬"
+      ],
+      "media": [],
+      "city": "越南"
+    },
+    {
+      "country": "越南",
+      "temple": "同塔省沙壢市佛堂",
+      "address": "同塔省沙壢市坊橋亭鄰261號",
+      "lat": 10.294,
+      "lng": 105.758,
+      "masters": [
+        "吳麗美",
+        "蘇建利",
+        "鄧秋玲"
+      ],
+      "media": [],
+      "city": "越南"
+    },
+    {
+      "country": "越南",
+      "temple": "吳氏佛堂",
+      "address": "Địa chỉ: ĐT 759, Thôn Bàu Đĩa, Xã Phú Trung, tỉnh Đồng Nai, Việt Nam.                                           越南國同奈省富忠公社巴烏迪亞村DT 759",
+      "lat": 11.035,
+      "lng": 107.012,
+      "masters": [
+        "吳秀蓮",
+        "吳美榆",
+        "廖秀霞",
+        "張智為",
+        "王浩呈",
+        "程凱生",
+        "陳麗寬"
+      ],
+      "media": [],
+      "city": "越南"
+    },
+    {
+      "country": "越南",
+      "temple": "河內佛堂",
+      "address": "暫無固定的地點",
+      "lat": 10.8231,
+      "lng": 106.6297,
+      "masters": [
+        "廖軒邑",
+        "廖麗鳳",
+        "楊振豪",
+        "蔡玉珠",
+        "許有智",
+        "謝麗淑"
+      ],
+      "media": [],
+      "city": "越南"
+    },
+    {
+      "country": "越南",
+      "temple": "胡志明1佛堂",
+      "address": "1. 03, 4,9, 1016 B3, duong D3, KCN Eat Cu6c，\nX. Đất Cuốc, H.Bắc Tân Uyên, T.Bình Dương.\n2.   越南,胡志明市,北新淵鄉，帝國工業區，D3 路 B3 地塊，第 3、4、9、10 號，第 2 棟廠",
+      "lat": 10.8231,
+      "lng": 106.6297,
+      "masters": [
+        "洪文亭"
+      ],
+      "media": [],
+      "city": "越南"
+    },
+    {
+      "country": "越南",
+      "temple": "胡志明3佛堂",
+      "address": "尋找中",
+      "lat": 10.8231,
+      "lng": 106.6297,
+      "masters": [
+        "鄭舜仁"
+      ],
+      "media": [],
+      "city": "越南"
+    },
+    {
+      "country": "越南",
+      "temple": "胡志明市2佛堂",
+      "address": "胡志明市",
+      "lat": 10.8231,
+      "lng": 106.6297,
+      "masters": [
+        "洪筱媗",
+        "黃美霞"
+      ],
+      "media": [],
+      "city": "越南"
+    },
+    {
+      "country": "越南",
+      "temple": "胡志明市4佛堂",
+      "address": "越語",
+      "lat": 10.8231,
+      "lng": 106.6297,
+      "masters": [
+        "林仁和"
+      ],
+      "media": [],
+      "city": "越南"
+    },
+    {
+      "country": "越南",
+      "temple": "胡志明市5佛堂",
+      "address": "胡志明市十一郡第四坊富基條街104/2號",
+      "lat": 10.8231,
+      "lng": 106.6297,
+      "masters": [
+        "程凱生",
+        "黃美霞"
+      ],
+      "media": [],
+      "city": "越南"
+    },
+    {
+      "country": "越南",
+      "temple": "胡志明市平陽佛堂",
+      "address": "越南胡志明市順交坊和麟二街區 Legacy 項目 B11.03 室1`..1\\\nPhòng B11.03, Dự án Legaiiicy, phường Thuận Giá và đường Lâm 2, Thành phố Hồ Chí Minh, Việt Nam",
+      "lat": 10.8231,
+      "lng": 106.6297,
+      "masters": [
+        "黃文章"
+      ],
+      "media": [],
+      "city": "越南"
+    },
+    {
+      "country": "越南",
+      "temple": "胡志明同奈佛堂",
+      "address": "Đường 19/5, Ấp Thuận An, Xã Bàu Hàm, Huyện Trảng Bom, Đồng Nai, Việt Nam\n越南同奈省狀奔縣保咸社順安邑19之5路",
+      "lat": 10.8231,
+      "lng": 106.6297,
+      "masters": [
+        "彭道錦"
+      ],
+      "media": [],
+      "city": "越南"
+    },
+    {
+      "country": "越南",
+      "temple": "越明佛堂",
+      "address": "261/4J Đ. Hậu Giang, Bình Tây, Hồ Chí Minh 700000\n越南胡志明市第六郡後江路261/4J號",
+      "lat": 10.748763461747695,
+      "lng": 106.64303125393847,
+      "masters": [
+        "余秀珍",
+        "余耀東",
+        "吳兆倫",
+        "吳薇薇",
+        "張良榮",
+        "林姍廷",
+        "林姗廷",
+        "林翠娟",
+        "柳庭順",
+        "洪欽寸",
+        "紀嘉榮",
+        "蔡富名",
+        "陳璿安",
+        "陳翠娟",
+        "雲泫錤",
+        "顏酉意",
+        "魏財源"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "id": "108nVeONwnYt8Niosgja0atBQS2vI1cpA",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/108nVeONwnYt8Niosgja0atBQS2vI1cpA",
+          "viewUrl": "https://lh3.googleusercontent.com/d/108nVeONwnYt8Niosgja0atBQS2vI1cpA",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=108nVeONwnYt8Niosgja0atBQS2vI1cpA",
+          "title": "7865BC33-EC56-458E-8042-D0F986C95675.jpg"
+        },
+        {
+          "type": "drive_video",
+          "id": "160-zx8D2viOzGT_wbaYDgLCkKBoDeTMt",
+          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=160-zx8D2viOzGT_wbaYDgLCkKBoDeTMt",
+          "embedUrl": "https://drive.google.com/file/d/160-zx8D2viOzGT_wbaYDgLCkKBoDeTMt/preview",
+          "viewUrl": "https://drive.google.com/file/d/160-zx8D2viOzGT_wbaYDgLCkKBoDeTMt/view",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=160-zx8D2viOzGT_wbaYDgLCkKBoDeTMt",
+          "title": "AF83ABFD899BAEE2FD603A6AFD82F646D4863541.mp4"
+        },
+        {
+          "type": "drive_video",
+          "id": "1q6QcHqf3xB_ELTfyUUqNoYgkvHzvbqZT",
+          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=1q6QcHqf3xB_ELTfyUUqNoYgkvHzvbqZT",
+          "embedUrl": "https://drive.google.com/file/d/1q6QcHqf3xB_ELTfyUUqNoYgkvHzvbqZT/preview",
+          "viewUrl": "https://drive.google.com/file/d/1q6QcHqf3xB_ELTfyUUqNoYgkvHzvbqZT/view",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1q6QcHqf3xB_ELTfyUUqNoYgkvHzvbqZT",
+          "title": "E9F7FC91021D3B3DA89C5B9316E0F69CEA8C8922.mp4"
+        }
+      ],
+      "city": "越南"
+    },
+    {
+      "country": "越南",
+      "temple": "越南3區B組佛堂",
+      "address": "ĐT759, Phú Trung, Đồng Nai, Bình Phước, 越南",
+      "lat": 10.8231,
+      "lng": 106.6297,
+      "masters": [
+        "程凱生",
+        "鄭盛峯",
+        "陳麗寬"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "id": "1FCVFl2YHZX9uOrLTRu008TPxovPgyN2r",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1FCVFl2YHZX9uOrLTRu008TPxovPgyN2r",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1FCVFl2YHZX9uOrLTRu008TPxovPgyN2r",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1FCVFl2YHZX9uOrLTRu008TPxovPgyN2r",
+          "title": "越南03區.jpg"
+        }
+      ],
+      "city": "越南"
+    },
+    {
+      "country": "越南",
+      "temple": "越德佛堂",
+      "address": "順安坊 phường thuận giao",
+      "lat": 10.947781971867785,
+      "lng": 106.71355006248612,
+      "masters": [
+        "何德孝",
+        "劉妃雅"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "id": "1NkfJm6USu8SCN1_p7nc9h43Rmi57x29O",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1NkfJm6USu8SCN1_p7nc9h43Rmi57x29O",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1NkfJm6USu8SCN1_p7nc9h43Rmi57x29O",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1NkfJm6USu8SCN1_p7nc9h43Rmi57x29O",
+          "title": "S__22102072.jpg"
+        },
+        {
+          "type": "image",
+          "id": "16zO9NDjzHhnOjePT3x5IdZSBSVuP2ZKL",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/16zO9NDjzHhnOjePT3x5IdZSBSVuP2ZKL",
+          "viewUrl": "https://lh3.googleusercontent.com/d/16zO9NDjzHhnOjePT3x5IdZSBSVuP2ZKL",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=16zO9NDjzHhnOjePT3x5IdZSBSVuP2ZKL",
+          "title": "S__19636595.jpg"
+        }
+      ],
+      "city": "越南"
+    },
+    {
+      "country": "越南",
+      "temple": "粱氏佛堂",
+      "address": "越南興安省美豪縣玉林鄉郝興安坊",
+      "lat": 20.941,
+      "lng": 106.012,
+      "masters": [
+        "吳學緯",
+        "廖麗鳳",
+        "蔡玉珠",
+        "謝麗淑"
+      ],
+      "media": [],
+      "city": "越南"
+    },
+    {
+      "country": "越南",
+      "temple": "詮禮佛堂",
+      "address": "越南平陽省順安縣平順義",
+      "lat": 10.925,
+      "lng": 106.705,
+      "masters": [
+        "黃定泰"
+      ],
+      "media": [],
+      "city": "越南"
+    },
+    {
+      "country": "越南",
+      "temple": "檳吉市佛堂",
+      "address": "越南平陽省檳吉市太和坊ECOLAKE 美富R9B-3 路 A4-04號",
+      "lat": 11.163,
+      "lng": 106.612,
+      "masters": [
+        "何德孝",
+        "陳麒安"
+      ],
+      "media": [],
+      "city": "越南"
+    },
+    {
+      "country": "奧地利",
+      "temple": "維也納佛堂",
+      "address": "1. Favoritner Gewerbring 7，A-1100 Wien Austria\n2.奧地利維也納市第十區法沃滕商務圈7號",
+      "lat": 48.165,
+      "lng": 16.378,
+      "masters": [
+        "莫程安"
+      ],
+      "media": [],
+      "city": "奧地利"
+    },
+    {
+      "country": "新加坡",
+      "temple": "和光佛堂",
+      "address": "Blk 461A Sengkang West Way  #05-119 Singapore \n大牌461A盛港西街门牌05_119 新加坡",
+      "lat": 1.3915,
+      "lng": 103.8755,
+      "masters": [
+        "李麗卿"
+      ],
+      "media": [],
+      "city": "新加坡"
+    },
+    {
+      "country": "新加坡",
+      "temple": "新德佛堂",
+      "address": "1.33 Ubi Ave 3, Singapore 408868 2.新加坡烏美第三大道33號",
+      "lat": 1.332908252798684,
+      "lng": 103.89367737382415,
+      "masters": [
+        "郭迦南"
+      ],
+      "media": [],
+      "city": "新加坡"
+    },
+    {
+      "country": "寮國",
+      "temple": "寮德佛堂",
+      "address": "2.寮國占巴塞省巴松縣16公路50公里",
+      "lat": 15.179003059271134,
+      "lng": 106.3176515926893,
+      "masters": [
+        "余秀珍",
+        "吳兆倫",
+        "吳薇薇",
+        "林姍廷",
+        "林姗廷",
+        "林翠娟",
+        "洪欽寸",
+        "蔡富名",
+        "陽銘輝",
+        "顏酉意"
+      ],
+      "media": [],
+      "city": "寮國"
+    },
+    {
+      "country": "德國",
+      "temple": "德志佛堂",
+      "address": "1.Hartweg 5, 59494 Soest, NRW, Deutschland\n2.德國北萊茵州索斯特市哈特巷5號3樓",
+      "lat": 51.55392236540576,
+      "lng": 8.10572287120991,
+      "masters": [
+        "張淑萍",
+        "賴秀宜"
+      ],
+      "media": [],
+      "city": "德國"
+    },
+    {
+      "country": "德國",
+      "temple": "慕尼黑佛堂",
+      "address": "1.Walter-Scott-Str. 7，80687 München\n2. 德國慕尼黑市沃爾特·斯科特大街7號",
+      "lat": 48.136,
+      "lng": 11.512,
+      "masters": [
+        "莫程安",
+        "陽銘輝"
+      ],
+      "media": [],
+      "city": "德國"
+    },
+    {
+      "country": "緬甸",
+      "temple": "仰德佛堂",
+      "address": "150, စမ်းချောင်းလမ်း, Shin Saw Pu Ward, စမ်းချောင်း, ရန်ကုန်အနောက်ပိုင်း, ရန်ကုန်, 11111缅甸仰光省，三桥区，三桥街，150号（银座拉公馆 Ginza Hla Mansion），合同地块32/1号",
+      "lat": 16.8045,
+      "lng": 96.1365,
+      "masters": [
+        "蔡靜如",
+        "邱雅玲",
+        "郭淑粉",
+        "黃雅惠"
+      ],
+      "media": [],
+      "city": "緬甸"
+    },
+    {
+      "country": "墨西哥",
+      "temple": "哥德佛堂",
+      "address": "Cajeme 5840, Sonora, 22195 Tijuana, B.C.\n卡赫梅街5840號,索諾拉社區,蒂華納市,下加利福尼亞州 ,墨西哥. 郵遞區號22195。",
+      "lat": 32.4965096,
+      "lng": -116.9773144,
+      "masters": [
+        "吳少洲",
+        "林孟玲"
+      ],
+      "media": [],
+      "city": "墨西哥"
+    },
+    {
+      "country": "墨西哥",
+      "temple": "墨德佛堂",
+      "address": "Volcan Vesubio 4830,el Colli Urbano,Zapopan Jalisco 墨西哥加利斯科州瓜達拉哈拉市柯羅尼高麗區維斯比街4830號.",
+      "lat": 20.67018863543335,
+      "lng": -103.3271740618823,
+      "masters": [
+        "吳伯葵",
+        "吳柏葵",
+        "廖桂玉",
+        "張淑卿",
+        "林翠娟",
+        "黃美芳"
+      ],
+      "media": [],
+      "city": "墨西哥"
+    },
+    {
+      "country": "墨西哥",
+      "temple": "Puerto Vallarta佛堂",
+      "address": "Ecuador #333 Coapinole, Puerto Vallarta",
+      "lat": 20.654,
+      "lng": -103.3496,
+      "masters": [
+        "彭慧玲",
+        "黃貴美"
+      ],
+      "media": [],
+      "city": "墨西哥"
+    },
+    {
+      "country": "澳洲",
+      "temple": "尼加佛堂",
+      "address": "尼泊爾加德滿都十都會區潘恰庫馬里基金會對面",
+      "lat": -33.8688,
+      "lng": 151.2093,
+      "masters": [
+        "林玉霜",
+        "楊文傑",
+        "王秀容"
+      ],
+      "media": [],
+      "city": "澳洲"
+    },
+    {
+      "country": "澳洲",
+      "temple": "明誠佛堂",
+      "address": "303 Bensley Road, Ingleburn NSW\n新南威爾斯州英格本區班斯利路303號",
+      "lat": -34.01372408991416,
+      "lng": 150.8804735825547,
+      "masters": [
+        "周育芳",
+        "莊穎純",
+        "莊運顯"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "id": "108Np5wXKvfS5cT4s5Euv2tW2pQIP8eRp",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/108Np5wXKvfS5cT4s5Euv2tW2pQIP8eRp",
+          "viewUrl": "https://lh3.googleusercontent.com/d/108Np5wXKvfS5cT4s5Euv2tW2pQIP8eRp",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=108Np5wXKvfS5cT4s5Euv2tW2pQIP8eRp",
+          "title": "明誠佛堂_200912_2.jpg"
+        },
+        {
+          "type": "image",
+          "id": "12GqoQJqkKmuJH2sizjJC6vis_HsTCPW8",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/12GqoQJqkKmuJH2sizjJC6vis_HsTCPW8",
+          "viewUrl": "https://lh3.googleusercontent.com/d/12GqoQJqkKmuJH2sizjJC6vis_HsTCPW8",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=12GqoQJqkKmuJH2sizjJC6vis_HsTCPW8",
+          "title": "明誠佛堂_200912_3.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1Aje8L-ex7ImN77pfVtqHHunhyu-oYkdo",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1Aje8L-ex7ImN77pfVtqHHunhyu-oYkdo",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1Aje8L-ex7ImN77pfVtqHHunhyu-oYkdo",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1Aje8L-ex7ImN77pfVtqHHunhyu-oYkdo",
+          "title": "明誠佛堂_200912_12.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1Cwx5hMMRf39wQP8GZlXZdFCY2viOFAaq",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1Cwx5hMMRf39wQP8GZlXZdFCY2viOFAaq",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1Cwx5hMMRf39wQP8GZlXZdFCY2viOFAaq",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1Cwx5hMMRf39wQP8GZlXZdFCY2viOFAaq",
+          "title": "43145.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1Kn6P2A0db7mkossIisMLZaiV4wVKL73s",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1Kn6P2A0db7mkossIisMLZaiV4wVKL73s",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1Kn6P2A0db7mkossIisMLZaiV4wVKL73s",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1Kn6P2A0db7mkossIisMLZaiV4wVKL73s",
+          "title": "IMAG6505.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1SuSTcnKubXtD-zWYpnKml7dl3Lp9Y9UP",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1SuSTcnKubXtD-zWYpnKml7dl3Lp9Y9UP",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1SuSTcnKubXtD-zWYpnKml7dl3Lp9Y9UP",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1SuSTcnKubXtD-zWYpnKml7dl3Lp9Y9UP",
+          "title": "明誠佛堂_200912.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1TbFzTct6JSElSeAWkFiYwVLmHFlnN2IK",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1TbFzTct6JSElSeAWkFiYwVLmHFlnN2IK",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1TbFzTct6JSElSeAWkFiYwVLmHFlnN2IK",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1TbFzTct6JSElSeAWkFiYwVLmHFlnN2IK",
+          "title": "IMAG6530.jpg"
+        },
+        {
+          "type": "drive_doc",
+          "id": "1X-Kcev2uQbEkIVU80OQ_tQIW19J_d1yM",
+          "thumbUrl": "",
+          "embedUrl": "https://drive.google.com/file/d/1X-Kcev2uQbEkIVU80OQ_tQIW19J_d1yM/preview",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1X-Kcev2uQbEkIVU80OQ_tQIW19J_d1yM",
+          "title": ".picasa.ini"
+        },
+        {
+          "type": "image",
+          "id": "1X3B2sMx7MhigEJL43l4bsoh8IJDbikNV",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1X3B2sMx7MhigEJL43l4bsoh8IJDbikNV",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1X3B2sMx7MhigEJL43l4bsoh8IJDbikNV",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1X3B2sMx7MhigEJL43l4bsoh8IJDbikNV",
+          "title": "43193.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1aOP9OP4aMQ1ztmXho2WOVQ7mYwURsUkA",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1aOP9OP4aMQ1ztmXho2WOVQ7mYwURsUkA",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1aOP9OP4aMQ1ztmXho2WOVQ7mYwURsUkA",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1aOP9OP4aMQ1ztmXho2WOVQ7mYwURsUkA",
+          "title": "43194.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1j16ivVwXb2yQ7XTNEizrUTMp_gNb96bg",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1j16ivVwXb2yQ7XTNEizrUTMp_gNb96bg",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1j16ivVwXb2yQ7XTNEizrUTMp_gNb96bg",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1j16ivVwXb2yQ7XTNEizrUTMp_gNb96bg",
+          "title": "明誠佛堂_200912_1.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1oy9qcyeoNvfpuqIszM_hfcOMA8iJwqrN",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1oy9qcyeoNvfpuqIszM_hfcOMA8iJwqrN",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1oy9qcyeoNvfpuqIszM_hfcOMA8iJwqrN",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1oy9qcyeoNvfpuqIszM_hfcOMA8iJwqrN",
+          "title": "S__8904840.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1uEIPuKoDcRVSqj_sYxR1PMH5P2BbLfBm",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1uEIPuKoDcRVSqj_sYxR1PMH5P2BbLfBm",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1uEIPuKoDcRVSqj_sYxR1PMH5P2BbLfBm",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1uEIPuKoDcRVSqj_sYxR1PMH5P2BbLfBm",
+          "title": "明誠佛堂_200912_0.jpg"
+        }
+      ],
+      "city": "澳洲"
+    },
+    {
+      "country": "韓國",
+      "temple": "大田市佛堂",
+      "address": "Yudeung-ro\r\nSeo-gu, Daejeon, 南韓",
+      "lat": 36.339041520505084,
+      "lng": 127.39049399289411,
+      "masters": [
+        "游春燕",
+        "許嘉云",
+        "許静涵"
+      ],
+      "media": [],
+      "city": "韓國"
+    },
+    {
+      "country": "韓國",
+      "temple": "釜山浦項市佛堂",
+      "address": "1.포항시 북구 장상동1578-1 장성대림골든103동1702\n2.慶尚北道浦項市北區長山洞 1578-1 長城大林黃金 103 棟 1702室",
+      "lat": 36.068,
+      "lng": 129.378,
+      "masters": [
+        "陳昭伶"
+      ],
+      "media": [],
+      "city": "韓國"
+    }
+  ],
+  "stats": {
+    "countries": 26,
+    "temples": 102,
+    "masters": 251
+  }
+}
