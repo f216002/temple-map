@@ -989,7 +989,16 @@
         "許鳳凰",
         "陳建學"
       ],
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "id": "1in17m5OR3AS-GBJeuyDFL7J9DzFi7jm4",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1in17m5OR3AS-GBJeuyDFL7J9DzFi7jm4",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1in17m5OR3AS-GBJeuyDFL7J9DzFi7jm4",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1in17m5OR3AS-GBJeuyDFL7J9DzFi7jm4",
+          "title": "妙長落成.jpg"
+        }
+      ],
       "city": "柬埔寨"
     },
     {
