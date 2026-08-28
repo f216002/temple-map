@@ -2294,7 +2294,16 @@
         "郭淑粉",
         "黃雅惠"
       ],
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "id": "1jwsb33by_S5swcc485PW2MyIQ52ACvm1",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1jwsb33by_S5swcc485PW2MyIQ52ACvm1",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1jwsb33by_S5swcc485PW2MyIQ52ACvm1",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1jwsb33by_S5swcc485PW2MyIQ52ACvm1",
+          "title": "629157187955982748.jpg"
+        }
+      ],
       "city": "緬甸"
     },
     {
