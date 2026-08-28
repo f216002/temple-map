@@ -515,7 +515,7 @@
     {
       "country": "印尼",
       "temple": "和泗佛堂",
-      "address": "jalan PLOSO TIMUR 5 A no 46 SURABAYA 60133",
+      "address": "jalan PLOSO TIMUR 5 A no 46 ,SURABAYA ,JAWA TIMUR ,INDONESIA\n印尼國泗水市東區伯洛普五巷四十六號",
       "lat": -7.255216083700367,
       "lng": 112.77515022348398,
       "masters": [
@@ -717,6 +717,19 @@
       "lng": 100,
       "masters": [
         "蔡淑如"
+      ],
+      "media": [],
+      "city": "印尼"
+    },
+    {
+      "country": "印尼",
+      "temple": "Vihara Eka Dharma Kondanna 和天佛院",
+      "address": "Jl. Slamet Riyadi No72 Sukaraja, Bumi Waras, Kota Bandar Lampung, Lampung 35226         印尼國楠榜省得祿勿棟市色拉瑪利亞迪路七十二號",
+      "lat": 15,
+      "lng": 100,
+      "masters": [
+        "。李秀荷。",
+        "楊淑香"
       ],
       "media": [],
       "city": "印尼"
@@ -958,8 +971,8 @@
       "country": "柬埔寨",
       "temple": "和宣佛堂",
       "address": "#1345金邊市棉芷區上長夏社分區2號路1345號\nផ្ទះលេខ 1345 , ផ្លូវលេខ 2 , ភូមិព្រែកតាគង់2, សង្កាត់ ចាក់អង្រែលើ , ខណ្ឌមានជ័យ , ភ្នំពេញ។\n#1345, National Road No. 2, Phum PREK TA KONG 2, Sangkat Chak Angrae Leu, Khan Meanchey, Phnom Penh.",
-      "lat": 11.517369235489992,
-      "lng": 104.93466094607703,
+      "lat": 11.517336015594681,
+      "lng": 104.93467000862202,
       "masters": [
         "梁副領導",
         "童琴",
@@ -2455,7 +2468,7 @@
   ],
   "stats": {
     "countries": 26,
-    "temples": 102,
-    "masters": 251
+    "temples": 103,
+    "masters": 253
   }
 }
