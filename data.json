@@ -127,6 +127,14 @@
         },
         {
           "type": "youtube",
+          "id": "4RGtb6SY2cM",
+          "thumbUrl": "https://img.youtube.com/vi/4RGtb6SY2cM/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/4RGtb6SY2cM?autoplay=1&rel=0",
+          "downloadUrl": "https://www.youtube.com/watch?v=4RGtb6SY2cM&list=RD4RGtb6SY2cM&start_radio=1",
+          "title": "YouTube 影片"
+        },
+        {
+          "type": "youtube",
           "id": "zhLk39SCdco",
           "thumbUrl": "https://img.youtube.com/vi/zhLk39SCdco/hqdefault.jpg",
           "embedUrl": "https://www.youtube.com/embed/zhLk39SCdco?autoplay=1&rel=0",
