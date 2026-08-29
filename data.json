@@ -2268,7 +2268,16 @@
       "masters": [
         "李麗卿"
       ],
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "id": "17Oy9Dw8DYt2nJfn7FoM-iMJAr8J20wyB",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/17Oy9Dw8DYt2nJfn7FoM-iMJAr8J20wyB",
+          "viewUrl": "https://lh3.googleusercontent.com/d/17Oy9Dw8DYt2nJfn7FoM-iMJAr8J20wyB",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=17Oy9Dw8DYt2nJfn7FoM-iMJAr8J20wyB",
+          "title": "14427.jpg"
+        }
+      ],
       "city": "新加坡"
     },
     {
