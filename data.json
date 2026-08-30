@@ -770,6 +770,18 @@
     },
     {
       "country": "印尼",
+      "temple": "和聖佛堂",
+      "address": "JL.PERDANA GANG ILALANG NO.1\n PONTIANA\nKALIMANTAN BARAT\n\n印尼國西佳里曼丹省坤甸市\n   柏拉那路宜拉朗巷—號",
+      "lat": 15,
+      "lng": 100,
+      "masters": [
+        "邱靖淳"
+      ],
+      "media": [],
+      "city": "印尼"
+    },
+    {
+      "country": "印尼",
       "temple": "和德講堂",
       "address": "Kompelek Asia mega mas Jl Asia raya blok N 34-36 Medan 印尼國 棉蘭市美嘉馬史區N巷三十六號",
       "lat": 3.5855,
@@ -803,18 +815,6 @@
       "lng": 100,
       "masters": [
         "蔡淑如"
-      ],
-      "media": [],
-      "city": "印尼"
-    },
-    {
-      "country": "印度",
-      "temple": "印德佛堂",
-      "address": "Flat602,Nalanda Heritage City,Nalanda, Bihar,India,803111印度比哈爾邦那爛陀區那爛陀文化遺產城602室",
-      "lat": 25.130131477290774,
-      "lng": 85.46478246795276,
-      "masters": [
-        "王承祺"
       ],
       "media": [
         {
@@ -891,6 +891,86 @@
           "viewUrl": "https://lh3.googleusercontent.com/d/15takfQhzYCSp4d0uTEL-4HJzhC8lwYfk",
           "downloadUrl": "https://drive.google.com/uc?export=download&id=15takfQhzYCSp4d0uTEL-4HJzhC8lwYfk",
           "title": "印德01.jpg"
+        }
+      ],
+      "city": "印尼"
+    },
+    {
+      "country": "印度",
+      "temple": "印德佛堂",
+      "address": "Flat602,Nalanda Heritage City,Nalanda, Bihar,India,803111印度比哈爾邦那爛陀區那爛陀文化遺產城602室",
+      "lat": 25.130131477290774,
+      "lng": 85.46478246795276,
+      "masters": [
+        "王承祺"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "id": "1J-ud5KlqC17hTE4pfa-Ahdi6iSs3p6N6",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1J-ud5KlqC17hTE4pfa-Ahdi6iSs3p6N6",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1J-ud5KlqC17hTE4pfa-Ahdi6iSs3p6N6",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1J-ud5KlqC17hTE4pfa-Ahdi6iSs3p6N6",
+          "title": "629416761837748228.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1R4sJ8FNWg-6cX8i2gQaR2hu0MW5nxNJq",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1R4sJ8FNWg-6cX8i2gQaR2hu0MW5nxNJq",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1R4sJ8FNWg-6cX8i2gQaR2hu0MW5nxNJq",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1R4sJ8FNWg-6cX8i2gQaR2hu0MW5nxNJq",
+          "title": "629416760797299390.jpg"
+        },
+        {
+          "type": "drive_video",
+          "id": "1eDctgWzzbqHIqYya7TMl3NhA6ezFKx7T",
+          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=1eDctgWzzbqHIqYya7TMl3NhA6ezFKx7T",
+          "embedUrl": "https://drive.google.com/file/d/1eDctgWzzbqHIqYya7TMl3NhA6ezFKx7T/preview",
+          "viewUrl": "https://drive.google.com/file/d/1eDctgWzzbqHIqYya7TMl3NhA6ezFKx7T/view",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1eDctgWzzbqHIqYya7TMl3NhA6ezFKx7T",
+          "title": "9e258fb5-31bc-4e8a-8bc1-bc15eea481a7.MP4"
+        },
+        {
+          "type": "drive_video",
+          "id": "1-GSRDT36NvnQ1PiLWsi7dOKwxsHT4UHe",
+          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=1-GSRDT36NvnQ1PiLWsi7dOKwxsHT4UHe",
+          "embedUrl": "https://drive.google.com/file/d/1-GSRDT36NvnQ1PiLWsi7dOKwxsHT4UHe/preview",
+          "viewUrl": "https://drive.google.com/file/d/1-GSRDT36NvnQ1PiLWsi7dOKwxsHT4UHe/view",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1-GSRDT36NvnQ1PiLWsi7dOKwxsHT4UHe",
+          "title": "e15fe5a2-2ff2-4cae-ac45-410535e2f014.MP4"
+        },
+        {
+          "type": "drive_video",
+          "id": "1_RGy2XXDc3QTsDur1Z8trekCtXz6q_Sq",
+          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=1_RGy2XXDc3QTsDur1Z8trekCtXz6q_Sq",
+          "embedUrl": "https://drive.google.com/file/d/1_RGy2XXDc3QTsDur1Z8trekCtXz6q_Sq/preview",
+          "viewUrl": "https://drive.google.com/file/d/1_RGy2XXDc3QTsDur1Z8trekCtXz6q_Sq/view",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1_RGy2XXDc3QTsDur1Z8trekCtXz6q_Sq",
+          "title": "VIDEO-2026-08-06-09-16-32.MP4"
+        },
+        {
+          "type": "image",
+          "id": "1d_t9YSo0CIcYAgRigqg55A1NNycWikV-",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1d_t9YSo0CIcYAgRigqg55A1NNycWikV-",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1d_t9YSo0CIcYAgRigqg55A1NNycWikV-",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1d_t9YSo0CIcYAgRigqg55A1NNycWikV-",
+          "title": "IMG_7223.JPG"
+        },
+        {
+          "type": "image",
+          "id": "1-nYDbmzKAcrXMTwT8jDELgV45BHHLYXS",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1-nYDbmzKAcrXMTwT8jDELgV45BHHLYXS",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1-nYDbmzKAcrXMTwT8jDELgV45BHHLYXS",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1-nYDbmzKAcrXMTwT8jDELgV45BHHLYXS",
+          "title": "IMG_7222.JPG"
+        },
+        {
+          "type": "image",
+          "id": "1Tbg0A0K9T2r56Qp4DIaimp6FWLQFTqsk",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1Tbg0A0K9T2r56Qp4DIaimp6FWLQFTqsk",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1Tbg0A0K9T2r56Qp4DIaimp6FWLQFTqsk",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1Tbg0A0K9T2r56Qp4DIaimp6FWLQFTqsk",
+          "title": "IMG_7224.JPG"
         }
       ],
       "city": "印度"
@@ -1033,7 +1113,16 @@
         "王浩呈",
         "陳麗寬"
       ],
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "id": "1in17m5OR3AS-GBJeuyDFL7J9DzFi7jm4",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1in17m5OR3AS-GBJeuyDFL7J9DzFi7jm4",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1in17m5OR3AS-GBJeuyDFL7J9DzFi7jm4",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1in17m5OR3AS-GBJeuyDFL7J9DzFi7jm4",
+          "title": "妙長落成.jpg"
+        }
+      ],
       "city": "柬埔寨"
     },
     {
@@ -1052,30 +1141,6 @@
         "莊振銘",
         "許鳳凰",
         "陳建學"
-      ],
-      "media": [
-        {
-          "type": "image",
-          "id": "1in17m5OR3AS-GBJeuyDFL7J9DzFi7jm4",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1in17m5OR3AS-GBJeuyDFL7J9DzFi7jm4",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1in17m5OR3AS-GBJeuyDFL7J9DzFi7jm4",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1in17m5OR3AS-GBJeuyDFL7J9DzFi7jm4",
-          "title": "妙長落成.jpg"
-        }
-      ],
-      "city": "柬埔寨"
-    },
-    {
-      "country": "柬埔寨",
-      "temple": "和宣佛堂",
-      "address": "#1345金邊市棉芷區上長夏社分區2號路1345號\nផ្ទះលេខ 1345 , ផ្លូវលេខ 2 , ភូមិព្រែកតាគង់2, សង្កាត់ ចាក់អង្រែលើ , ខណ្ឌមានជ័យ , ភ្នំពេញ។\n#1345, National Road No. 2, Phum PREK TA KONG 2, Sangkat Chak Angrae Leu, Khan Meanchey, Phnom Penh.",
-      "lat": 11.517336015594681,
-      "lng": 104.93467000862202,
-      "masters": [
-        "梁副領導",
-        "童琴",
-        "蔡泳洲",
-        "黃聖揚"
       ],
       "media": [
         {
@@ -1159,6 +1224,30 @@
           "viewUrl": "https://drive.google.com/file/d/1nR-Q3CxQ-CJGUFfpt0j7-WXs4IKfppeL/view",
           "downloadUrl": "https://drive.google.com/uc?export=download&id=1nR-Q3CxQ-CJGUFfpt0j7-WXs4IKfppeL",
           "title": "和宣佛堂落成.mp4"
+        }
+      ],
+      "city": "柬埔寨"
+    },
+    {
+      "country": "柬埔寨",
+      "temple": "和宣佛堂",
+      "address": "#1345金邊市棉芷區上長夏社分區2號路1345號\nផ្ទះលេខ 1345 , ផ្លូវលេខ 2 , ភូមិព្រែកតាគង់2, សង្កាត់ ចាក់អង្រែលើ , ខណ្ឌមានជ័យ , ភ្នំពេញ។\n#1345, National Road No. 2, Phum PREK TA KONG 2, Sangkat Chak Angrae Leu, Khan Meanchey, Phnom Penh.",
+      "lat": 11.517336015594681,
+      "lng": 104.93467000862202,
+      "masters": [
+        "梁副領導",
+        "童琴",
+        "蔡泳洲",
+        "黃聖揚"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "id": "1mkQzDu-X8FfSGTNQM4BbbHWeeG4PqPfh",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1mkQzDu-X8FfSGTNQM4BbbHWeeG4PqPfh",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1mkQzDu-X8FfSGTNQM4BbbHWeeG4PqPfh",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1mkQzDu-X8FfSGTNQM4BbbHWeeG4PqPfh",
+          "title": "S__3522578.jpg"
         }
       ],
       "city": "柬埔寨"
@@ -1335,7 +1424,56 @@
         "蔡佳桂",
         "高榮岏"
       ],
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "id": "13sfiJ7N2ykxpeueetkgBlaxWv_IZ4tI4",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/13sfiJ7N2ykxpeueetkgBlaxWv_IZ4tI4",
+          "viewUrl": "https://lh3.googleusercontent.com/d/13sfiJ7N2ykxpeueetkgBlaxWv_IZ4tI4",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=13sfiJ7N2ykxpeueetkgBlaxWv_IZ4tI4",
+          "title": "unnamed (3).webp"
+        },
+        {
+          "type": "image",
+          "id": "1ULYvy9HAU9Tmp1NoXZrQXWHoOrRjCdFn",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1ULYvy9HAU9Tmp1NoXZrQXWHoOrRjCdFn",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1ULYvy9HAU9Tmp1NoXZrQXWHoOrRjCdFn",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1ULYvy9HAU9Tmp1NoXZrQXWHoOrRjCdFn",
+          "title": "unnamed (2).webp"
+        },
+        {
+          "type": "image",
+          "id": "1VGGwEQgHG5rxUyDMrrlUDHgsaFQMq2ya",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1VGGwEQgHG5rxUyDMrrlUDHgsaFQMq2ya",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1VGGwEQgHG5rxUyDMrrlUDHgsaFQMq2ya",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1VGGwEQgHG5rxUyDMrrlUDHgsaFQMq2ya",
+          "title": "unnamed (1).webp"
+        },
+        {
+          "type": "image",
+          "id": "18Q05Co_8p3xQ2lNd1RjiMAilagcD25mc",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/18Q05Co_8p3xQ2lNd1RjiMAilagcD25mc",
+          "viewUrl": "https://lh3.googleusercontent.com/d/18Q05Co_8p3xQ2lNd1RjiMAilagcD25mc",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=18Q05Co_8p3xQ2lNd1RjiMAilagcD25mc",
+          "title": "unnamed.webp"
+        },
+        {
+          "type": "image",
+          "id": "1dpldIsEEdWuNz54TS3H3-8kpAQuHhZe9",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1dpldIsEEdWuNz54TS3H3-8kpAQuHhZe9",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1dpldIsEEdWuNz54TS3H3-8kpAQuHhZe9",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1dpldIsEEdWuNz54TS3H3-8kpAQuHhZe9",
+          "title": "D7F23899-22BF-4CD5-B7A8-E39F6FDDAECD.png"
+        },
+        {
+          "type": "image",
+          "id": "1FXkWHHHAfEGu320ZFqw7dVeumge7XeVr",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1FXkWHHHAfEGu320ZFqw7dVeumge7XeVr",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1FXkWHHHAfEGu320ZFqw7dVeumge7XeVr",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1FXkWHHHAfEGu320ZFqw7dVeumge7XeVr",
+          "title": "messageImage_1787626711287.jpg"
+        }
+      ],
       "city": "柬埔寨"
     },
     {
@@ -1424,7 +1562,89 @@
         "邱怡慈",
         "邱朝洲"
       ],
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "id": "1nd7wfQPYgF7TD34J-9s9DdeV6HagdT6i",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1nd7wfQPYgF7TD34J-9s9DdeV6HagdT6i",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1nd7wfQPYgF7TD34J-9s9DdeV6HagdT6i",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1nd7wfQPYgF7TD34J-9s9DdeV6HagdT6i",
+          "title": "97D2498F56832BE2194690D4549019BF3339B120.jpeg"
+        },
+        {
+          "type": "image",
+          "id": "1_c_KDght0tKptYA8qWmHilc0IY38fXXT",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1_c_KDght0tKptYA8qWmHilc0IY38fXXT",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1_c_KDght0tKptYA8qWmHilc0IY38fXXT",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1_c_KDght0tKptYA8qWmHilc0IY38fXXT",
+          "title": "48676_0.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1_heQLXx46GlpsX5On3uraYaOFPtaB2C4",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1_heQLXx46GlpsX5On3uraYaOFPtaB2C4",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1_heQLXx46GlpsX5On3uraYaOFPtaB2C4",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1_heQLXx46GlpsX5On3uraYaOFPtaB2C4",
+          "title": "50734_0.jpg"
+        },
+        {
+          "type": "image",
+          "id": "111E0ganTiMck_2sCnPshlrpVw1SpGirC",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/111E0ganTiMck_2sCnPshlrpVw1SpGirC",
+          "viewUrl": "https://lh3.googleusercontent.com/d/111E0ganTiMck_2sCnPshlrpVw1SpGirC",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=111E0ganTiMck_2sCnPshlrpVw1SpGirC",
+          "title": "50732_0.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1OUqaIt4eI799OFns1D_6ZsOzqxtt3baj",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1OUqaIt4eI799OFns1D_6ZsOzqxtt3baj",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1OUqaIt4eI799OFns1D_6ZsOzqxtt3baj",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1OUqaIt4eI799OFns1D_6ZsOzqxtt3baj",
+          "title": "50735_0.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1sng-g_NlsEJ6Pp4b5VDE5PCSA75b2Ccv",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1sng-g_NlsEJ6Pp4b5VDE5PCSA75b2Ccv",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1sng-g_NlsEJ6Pp4b5VDE5PCSA75b2Ccv",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1sng-g_NlsEJ6Pp4b5VDE5PCSA75b2Ccv",
+          "title": "50736_0.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1Hej1bJAfmqKE8ohzvOVvbugRH34bkDJU",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1Hej1bJAfmqKE8ohzvOVvbugRH34bkDJU",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1Hej1bJAfmqKE8ohzvOVvbugRH34bkDJU",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1Hej1bJAfmqKE8ohzvOVvbugRH34bkDJU",
+          "title": "50738_0.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1f5BQPWlJBW1zBTWSI1HKRl6jy9hgpt-N",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1f5BQPWlJBW1zBTWSI1HKRl6jy9hgpt-N",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1f5BQPWlJBW1zBTWSI1HKRl6jy9hgpt-N",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1f5BQPWlJBW1zBTWSI1HKRl6jy9hgpt-N",
+          "title": "50737_0.jpg"
+        },
+        {
+          "type": "drive_video",
+          "id": "1G7VlCSQlsP2YiBHS11dCouf3I60EEntU",
+          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=1G7VlCSQlsP2YiBHS11dCouf3I60EEntU",
+          "embedUrl": "https://drive.google.com/file/d/1G7VlCSQlsP2YiBHS11dCouf3I60EEntU/preview",
+          "viewUrl": "https://drive.google.com/file/d/1G7VlCSQlsP2YiBHS11dCouf3I60EEntU/view",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1G7VlCSQlsP2YiBHS11dCouf3I60EEntU",
+          "title": "e2fbb89e-a8fd-43b8-b21d-015ed88f41a2.mp4"
+        },
+        {
+          "type": "image",
+          "id": "1sA4JGycHy0hg5Mi5780iip8-JvLI53Yb",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1sA4JGycHy0hg5Mi5780iip8-JvLI53Yb",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1sA4JGycHy0hg5Mi5780iip8-JvLI53Yb",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1sA4JGycHy0hg5Mi5780iip8-JvLI53Yb",
+          "title": "50518.jpg"
+        }
+      ],
       "city": "英國"
     },
     {
@@ -1579,7 +1799,16 @@
         "蘇建利",
         "鄧秋玲"
       ],
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "id": "1P_f320OT4xld8Huj0qi6TaERF2UEdY4u",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1P_f320OT4xld8Huj0qi6TaERF2UEdY4u",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1P_f320OT4xld8Huj0qi6TaERF2UEdY4u",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1P_f320OT4xld8Huj0qi6TaERF2UEdY4u",
+          "title": "S__4276253.jpg"
+        }
+      ],
       "city": "泰國"
     },
     {
@@ -1648,19 +1877,6 @@
         "黃定泰",
         "黃文源",
         "黃溫芳"
-      ],
-      "media": [],
-      "city": "馬來西亞"
-    },
-    {
-      "country": "馬來西亞",
-      "temple": "明金講堂",
-      "address": "白陽聖地郵址：\tCommercial Block, The Bai Yang Heritage, \nJalan SB Dagang, Seri Kembangan, \n43300 Ulu Langat, Selangor.",
-      "lat": 3.0248678705860588,
-      "lng": 101.71861398622069,
-      "masters": [
-        "吳錦娣",
-        "黃國文"
       ],
       "media": [
         {
@@ -1781,6 +1997,36 @@
     },
     {
       "country": "馬來西亞",
+      "temple": "明金講堂",
+      "address": "白陽聖地郵址：\tCommercial Block, The Bai Yang Heritage, \nJalan SB Dagang, Seri Kembangan, \n43300 Ulu Langat, Selangor.",
+      "lat": 3.0248678705860588,
+      "lng": 101.71861398622069,
+      "masters": [
+        "吳錦娣",
+        "黃國文"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "id": "1MQ1S1owhfZ98LrYaD_4E10_KTSk3E6bz",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1MQ1S1owhfZ98LrYaD_4E10_KTSk3E6bz",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1MQ1S1owhfZ98LrYaD_4E10_KTSk3E6bz",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1MQ1S1owhfZ98LrYaD_4E10_KTSk3E6bz",
+          "title": "629414844420325717.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1QMsZG89fNDomHgjLw4AqwwzBDCrXpfXx",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1QMsZG89fNDomHgjLw4AqwwzBDCrXpfXx",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1QMsZG89fNDomHgjLw4AqwwzBDCrXpfXx",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1QMsZG89fNDomHgjLw4AqwwzBDCrXpfXx",
+          "title": "S__160505873_0.jpg"
+        }
+      ],
+      "city": "馬來西亞"
+    },
+    {
+      "country": "馬來西亞",
       "temple": "皇城佛堂",
       "address": "皇城佛堂地址：\n61, Lorong Bakap Indah 2, \nTaman Bakap Indah, \n14200 Sungai Bakap, Pulau Pinang, Malaysia.\n馬來西亞槟城威南爪夷百合花園二路六十一號",
       "lat": 5.2285,
@@ -1846,7 +2092,24 @@
         "尤心伶",
         "張惠玲"
       ],
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "id": "10ZYyA_NaChaagRhflGk1conwTICx5mQ5",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/10ZYyA_NaChaagRhflGk1conwTICx5mQ5",
+          "viewUrl": "https://lh3.googleusercontent.com/d/10ZYyA_NaChaagRhflGk1conwTICx5mQ5",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=10ZYyA_NaChaagRhflGk1conwTICx5mQ5",
+          "title": "33823_0.jpg"
+        },
+        {
+          "type": "image",
+          "id": "19BoTvs0hP96MEHSUTgoeOnxQXOWunaI9",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/19BoTvs0hP96MEHSUTgoeOnxQXOWunaI9",
+          "viewUrl": "https://lh3.googleusercontent.com/d/19BoTvs0hP96MEHSUTgoeOnxQXOWunaI9",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=19BoTvs0hP96MEHSUTgoeOnxQXOWunaI9",
+          "title": "33824_0.jpg"
+        }
+      ],
       "city": "馬來西亞"
     },
     {
@@ -2136,34 +2399,6 @@
       "masters": [
         "彭道錦"
       ],
-      "media": [],
-      "city": "越南"
-    },
-    {
-      "country": "越南",
-      "temple": "越明佛堂",
-      "address": "261/4J Đ. Hậu Giang, Bình Tây, Hồ Chí Minh 700000\n越南胡志明市第六郡後江路261/4J號",
-      "lat": 10.748763461747695,
-      "lng": 106.64303125393847,
-      "masters": [
-        "余秀珍",
-        "余耀東",
-        "吳兆倫",
-        "吳薇薇",
-        "張良榮",
-        "林姍廷",
-        "林姗廷",
-        "林翠娟",
-        "柳庭順",
-        "洪欽寸",
-        "紀嘉榮",
-        "蔡富名",
-        "陳璿安",
-        "陳翠娟",
-        "雲泫錤",
-        "顏酉意",
-        "魏財源"
-      ],
       "media": [
         {
           "type": "image",
@@ -2196,6 +2431,43 @@
     },
     {
       "country": "越南",
+      "temple": "越明佛堂",
+      "address": "261/4J Đ. Hậu Giang, Bình Tây, Hồ Chí Minh 700000\n越南胡志明市第六郡後江路261/4J號",
+      "lat": 10.748763461747695,
+      "lng": 106.64303125393847,
+      "masters": [
+        "余秀珍",
+        "余耀東",
+        "吳兆倫",
+        "吳薇薇",
+        "張良榮",
+        "林姍廷",
+        "林姗廷",
+        "林翠娟",
+        "柳庭順",
+        "洪欽寸",
+        "紀嘉榮",
+        "蔡富名",
+        "陳璿安",
+        "陳翠娟",
+        "雲泫錤",
+        "顏酉意",
+        "魏財源"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "id": "1FCVFl2YHZX9uOrLTRu008TPxovPgyN2r",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1FCVFl2YHZX9uOrLTRu008TPxovPgyN2r",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1FCVFl2YHZX9uOrLTRu008TPxovPgyN2r",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1FCVFl2YHZX9uOrLTRu008TPxovPgyN2r",
+          "title": "越南03區.jpg"
+        }
+      ],
+      "city": "越南"
+    },
+    {
+      "country": "越南",
       "temple": "越南3區B組佛堂",
       "address": "ĐT759, Phú Trung, Đồng Nai, Bình Phước, 越南",
       "lat": 10.8231,
@@ -2208,11 +2480,19 @@
       "media": [
         {
           "type": "image",
-          "id": "1FCVFl2YHZX9uOrLTRu008TPxovPgyN2r",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1FCVFl2YHZX9uOrLTRu008TPxovPgyN2r",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1FCVFl2YHZX9uOrLTRu008TPxovPgyN2r",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1FCVFl2YHZX9uOrLTRu008TPxovPgyN2r",
-          "title": "越南03區.jpg"
+          "id": "1NkfJm6USu8SCN1_p7nc9h43Rmi57x29O",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1NkfJm6USu8SCN1_p7nc9h43Rmi57x29O",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1NkfJm6USu8SCN1_p7nc9h43Rmi57x29O",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1NkfJm6USu8SCN1_p7nc9h43Rmi57x29O",
+          "title": "S__22102072.jpg"
+        },
+        {
+          "type": "image",
+          "id": "16zO9NDjzHhnOjePT3x5IdZSBSVuP2ZKL",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/16zO9NDjzHhnOjePT3x5IdZSBSVuP2ZKL",
+          "viewUrl": "https://lh3.googleusercontent.com/d/16zO9NDjzHhnOjePT3x5IdZSBSVuP2ZKL",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=16zO9NDjzHhnOjePT3x5IdZSBSVuP2ZKL",
+          "title": "S__19636595.jpg"
         }
       ],
       "city": "越南"
@@ -2296,7 +2576,16 @@
       "masters": [
         "莫程安"
       ],
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "id": "17Oy9Dw8DYt2nJfn7FoM-iMJAr8J20wyB",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/17Oy9Dw8DYt2nJfn7FoM-iMJAr8J20wyB",
+          "viewUrl": "https://lh3.googleusercontent.com/d/17Oy9Dw8DYt2nJfn7FoM-iMJAr8J20wyB",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=17Oy9Dw8DYt2nJfn7FoM-iMJAr8J20wyB",
+          "title": "14427.jpg"
+        }
+      ],
       "city": "奧地利"
     },
     {
@@ -2363,7 +2652,16 @@
         "張淑萍",
         "賴秀宜"
       ],
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "id": "1F5ynlykJAE7FDT8AFIyBXr2ZGbS6g9nr",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1F5ynlykJAE7FDT8AFIyBXr2ZGbS6g9nr",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1F5ynlykJAE7FDT8AFIyBXr2ZGbS6g9nr",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1F5ynlykJAE7FDT8AFIyBXr2ZGbS6g9nr",
+          "title": "629414373332877313.jpg"
+        }
+      ],
       "city": "德國"
     },
     {
@@ -2376,7 +2674,16 @@
         "莫程安",
         "陽銘輝"
       ],
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "id": "1jwsb33by_S5swcc485PW2MyIQ52ACvm1",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1jwsb33by_S5swcc485PW2MyIQ52ACvm1",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1jwsb33by_S5swcc485PW2MyIQ52ACvm1",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1jwsb33by_S5swcc485PW2MyIQ52ACvm1",
+          "title": "629157187955982748.jpg"
+        }
+      ],
       "city": "德國"
     },
     {
@@ -2457,7 +2764,120 @@
         "楊文傑",
         "王秀容"
       ],
-      "media": [],
+      "media": [
+        {
+          "type": "image",
+          "id": "1T1dmUMXcBRNxrrjfq59fkcUC_Fiyy0Sk",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1T1dmUMXcBRNxrrjfq59fkcUC_Fiyy0Sk",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1T1dmUMXcBRNxrrjfq59fkcUC_Fiyy0Sk",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1T1dmUMXcBRNxrrjfq59fkcUC_Fiyy0Sk",
+          "title": "A43CACD61F78416E7F6FFF2E7BF796477723EAD8.jpeg"
+        },
+        {
+          "type": "image",
+          "id": "108Np5wXKvfS5cT4s5Euv2tW2pQIP8eRp",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/108Np5wXKvfS5cT4s5Euv2tW2pQIP8eRp",
+          "viewUrl": "https://lh3.googleusercontent.com/d/108Np5wXKvfS5cT4s5Euv2tW2pQIP8eRp",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=108Np5wXKvfS5cT4s5Euv2tW2pQIP8eRp",
+          "title": "明誠佛堂_200912_2.jpg"
+        },
+        {
+          "type": "image",
+          "id": "12GqoQJqkKmuJH2sizjJC6vis_HsTCPW8",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/12GqoQJqkKmuJH2sizjJC6vis_HsTCPW8",
+          "viewUrl": "https://lh3.googleusercontent.com/d/12GqoQJqkKmuJH2sizjJC6vis_HsTCPW8",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=12GqoQJqkKmuJH2sizjJC6vis_HsTCPW8",
+          "title": "明誠佛堂_200912_3.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1Aje8L-ex7ImN77pfVtqHHunhyu-oYkdo",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1Aje8L-ex7ImN77pfVtqHHunhyu-oYkdo",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1Aje8L-ex7ImN77pfVtqHHunhyu-oYkdo",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1Aje8L-ex7ImN77pfVtqHHunhyu-oYkdo",
+          "title": "明誠佛堂_200912_12.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1Cwx5hMMRf39wQP8GZlXZdFCY2viOFAaq",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1Cwx5hMMRf39wQP8GZlXZdFCY2viOFAaq",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1Cwx5hMMRf39wQP8GZlXZdFCY2viOFAaq",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1Cwx5hMMRf39wQP8GZlXZdFCY2viOFAaq",
+          "title": "43145.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1Kn6P2A0db7mkossIisMLZaiV4wVKL73s",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1Kn6P2A0db7mkossIisMLZaiV4wVKL73s",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1Kn6P2A0db7mkossIisMLZaiV4wVKL73s",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1Kn6P2A0db7mkossIisMLZaiV4wVKL73s",
+          "title": "IMAG6505.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1SuSTcnKubXtD-zWYpnKml7dl3Lp9Y9UP",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1SuSTcnKubXtD-zWYpnKml7dl3Lp9Y9UP",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1SuSTcnKubXtD-zWYpnKml7dl3Lp9Y9UP",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1SuSTcnKubXtD-zWYpnKml7dl3Lp9Y9UP",
+          "title": "明誠佛堂_200912.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1TbFzTct6JSElSeAWkFiYwVLmHFlnN2IK",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1TbFzTct6JSElSeAWkFiYwVLmHFlnN2IK",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1TbFzTct6JSElSeAWkFiYwVLmHFlnN2IK",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1TbFzTct6JSElSeAWkFiYwVLmHFlnN2IK",
+          "title": "IMAG6530.jpg"
+        },
+        {
+          "type": "drive_doc",
+          "id": "1X-Kcev2uQbEkIVU80OQ_tQIW19J_d1yM",
+          "thumbUrl": "",
+          "embedUrl": "https://drive.google.com/file/d/1X-Kcev2uQbEkIVU80OQ_tQIW19J_d1yM/preview",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1X-Kcev2uQbEkIVU80OQ_tQIW19J_d1yM",
+          "title": ".picasa.ini"
+        },
+        {
+          "type": "image",
+          "id": "1X3B2sMx7MhigEJL43l4bsoh8IJDbikNV",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1X3B2sMx7MhigEJL43l4bsoh8IJDbikNV",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1X3B2sMx7MhigEJL43l4bsoh8IJDbikNV",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1X3B2sMx7MhigEJL43l4bsoh8IJDbikNV",
+          "title": "43193.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1aOP9OP4aMQ1ztmXho2WOVQ7mYwURsUkA",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1aOP9OP4aMQ1ztmXho2WOVQ7mYwURsUkA",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1aOP9OP4aMQ1ztmXho2WOVQ7mYwURsUkA",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1aOP9OP4aMQ1ztmXho2WOVQ7mYwURsUkA",
+          "title": "43194.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1j16ivVwXb2yQ7XTNEizrUTMp_gNb96bg",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1j16ivVwXb2yQ7XTNEizrUTMp_gNb96bg",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1j16ivVwXb2yQ7XTNEizrUTMp_gNb96bg",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1j16ivVwXb2yQ7XTNEizrUTMp_gNb96bg",
+          "title": "明誠佛堂_200912_1.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1oy9qcyeoNvfpuqIszM_hfcOMA8iJwqrN",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1oy9qcyeoNvfpuqIszM_hfcOMA8iJwqrN",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1oy9qcyeoNvfpuqIszM_hfcOMA8iJwqrN",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1oy9qcyeoNvfpuqIszM_hfcOMA8iJwqrN",
+          "title": "S__8904840.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1uEIPuKoDcRVSqj_sYxR1PMH5P2BbLfBm",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1uEIPuKoDcRVSqj_sYxR1PMH5P2BbLfBm",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1uEIPuKoDcRVSqj_sYxR1PMH5P2BbLfBm",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1uEIPuKoDcRVSqj_sYxR1PMH5P2BbLfBm",
+          "title": "明誠佛堂_200912_0.jpg"
+        }
+      ],
       "city": "澳洲"
     },
     {
@@ -2616,7 +3036,7 @@
   ],
   "stats": {
     "countries": 26,
-    "temples": 103,
-    "masters": 253
+    "temples": 104,
+    "masters": 254
   }
 }
