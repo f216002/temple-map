@@ -581,6 +581,14 @@
       ],
       "media": [
         {
+          "type": "youtube",
+          "id": "C08s6an7Tsk",
+          "thumbUrl": "https://img.youtube.com/vi/C08s6an7Tsk/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/C08s6an7Tsk?autoplay=1&rel=0",
+          "downloadUrl": "https://www.youtube.com/watch?v=C08s6an7Tsk",
+          "title": "YouTube 影片"
+        },
+        {
           "type": "image",
           "id": "1laeQFmzBli-vqYLoh9kjXvc2oBvaI5N1",
           "thumbUrl": "https://lh3.googleusercontent.com/d/1laeQFmzBli-vqYLoh9kjXvc2oBvaI5N1",
