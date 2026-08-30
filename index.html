@@ -4,711 +4,760 @@
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
-    <title>全球開荒佛堂互動地圖</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Cinzel:wght@700;800&display=swap" rel="stylesheet">
-    <style>
-        :root {
-            --font-scale: 1;      /* 佛堂資訊字體縮放 */
-            --hud-scale: 1;       /* HUD 統計面板縮放倍率 */
-        }
-        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Noto Sans TC', sans-serif; }
-        body, html { width: 100%; height: 100%; overflow: hidden; background-color: #0b132b; }
-        #map { width: 100vw; height: 100vh; z-index: 1; }
-        
-        /* ================= 方案 A 新增：極速載入 Loading 動畫 ================= */
-        #map-loader {
-            position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
-            background: #0f172a; z-index: 99999; display: flex; flex-direction: column;
-            align-items: center; justify-content: center; gap: 20px;
-            transition: opacity 0.5s ease;
-        }
-        .loader-spinner {
-            width: 50px; height: 50px; border: 3px solid rgba(255, 215, 0, 0.1);
-            border-radius: 50%; border-top: 3px solid #ffd700;
-            animation: spin 1s linear infinite;
-            box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
-        }
-        .loader-text { color: #ffd700; font-size: 15px; font-weight: 700; letter-spacing: 2px; }
-        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+<title>全球開荒佛堂互動地圖</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=Cinzel:wght@700;800&display=swap" rel="stylesheet">
+<style>
+:root {
+  --font-scale: 1;   /* 佛堂資訊字體縮放 */
+  --hud-scale: 1;    /* HUD 統計面板縮放倍率 */
+}
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Noto Sans TC', sans-serif; }
+body, html { width: 100%; height: 100%; overflow: hidden; background-color: #0b132b; }
+#map { width: 100vw; height: 100vh; z-index: 1; }
 
-        /* ================= HUD 面板樣式 ================= */
-        .hud-header {
-            position: absolute; top: 16px; left: 16px; z-index: 1000;
-            background: rgba(15, 23, 42, 0.94); backdrop-filter: blur(14px);
-            border: 1.8px solid #ffd700; border-radius: 14px;
-            padding: calc(12px * var(--hud-scale)) calc(16px * var(--hud-scale));
-            box-shadow: 0 10px 35px rgba(0, 0, 0, 0.65);
-            max-width: calc(380px * var(--hud-scale));
-            width: calc(100vw - 32px);
-            transform-origin: top left;
-            transition: max-width 0.2s, padding 0.2s;
-        }
-        .hud-top-bar { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
-        .hud-title {
-            font-size: calc(17px * var(--hud-scale)); font-weight: 900;
-            background: linear-gradient(135deg, #ffffff 0%, #ffe082 40%, #ffd700 80%, #ffb300 100%);
-            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
-            display: flex; align-items: center; gap: 4px; white-space: nowrap;
-        }
-        .hud-ctrls { display: flex; align-items: center; gap: 4px; }
-        .hud-scale-btn {
-            background: rgba(255, 215, 0, 0.15); border: 1px solid #ffd700;
-            color: #ffd700; border-radius: 5px; padding: 2px 6px; font-size: 11px;
-            font-weight: bold; cursor: pointer; user-select: none;
-        }
-        .hud-scale-btn:active { background: #ffd700; color: #0f172a; }
-        .hud-subtitle { font-size: calc(11px * var(--hud-scale)); color: #cbd5e1; margin: 3px 0 8px 0; }
-        .hud-stats { display: flex; gap: calc(14px * var(--hud-scale)); border-top: 1.2px solid rgba(255, 215, 0, 0.3); padding-top: calc(8px * var(--hud-scale)); margin-bottom: calc(10px * var(--hud-scale)); }
-        .stat-item { display: flex; flex-direction: column; }
-        .stat-num { font-size: calc(22px * var(--hud-scale)); font-weight: 900; color: #ffd700; font-family: 'Cinzel', 'Noto Sans TC', serif; text-shadow: 0 0 10px rgba(255, 215, 0, 0.5); line-height: 1.1; }
-        .stat-lbl { font-size: calc(10px * var(--hud-scale)); color: #94a3b8; font-weight: 600; margin-top: 2px; }
-        .search-box-wrapper { position: relative; width: 100%; }
-        .search-input {
-            width: 100%; background: rgba(30, 41, 59, 0.85); border: 1.5px solid #ffd700; border-radius: 8px;
-            padding: calc(7px * var(--hud-scale)) calc(10px * var(--hud-scale));
-            font-size: calc(12px * var(--hud-scale)); outline: none; color: #ffffff; transition: all 0.2s;
-        }
-        .search-input:focus { border-color: #ffffff; box-shadow: 0 0 14px rgba(255, 215, 0, 0.7); background: #0f172a; }
-        .search-input::placeholder { color: #94a3b8; }
-        .search-hint { font-size: calc(10.5px * var(--hud-scale)); color: #fde047; margin-top: 4px; font-weight: 600; }
-        
-        /* ================= 金色發光標記 ================= */
-        .radiant-gold-marker { position: relative; width: 34px; height: 34px; cursor: pointer; }
-        .marker-core {
-            position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
-            width: 18px; height: 18px;
-            background: radial-gradient(circle, #ffffff 20%, #fff566 45%, #ffd700 70%, #ff8f00 100%);
-            border-radius: 50%;
-            box-shadow: 0 0 12px #ffffff, 0 0 22px #ffea00, 0 0 35px #ffb300, 0 0 50px #ff6f00;
-            border: 2px solid #ffffff; z-index: 2;
-            transition: transform 0.2s ease-out;
-        }
-        .radiant-gold-marker:hover .marker-core,
-        .radiant-gold-marker:active .marker-core {
-            transform: translate(-50%, -50%) scale(1.6);
-            box-shadow: 0 0 18px #ffffff, 0 0 32px #ffffff, 0 0 50px #ffea00;
-        }
-        .marker-pulse {
-            position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
-            width: 30px; height: 30px; border-radius: 50%;
-            background: rgba(255, 215, 0, 0.75);
-            animation: pulse-ring 2.0s infinite ease-out; z-index: 1; pointer-events: none;
-        }
-        @keyframes pulse-ring {
-            0% { transform: translate(-50%, -50%) scale(0.45); opacity: 0.95; }
-            80%, 100% { transform: translate(-50%, -50%) scale(2.5); opacity: 0; }
-        }
-        .font-resizer-bar {
-            display: flex; align-items: center; justify-content: flex-end; gap: 6px;
-            margin-bottom: 6px; padding-bottom: 4px; border-bottom: 1px dashed rgba(255,215,0,0.25);
-        }
-        .font-btn {
-            background: rgba(255, 215, 0, 0.15); border: 1px solid #ffd700; color: #ffd700;
-            border-radius: 4px; font-size: 11px; font-weight: bold; padding: 2px 7px;
-            cursor: pointer; user-select: none;
-        }
-        .font-btn:active { background: #ffd700; color: #0f172a; }
-        .leaflet-popup-content-wrapper {
-            background: rgba(15, 23, 42, 0.96) !important;
-            border: 1.8px solid #ffd700 !important;
-            border-radius: 14px !important;
-            padding: 0 !important;
-            box-shadow: 0 14px 40px rgba(0, 0, 0, 0.75) !important;
-        }
-        .leaflet-popup-content {
-            margin: 12px 14px !important;
-            width: 360px !important;
-            max-width: 85vw !important;
-            color: #f8fafc !important;
-            max-height: 80vh;
-            overflow-y: auto;
-        }
-        .leaflet-popup-tip-container { display: none !important; }
-        .leaflet-container a.leaflet-popup-close-button {
-            color: #ffd700 !important; top: 10px !important; right: 12px !important;
-            font-size: 20px !important; font-weight: bold !important;
-        }
-        #mobile-bottom-sheet {
-            display: none; position: fixed; bottom: 0; left: 0; width: 100vw;
-            max-height: 78vh;
-            background: rgba(15, 23, 42, 0.98); backdrop-filter: blur(16px);
-            border-top: 2px solid #ffd700; border-radius: 20px 20px 0 0;
-            z-index: 2500; box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.8);
-            transform: translateY(100%);
-            transition: transform 0.3s cubic-bezier(0.1, 0.9, 0.2, 1);
-            flex-direction: column; overflow: hidden;
-        }
-        #mobile-bottom-sheet.open { transform: translateY(0); display: flex; }
-        .sheet-drag-handle { width: 44px; height: 5px; background: #ffd700; border-radius: 3px; margin: 10px auto 4px auto; opacity: 0.8; }
-        .sheet-header-bar { display: flex; justify-content: space-between; align-items: center; padding: 8px 16px; border-bottom: 1px solid rgba(255, 215, 0, 0.25); }
-        .sheet-close-btn { font-size: 24px; color: #ffd700; cursor: pointer; font-weight: bold; padding: 0 4px; }
-        .sheet-content { padding: 14px 16px 30px 16px; overflow-y: auto; -webkit-overflow-scrolling: touch; }
-        .popup-dynamic-content { font-size: calc(13px * var(--font-scale)); }
-        .popup-temple-name {
-            font-size: calc(16px * var(--font-scale)); font-weight: 900; color: #ffd700; margin-bottom: 6px;
-            display: flex; align-items: center; justify-content: space-between;
-            border-bottom: 1.5px solid rgba(255, 215, 0, 0.3); padding-bottom: 6px;
-        }
-        .popup-tag {
-            font-size: calc(11px * var(--font-scale)); font-weight: 700; padding: 2px 8px;
-            background: rgba(255, 215, 0, 0.15); border: 1px solid #ffd700; border-radius: 10px; color: #fde047;
-            margin-right: 12px;
-        }
-        .popup-row { margin: 8px 0; line-height: 1.45; }
-        .popup-label { color: #94a3b8; font-size: calc(11px * var(--font-scale)); font-weight: 700; text-transform: uppercase; margin-bottom: 3px; }
-        .popup-masters { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
-        .master-badge {
-            background: linear-gradient(135deg, rgba(255, 215, 0, 0.25) 0%, rgba(255, 179, 0, 0.35) 100%);
-            border: 1px solid #ffd700; padding: 4px 10px; border-radius: 6px;
-            font-size: calc(12px * var(--font-scale)); color: #ffffff; font-weight: 700;
-        }
-        .popup-location { color: #f8fafc; font-size: calc(12px * var(--font-scale)); font-weight: 600; }
-        .popup-address { color: #cbd5e1; font-size: calc(11.5px * var(--font-scale)); margin-top: 4px; word-break: break-word; line-height: 1.4; }
-        .gallery-container {
-            position: relative; width: 100%; height: 210px; border-radius: 10px;
-            overflow: hidden; margin-bottom: 12px; border: 1.2px solid rgba(255, 215, 0, 0.5);
-            background: #020617; display: flex; align-items: center; justify-content: center;
-            cursor: pointer;
-        }
-        .gallery-media-item { width: 100%; height: 100%; display: none; position: relative; align-items: center; justify-content: center; }
-        .gallery-media-item.active { display: flex; }
-        .gallery-img { width: 100%; height: 100%; object-fit: contain; }
-        .video-play-overlay {
-            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(0, 0, 0, 0.45); display: flex; flex-direction: column;
-            align-items: center; justify-content: center; gap: 10px; z-index: 5;
-        }
-        .play-icon-circle {
-            width: 58px; height: 58px; border-radius: 50%;
-            background: linear-gradient(135deg, #ffd700 0%, #ff9800 100%);
-            color: #0f172a; display: flex; align-items: center; justify-content: center;
-            font-size: 26px; padding-left: 5px; box-shadow: 0 0 25px rgba(255, 215, 0, 0.85);
-            transition: transform 0.2s;
-        }
-        .gallery-container:hover .play-icon-circle { transform: scale(1.15); }
-        .media-badge-tag {
-            background: rgba(15, 23, 42, 0.95); border: 1.2px solid #ffd700;
-            color: #ffd700; font-size: 11px; font-weight: bold; padding: 4px 12px; border-radius: 14px;
-        }
-        .doc-preview-card {
-            display: flex; flex-direction: column; align-items: center; justify-content: center;
-            gap: 8px; color: #ffd700; font-size: 13px; font-weight: bold; width: 100%; height: 100%;
-            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
-        }
-        .gallery-btn {
-            position: absolute; top: 50%; transform: translateY(-50%);
-            background: rgba(15, 23, 42, 0.85); border: 1.5px solid #ffd700;
-            color: #ffd700; width: 34px; height: 34px; border-radius: 50%;
-            display: flex; align-items: center; justify-content: center;
-            cursor: pointer; font-size: 14px; font-weight: bold; user-select: none; z-index: 10;
-        }
-        .gallery-btn.prev { left: 8px; }
-        .gallery-btn.next { right: 8px; }
-        .gallery-download-btn {
-            position: absolute; top: 8px; right: 8px;
-            background: rgba(15, 23, 42, 0.85); border: 1.2px solid #ffd700;
-            color: #ffd700; width: 30px; height: 30px; border-radius: 50%;
-            display: flex; align-items: center; justify-content: center;
-            cursor: pointer; font-size: 15px; z-index: 10; text-decoration: none;
-        }
-        .gallery-counter {
-            position: absolute; bottom: 8px; right: 10px;
-            background: rgba(15, 23, 42, 0.85); border: 1px solid #ffd700;
-            color: #ffd700; font-size: 11px; font-weight: bold;
-            padding: 2px 8px; border-radius: 12px; z-index: 10;
-        }
-        #lightbox {
-            display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
-            background: rgba(5, 10, 25, 0.96); backdrop-filter: blur(14px);
-            z-index: 9999; justify-content: center; align-items: center; flex-direction: column;
-            touch-action: none;
-        }
-        #lightbox.active { display: flex; }
-        .lightbox-close {
-            position: absolute; top: 16px; right: 20px; color: #ffd700; font-size: 34px;
-            font-weight: 900; cursor: pointer; user-select: none; z-index: 10001;
-        }
-        .lightbox-btn {
-            position: absolute; top: 50%; transform: translateY(-50%);
-            background: rgba(15, 23, 42, 0.85); border: 2px solid #ffd700; color: #ffd700;
-            width: 44px; height: 44px; border-radius: 50%; display: flex; align-items: center;
-            justify-content: center; font-size: 20px; font-weight: bold; cursor: pointer;
-            user-select: none; z-index: 10001;
-        }
-        .lightbox-btn.prev { left: 16px; }
-        .lightbox-btn.next { right: 16px; }
-        #lightbox-media-container {
-            width: 90vw; height: 75vh; display: flex; align-items: center; justify-content: center;
-            overflow: hidden; position: relative;
-        }
-        #lightbox-img {
-            max-width: 100%; max-height: 100%; object-fit: contain;
-            border-radius: 8px; border: 2px solid #ffd700; box-shadow: 0 0 30px rgba(255, 215, 0, 0.35);
-            transition: transform 0.1s ease-out; transform-origin: center center;
-        }
-        #lightbox-iframe {
-            width: 100%; height: 100%; border: 2px solid #ffd700; border-radius: 8px;
-        }
-        .lightbox-download {
-            position: absolute; bottom: 20px; display: flex; align-items: center; gap: 6px;
-            background: #ffd700; color: #0f172a; padding: 8px 20px; border-radius: 20px;
-            font-weight: 900; font-size: 13px; text-decoration: none; z-index: 10001;
-        }
-        @media (max-width: 768px) {
-            .hud-header { top: 10px; left: 10px; width: calc(100vw - 20px); }
-            .hud-header.collapsed .hud-subtitle,
-            .hud-header.collapsed .hud-stats,
-            .hud-header.collapsed .search-box-wrapper { display: none; }
-            .leaflet-popup { display: none !important; }
-            .gallery-container { height: 180px; }
-        }
-        @media (max-height: 500px) and (orientation: landscape) {
-            .hud-header { max-width: calc(260px * var(--hud-scale)); padding: 6px 10px; }
-            #mobile-bottom-sheet { max-height: 90vh; }
-            .gallery-container { height: 150px; }
-        }
-    </style>
+/* ================= 極速載入 Loading 動畫 ============== */
+#map-loader {
+  position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+  background: #0f172a; z-index: 99999; display: flex; flex-direction: column;
+  align-items: center; justify-content: center; gap: 20px;
+  transition: opacity 0.5s ease;
+}
+.loader-spinner {
+  width: 50px; height: 50px; border: 3px solid rgba(255, 215, 0, 0.1);
+  border-radius: 50%; border-top: 3px solid #ffd700;
+  animation: spin 1s linear infinite;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.2);
+}
+.loader-text { color: #ffd700; font-size: 15px; font-weight: 700; letter-spacing: 2px; }
+@keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+/* ================= HUD 面板樣式 ================= */
+.hud-header {
+  position: absolute; top: 16px; left: 16px; z-index: 1000;
+  background: rgba(15, 23, 42, 0.94); backdrop-filter: blur(14px);
+  border: 1.8px solid #ffd700; border-radius: 14px;
+  padding: calc(12px * var(--hud-scale)) calc(16px * var(--hud-scale));
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.65);
+  max-width: calc(380px * var(--hud-scale));
+  width: calc(100vw - 32px);
+  transform-origin: top left;
+  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+/* 💡 核心修正：跨裝置（電腦版/手機版）通用收合樣式 */
+.hud-header.collapsed {
+  max-width: calc(240px * var(--hud-scale)) !important;
+  padding-bottom: calc(8px * var(--hud-scale)) !important;
+}
+.hud-header.collapsed .hud-subtitle,
+.hud-header.collapsed .hud-stats,
+.hud-header.collapsed .search-box-wrapper {
+  display: none !important;
+}
+
+.hud-top-bar { display: flex; align-items: center; justify-content: space-between; gap: 6px; }
+.hud-title {
+  font-size: calc(17px * var(--hud-scale)); font-weight: 900;
+  background: linear-gradient(135deg, #ffffff 0%, #ffe082 40%, #ffd700 80%, #ffb300 100%);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  display: flex; align-items: center; gap: 4px; white-space: nowrap;
+}
+.hud-ctrls { display: flex; align-items: center; gap: 4px; }
+.hud-scale-btn {
+  background: rgba(255, 215, 0, 0.15); border: 1px solid #ffd700;
+  color: #ffd700; border-radius: 5px; padding: 2px 6px; font-size: 11px;
+  font-weight: bold; cursor: pointer; user-select: none;
+}
+.hud-scale-btn:active { background: #ffd700; color: #0f172a; }
+.hud-subtitle { font-size: calc(11px * var(--hud-scale)); color: #cbd5e1; margin: 3px 0 8px 0; }
+.hud-stats { 
+  display: flex; gap: calc(14px * var(--hud-scale));
+  border-top: 1.2px solid rgba(255, 215, 0, 0.3); 
+  padding-top: calc(8px * var(--hud-scale)); 
+  margin-bottom: calc(10px * var(--hud-scale)); 
+}
+.stat-item { display: flex; flex-direction: column; }
+.stat-num { 
+  font-size: calc(22px * var(--hud-scale)); font-weight: 900; color: #ffd700; 
+  font-family: 'Cinzel', 'Noto Sans TC', serif; text-shadow: 0 0 10px rgba(255, 215, 0, 0.5); line-height: 1.1;
+}
+.stat-lbl { font-size: calc(10px * var(--hud-scale)); color: #94a3b8; font-weight: 600; margin-top: 2px; }
+.search-box-wrapper { position: relative; width: 100%; }
+.search-input {
+  width: 100%; background: rgba(30, 41, 59, 0.85); border: 1.5px solid #ffd700; border-radius: 8px;
+  padding: calc(7px * var(--hud-scale)) calc(10px * var(--hud-scale));
+  font-size: calc(12px * var(--hud-scale)); outline: none; color: #ffffff; transition: all 0.2s;
+}
+.search-input:focus { border-color: #ffffff; box-shadow: 0 0 14px rgba(255, 215, 0, 0.7); background: #0f172a; }
+.search-input::placeholder { color: #94a3b8; }
+.search-hint { font-size: calc(10.5px * var(--hud-scale)); color: #fde047; margin-top: 4px; font-weight: 600; }
+
+/* ======== 金色發光標記 ================= */
+.radiant-gold-marker { position: relative; width: 34px; height: 34px; cursor: pointer; }
+.marker-core {
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  width: 18px; height: 18px;
+  background: radial-gradient(circle, #ffffff 20%, #fff566 45%, #ffd700 70%, #ff8f00 100%);
+  border-radius: 50%; border: 2px solid #ffffff; z-index: 2;
+  box-shadow: 0 0 12px #ffffff, 0 0 22px #ffea00, 0 0 35px #ffb300, 0 0 50px #ff6f00;
+  transition: transform 0.2s ease-out;
+}
+.radiant-gold-marker:hover .marker-core,
+.radiant-gold-marker:active .marker-core {
+  transform: translate(-50%, -50%) scale(1.6);
+  box-shadow: 0 0 18px #ffffff, 0 0 32px #ffffff, 0 0 50px #ffea00;
+}
+.marker-pulse {
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  width: 30px; height: 30px; border-radius: 50%;
+  background: rgba(255, 215, 0, 0.75);
+  animation: pulse-ring 2.0s infinite ease-out; z-index: 1;
+  pointer-events: none;
+}
+@keyframes pulse-ring {
+  0% { transform: translate(-50%, -50%) scale(0.45); opacity: 0.95; }
+  80%, 100% { transform: translate(-50%, -50%) scale(2.5); opacity: 0; }
+}
+
+.font-resizer-bar {
+  display: flex; align-items: center; justify-content: flex-end; gap: 6px;
+  margin-bottom: 6px; padding-bottom: 4px; border-bottom: 1px dashed rgba(255,215,0,0.25);
+}
+.font-btn {
+  background: rgba(255, 215, 0, 0.15); border: 1px solid #ffd700; color: #ffd700;
+  border-radius: 4px; font-size: 11px; font-weight: bold; padding: 2px 7px;
+  cursor: pointer; user-select: none;
+}
+.font-btn:active { background: #ffd700; color: #0f172a; }
+
+.leaflet-popup-content-wrapper {
+  background: rgba(15, 23, 42, 0.96) !important;
+  border: 1.8px solid #ffd700 !important;
+  border-radius: 14px !important;
+  padding: 0 !important;
+  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.75) !important;
+}
+.leaflet-popup-content {
+  margin: 12px 14px !important; width: 360px !important; max-width: 85vw !important;
+  color: #f8fafc !important; max-height: 80vh; overflow-y: auto;
+}
+.leaflet-popup-tip-container { display: none !important; }
+.leaflet-container a.leaflet-popup-close-button {
+  color: #ffd700 !important; top: 10px !important; right: 12px !important; font-size: 20px !important; font-weight: bold !important;
+}
+
+#mobile-bottom-sheet {
+  display: none; position: fixed; bottom: 0; left: 0; width: 100vw; max-height: 78vh;
+  background: rgba(15, 23, 42, 0.98); backdrop-filter: blur(16px);
+  border-top: 2px solid #ffd700; border-radius: 20px 20px 0 0;
+  z-index: 2500; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.8);
+  transform: translateY(100%);
+  transition: transform 0.3s cubic-bezier(0.1, 0.9, 0.2, 1);
+  flex-direction: column; overflow: hidden;
+}
+#mobile-bottom-sheet.open { transform: translateY(0); display: flex; }
+.sheet-drag-handle { width: 44px; height: 5px; background: #ffd700; border-radius: 3px; margin: 10px auto 4px auto; opacity: 0.8; }
+.sheet-header-bar { display: flex; justify-content: space-between; align-items: center; padding: 8px 16px; border-bottom: 1px solid rgba(255, 215, 0, 0.25); }
+.sheet-close-btn { font-size: 24px; color: #ffd700; cursor: pointer; font-weight: bold; padding: 0 4px; }
+.sheet-content { padding: 14px 16px 30px 16px; overflow-y: auto; -webkit-overflow-scrolling: touch; }
+
+.popup-dynamic-content { font-size: calc(13px * var(--font-scale)); }
+.popup-temple-name {
+  font-size: calc(16px * var(--font-scale)); font-weight: 900; color: #ffd700; margin-bottom: 6px;
+  display: flex; align-items: center; justify-content: space-between;
+  border-bottom: 1.5px solid rgba(255, 215, 0, 0.3); padding-bottom: 6px;
+}
+.popup-tag {
+  font-size: calc(11px * var(--font-scale)); font-weight: 700; padding: 2px 8px;
+  background: rgba(255, 215, 0, 0.15); border: 1px solid #ffd700; border-radius: 10px; color: #fde047;
+  margin-right: 12px;
+}
+.popup-row { margin: 8px 0; line-height: 1.45; }
+.popup-label { color: #94a3b8; font-size: calc(11px * var(--font-scale)); font-weight: 700; text-transform: uppercase; margin-bottom: 3px; }
+.popup-masters { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 4px; }
+.master-badge {
+  background: linear-gradient(135deg, rgba(255, 215, 0, 0.25) 0%, rgba(255, 179, 0, 0.35) 100%);
+  border: 1px solid #ffd700; padding: 4px 10px; border-radius: 6px;
+  font-size: calc(12px * var(--font-scale)); color: #ffffff; font-weight: 700;
+}
+.popup-location { color: #f8fafc; font-size: calc(12px * var(--font-scale)); font-weight: 600; }
+.popup-address { color: #cbd5e1; font-size: calc(11.5px * var(--font-scale)); margin-top: 4px; word-break: break-word; line-height: 1.4; }
+
+.gallery-container {
+  position: relative; width: 100%; height: 210px; border-radius: 10px;
+  overflow: hidden; margin-bottom: 12px; border: 1.2px solid rgba(255, 215, 0, 0.5);
+  background: #020617; display: flex; align-items: center; justify-content: center;
+}
+.gallery-media-item { width: 100%; height: 100%; display: none; position: relative; align-items: center; justify-content: center; cursor: pointer; }
+.gallery-media-item.active { display: flex; }
+.gallery-img { width: 100%; height: 100%; object-fit: contain; }
+.video-play-overlay {
+  position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+  background: rgba(0, 0, 0, 0.45); display: flex; flex-direction: column;
+  align-items: center; justify-content: center; gap: 10px; z-index: 5;
+}
+.play-icon-circle {
+  width: 58px; height: 58px; border-radius: 50%;
+  background: linear-gradient(135deg, #ffd700 0%, #ff9800 100%);
+  color: #0f172a; display: flex; align-items: center; justify-content: center;
+  font-size: 26px; padding-left: 5px; box-shadow: 0 0 25px rgba(255, 215, 0, 0.85);
+  transition: transform 0.2s;
+}
+.gallery-container:hover .play-icon-circle { transform: scale(1.15); }
+.media-badge-tag {
+  background: rgba(15, 23, 42, 0.95); border: 1.2px solid #ffd700;
+  color: #ffd700; font-size: 11px; font-weight: bold; padding: 4px 12px; border-radius: 14px;
+}
+.doc-preview-card {
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  width: 100%; height: 100%; gap: 8px; color: #ffd700; font-size: 13px; font-weight: bold;
+  background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+}
+.gallery-btn {
+  position: absolute; top: 50%; transform: translateY(-50%);
+  background: rgba(15, 23, 42, 0.85); border: 1.5px solid #ffd700;
+  color: #ffd700; width: 34px; height: 34px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer; font-size: 14px; font-weight: bold; user-select: none; z-index: 10;
+}
+.gallery-btn.prev { left: 8px; }
+.gallery-btn.next { right: 8px; }
+.gallery-download-btn {
+  position: absolute; top: 8px; right: 8px;
+  background: rgba(15, 23, 42, 0.85); border: 1.2px solid #ffd700;
+  color: #ffd700; width: 30px; height: 30px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer; font-size: 15px; z-index: 10; text-decoration: none;
+}
+.gallery-counter {
+  position: absolute; bottom: 8px; right: 10px;
+  background: rgba(15, 23, 42, 0.85); border: 1px solid #ffd700;
+  color: #ffd700; font-size: 11px; font-weight: bold;
+  padding: 2px 8px; border-radius: 12px; z-index: 10;
+}
+
+#lightbox {
+  display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh;
+  background: rgba(5, 10, 25, 0.96); backdrop-filter: blur(14px);
+  z-index: 9999; justify-content: center; align-items: center; flex-direction: column;
+  touch-action: none;
+}
+#lightbox.active { display: flex; }
+.lightbox-close {
+  position: absolute; top: 16px; right: 20px; color: #ffd700; font-size: 34px;
+  font-weight: 900; cursor: pointer; user-select: none; z-index: 10001;
+}
+.lightbox-btn {
+  position: absolute; top: 50%; transform: translateY(-50%);
+  background: rgba(15, 23, 42, 0.85); border: 2px solid #ffd700; color: #ffd700;
+  width: 44px; height: 44px; border-radius: 50%; display: flex; align-items: center;
+  justify-content: center; font-size: 20px; font-weight: bold; cursor: pointer;
+  user-select: none; z-index: 10001;
+}
+.lightbox-btn.prev { left: 16px; }
+.lightbox-btn.next { right: 16px; }
+#lightbox-media-container { width: 90vw; height: 75vh; display: flex; align-items: center; justify-content: center; overflow: hidden; position: relative; }
+#lightbox-img {
+  max-width: 100%; max-height: 100%; object-fit: contain;
+  border-radius: 8px; border: 2px solid #ffd700; box-shadow: 0 0 30px rgba(255, 215, 0, 0.35);
+  transition: transform 0.1s ease-out; transform-origin: center center;
+}
+#lightbox-iframe { width: 100%; height: 100%; border: 2px solid #ffd700; border-radius: 8px; }
+.lightbox-download {
+  position: absolute; bottom: 20px; display: flex; align-items: center; gap: 6px;
+  background: #ffd700; color: #0f172a; padding: 8px 20px; border-radius: 20px;
+  font-weight: 900; font-size: 13px; text-decoration: none; z-index: 10001;
+}
+
+@media (max-width: 768px) {
+  .hud-header { top: 10px; left: 10px; width: calc(100vw - 20px); }
+  .leaflet-popup { display: none !important; }
+  .gallery-container { height: 180px; }
+}
+@media (max-height: 500px) and (orientation: landscape) {
+  .hud-header { max-width: calc(260px * var(--hud-scale)); padding: 6px 10px; }
+  #mobile-bottom-sheet { max-height: 90vh; }
+  .gallery-container { height: 150px; }
+}
+</style>
 </head>
 <body>
-    <!-- 方案 A 新增：載入動畫遮罩 -->
-    <div id="map-loader">
-        <div class="loader-spinner"></div>
-        <div class="loader-text">正在載入全球開荒地圖...</div>
+
+<div id="map-loader">
+  <div class="loader-spinner"></div>
+  <div class="loader-text">正在載入全球開荒地圖...</div>
+</div>
+
+<div id="map"></div>
+
+<div class="hud-header" id="hud-header">
+  <div class="hud-top-bar">
+    <div class="hud-title">✨ 全球開荒佛堂地圖</div>
+    <div class="hud-ctrls">
+      <button class="hud-scale-btn" onclick="adjustHudScale(-0.15)" title="縮小統計面板">Q-</button>
+      <button class="hud-scale-btn" onclick="adjustHudScale(0.15)" title="放大統計面板">Q+</button>
+      <button class="hud-scale-btn" id="hud-toggle-btn" onclick="toggleHud()">收合</button>
     </div>
-
-    <div id="map"></div>
-    <div class="hud-header" id="hud-header">
-        <div class="hud-top-bar">
-            <div class="hud-title">✨ 全球開荒佛堂地圖</div>
-            <div class="hud-ctrls">
-                <button class="hud-scale-btn" onclick="adjustHudScale(-0.15)" title="縮小統計面板">🔍-</button>
-                <button class="hud-scale-btn" onclick="adjustHudScale(0.15)" title="放大統計面板">🔍+</button>
-                <button class="hud-scale-btn" onclick="toggleHud()">收合</button>
-            </div>
-        </div>
-        <div class="hud-subtitle">道傳萬國九洲 · 佛堂與開荒點傳師分佈</div>
-        <div class="hud-stats">
-            <div class="stat-item">
-                <span class="stat-num" id="stat-countries">-</span>
-                <span class="stat-lbl">開荒國家</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-num" id="stat-temples">-</span>
-                <span class="stat-lbl">佛堂據點</span>
-            </div>
-            <div class="stat-item">
-                <span class="stat-num" id="stat-masters">-</span>
-                <span class="stat-lbl">點傳師</span>
-            </div>
-        </div>
-        <div class="search-box-wrapper">
-            <input type="text" id="search-box" class="search-input" placeholder="🔍 搜尋國家、佛堂、點傳師或地址...">
-            <div class="search-hint" id="search-hint">顯示全部佛堂據點</div>
-        </div>
+  </div>
+  <div class="hud-subtitle">道傳萬國九洲，佛堂與開荒點傳師分佈</div>
+  <div class="hud-stats">
+    <div class="stat-item">
+      <span class="stat-num" id="stat-countries">-</span>
+      <span class="stat-lbl">開荒國家</span>
     </div>
-    <div id="mobile-bottom-sheet">
-        <div class="sheet-drag-handle" onclick="closeBottomSheet()"></div>
-        <div class="sheet-header-bar">
-            <div class="font-resizer-bar" style="border:none; margin:0; padding:0;">
-                <span style="font-size:11px;color:#94a3b8;margin-right:2px;">字體：</span>
-                <button class="font-btn" onclick="adjustFontScale(-0.15)">A- 縮小</button>
-                <button class="font-btn" onclick="adjustFontScale(0.15)">A+ 放大</button>
-                <button class="font-btn" onclick="resetFontScale()">重置</button>
+    <div class="stat-item">
+      <span class="stat-num" id="stat-temples">-</span>
+      <span class="stat-lbl">佛堂據點</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num" id="stat-masters">-</span>
+      <span class="stat-lbl">點傳師</span>
+    </div>
+  </div>
+  <div class="search-box-wrapper">
+    <input type="text" id="search-box" class="search-input" placeholder="🔍 搜尋國家、佛堂、點傳師或地址...">
+    <div class="search-hint" id="search-hint">顯示全部佛堂據點</div>
+  </div>
+</div>
+
+<div id="mobile-bottom-sheet">
+  <div class="sheet-drag-handle" onclick="closeBottomSheet()"></div>
+  <div class="sheet-header-bar">
+    <div class="font-resizer-bar" style="border:none; margin:0; padding:0;">
+      <span style="font-size:11px;color:#94a3b8;margin-right:2px;">字體:</span>
+      <button class="font-btn" onclick="adjustFontScale(-0.15)">A- 縮小</button>
+      <button class="font-btn" onclick="adjustFontScale(0.15)">A+ 放大</button>
+      <button class="font-btn" onclick="resetFontScale()">重置</button>
+    </div>
+    <div class="sheet-close-btn" onclick="closeBottomSheet()">X</div>
+  </div>
+  <div class="sheet-content" id="sheet-body"></div>
+</div>
+
+<div id="lightbox">
+  <div class="lightbox-close" onclick="closeLightbox()">X</div>
+  <div class="lightbox-btn prev" onclick="switchLightbox(-1)"><</div>
+  <div id="lightbox-media-container">
+    <img id="lightbox-img" src="" alt="大圖" style="display:none;">
+    <iframe id="lightbox-iframe" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display:none;"></iframe>
+  </div>
+  <div class="lightbox-btn next" onclick="switchLightbox(1)">></div>
+  <a id="lightbox-download-link" class="lightbox-download" href="" target="_blank" download>下載原始檔案/開啟</a>
+</div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+let allTemples = [];
+const isMobileDevice = () => window.innerWidth <= 768 || ('ontouchstart' in window);
+
+// 初始化地圖
+const map = L.map('map', {
+  center: [20.0, 50.0],
+  zoom: 3,
+  minZoom: 2,
+  maxZoom: 20,
+  zoomControl: false,
+  scrollWheelZoom: true,
+  touchZoom: true
+});
+
+L.control.zoom({ position: isMobileDevice() ? 'topright' : 'bottomright' }).addTo(map);
+
+L.tileLayer('https://mt1.google.com/vt/lyrs=y&hl=zh-TW&gl=TW&x={x}&y={y}&z={z}', {
+  maxZoom: 20,
+  subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
+  attribution: '© Google Satellite Maps'
+}).addTo(map);
+
+// 核心改造：使用 Fetch 異步讀取靜態 data.json (加入時間戳記爆破快取參數)
+async function loadMapData() {
+  try {
+    const response = await fetch('data.json?t=' + new Date().getTime());
+    if (!response.ok) throw new Error('無法讀取 data.json 檔案');
+    const serverData = await response.json();
+    allTemples = serverData.temples || [];
+    
+    // 更新 HUD 統計面板
+    if (serverData.stats) {
+      document.getElementById('stat-countries').innerText = serverData.stats.countries;
+      document.getElementById('stat-temples').innerText = serverData.stats.temples;
+      document.getElementById('stat-masters').innerText = serverData.stats.masters;
+    }
+    document.getElementById('search-hint').innerText = `顯示全部 ${allTemples.length} 個佛堂據點`;
+    
+    // 渲染地圖圖標
+    renderMarkers(allTemples, false);
+    
+    // 關閉 Loading 遮罩
+    const loader = document.getElementById('map-loader');
+    loader.style.opacity = '0';
+    setTimeout(() => loader.style.display = 'none', 500);
+  } catch (error) {
+    console.error('資料載入失敗:', error);
+    document.getElementById('map-loader').innerHTML = `
+      <div class="loader-text" style="color: #ff4d4d;">× 載入失敗: ${error.message}</div>
+      <div style="color: #cbd5e1; font-size:12px; margin-top:10px;">請確保 data.json 與網頁放在同一個目錄下。</div>
+    `;
+  }
+}
+
+let currentHudScale = 1.0;
+function adjustHudScale(delta) {
+  currentHudScale = Math.min(Math.max(currentHudScale + delta, 0.75), 1.8);
+  document.documentElement.style.setProperty('--hud-scale', currentHudScale);
+}
+
+let currentFontScale = 1.0;
+function adjustFontScale(delta) {
+  currentFontScale = Math.min(Math.max(currentFontScale + delta, 0.8), 1.8);
+  document.documentElement.style.setProperty('--font-scale', currentFontScale);
+}
+function resetFontScale() {
+  currentFontScale = 1.0;
+  document.documentElement.style.setProperty('--font-scale', 1.0);
+}
+
+// 💡 核心優化：跨裝置通用收合開關機制
+function toggleHud() {
+  const header = document.getElementById('hud-header');
+  const toggleBtn = document.getElementById('hud-toggle-btn');
+  header.classList.toggle('collapsed');
+  
+  if (header.classList.contains('collapsed')) {
+    toggleBtn.innerText = '展開';
+  } else {
+    toggleBtn.innerText = '收合';
+  }
+}
+
+function createRadiantGoldIcon() {
+  return L.divIcon({
+    className: 'custom-gold-pin',
+    html: '<div class="radiant-gold-marker"><div class="marker-pulse"></div><div class="marker-core"></div></div>',
+    iconSize: [34, 34],
+    iconAnchor: [17, 17],
+    popupAnchor: [0, -17]
+  });
+}
+
+let autoCloseTimer = null;
+let isLightboxActive = false;
+let isInsidePopup = false;
+
+function startAutoCloseTimer(delay = 1000) {
+  if (isMobileDevice()) return;
+  clearAutoCloseTimer();
+  if (isLightboxActive || isInsidePopup) return;
+  autoCloseTimer = setTimeout(() => {
+    if (!isInsidePopup && !isLightboxActive) {
+      map.closePopup();
+    }
+  }, delay);
+}
+
+function clearAutoCloseTimer() {
+  if (autoCloseTimer) {
+    clearTimeout(autoCloseTimer);
+    autoCloseTimer = null;
+  }
+}
+
+window.switchGallery = function(btn, step, e) {
+  if (e) e.stopPropagation();
+  clearAutoCloseTimer();
+  const container = btn.closest('.gallery-container');
+  const items = container.querySelectorAll('.gallery-media-item');
+  const counter = container.querySelector('.gallery-counter');
+  const downloadBtn = container.querySelector('.gallery-download-btn');
+  
+  let activeIndex = 0;
+  items.forEach((item, idx) => {
+    if (item.classList.contains('active')) activeIndex = idx;
+    item.classList.remove('active');
+  });
+  
+  let nextIndex = (activeIndex + step + items.length) % items.length;
+  const nextItem = items[nextIndex];
+  nextItem.classList.add('active');
+  
+  if (counter) counter.innerText = `${nextIndex + 1} / ${items.length}`;
+  if (downloadBtn) downloadBtn.href = nextItem.getAttribute('data-download');
+};
+
+let currentMediaList = [];
+let currentMediaIndex = 0;
+
+window.openLightbox = function(mediaJsonStr, startIndex, e) {
+  if (e) e.stopPropagation();
+  try {
+    currentMediaList = JSON.parse(decodeURIComponent(mediaJsonStr));
+  } catch (err) { return; }
+  if (!currentMediaList || currentMediaList.length === 0) return;
+  currentMediaIndex = startIndex || 0;
+  isLightboxActive = true;
+  clearAutoCloseTimer();
+  updateLightboxUI();
+  document.getElementById('lightbox').classList.add('active');
+  initPinchZoom();
+};
+
+window.closeLightbox = function() {
+  document.getElementById('lightbox').classList.remove('active');
+  document.getElementById('lightbox-iframe').src = '';
+  isLightboxActive = false;
+  resetImgZoom();
+  startAutoCloseTimer(1000);
+};
+
+window.switchLightbox = function(step) {
+  currentMediaIndex = (currentMediaIndex + step + currentMediaList.length) % currentMediaList.length;
+  resetImgZoom();
+  updateLightboxUI();
+};
+
+function updateLightboxUI() {
+  const item = currentMediaList[currentMediaIndex];
+  const imgEl = document.getElementById('lightbox-img');
+  const iframeEl = document.getElementById('lightbox-iframe');
+  const dlBtn = document.getElementById('lightbox-download-link');
+  dlBtn.href = item.downloadUrl || item.viewUrl || item.embedUrl;
+  
+  if (item.type === 'youtube' || item.type === 'drive_video' || item.type === 'drive_doc') {
+    imgEl.style.display = 'none';
+    iframeEl.style.display = 'block';
+    iframeEl.src = item.embedUrl;
+    if (item.type === 'youtube') {
+      dlBtn.innerHTML = '前往 YouTube 觀看';
+    } else if (item.type === 'drive_video') {
+      dlBtn.innerHTML = '下載/另開高畫質影片';
+    } else {
+      dlBtn.innerHTML = '下載原始檔案';
+    }
+  } else {
+    iframeEl.style.display = 'none';
+    iframeEl.src = '';
+    imgEl.style.display = 'block';
+    imgEl.src = item.viewUrl;
+    dlBtn.innerHTML = '下載原始高清照片';
+  }
+}
+
+let imgScale = 1;
+function resetImgZoom() {
+  imgScale = 1;
+  const img = document.getElementById('lightbox-img');
+  if (img) img.style.transform = 'scale(1)';
+}
+
+function initPinchZoom() {
+  const container = document.getElementById('lightbox-media-container');
+  const img = document.getElementById('lightbox-img');
+  let initialDist = 0;
+  container.onTouchstart = function(e) {
+    if (e.touches.length === 2) {
+      initialDist = Math.hypot(e.touches[0].pageX - e.touches[1].pageX, e.touches[0].pageY - e.touches[1].pageY);
+    }
+  };
+  container.onTouchmove = function(e) {
+    if (e.touches.length === 2 && initialDist > 0) {
+      const currentDist = Math.hypot(e.touches[0].pageX - e.touches[1].pageX, e.touches[0].pageY - e.touches[1].pageY);
+      const factor = currentDist / initialDist;
+      imgScale = Math.min(Math.max(imgScale * factor, 0.8), 4.0);
+      img.style.transform = `scale(${imgScale})`;
+      initialDist = currentDist;
+    }
+  };
+}
+
+function openBottomSheet(htmlContent) {
+  const sheet = document.getElementById('mobile-bottom-sheet');
+  const body = document.getElementById('sheet-body');
+  body.innerHTML = htmlContent;
+  sheet.classList.add('open');
+}
+
+function closeBottomSheet() {
+  document.getElementById('mobile-bottom-sheet').classList.remove('open');
+}
+
+map.on('popupopen', function(e) {
+  const popupNode = e.popup.getElement();
+  if (popupNode) {
+    popupNode.addEventListener('mouseenter', () => { isInsidePopup = true; clearAutoCloseTimer(); });
+    popupNode.addEventListener('mousemove', () => { isInsidePopup = true; clearAutoCloseTimer(); });
+    popupNode.addEventListener('mouseleave', () => { isInsidePopup = false; startAutoCloseTimer(1000); });
+  }
+});
+
+map.on('popupclose', function() { isInsidePopup = false; clearAutoCloseTimer(); });
+
+let markerLayerGroup = L.featureGroup().addTo(map);
+
+function buildCardHtml(item, itemIdx) {
+  const mastersBadges = item.masters.length > 0
+    ? item.masters.map(m => `<span class="master-badge">${m}</span>`).join('')
+    : '<span class="master-badge" style="opacity:0.6;">未載明</span>';
+    
+  let galleryHtml = '';
+  if (item.media && item.media.length > 0) {
+    const mediaEncoded = encodeURIComponent(JSON.stringify(item.media));
+    const mediaItemsHtml = item.media.map((m, idx) => {
+      const activeCls = idx === 0 ? 'active' : '';
+      if (m.type === 'youtube' || m.type === 'drive_video') {
+        return `
+          <div class="gallery-media-item ${activeCls}" data-download="${m.downloadUrl}" onclick="openLightbox('${mediaEncoded}', ${idx}, event)">
+            <img class="gallery-img" src="${m.thumbUrl || 'https://images.unsplash.com/photo-1518173946687-a4c8a383392e?w=600'}" alt="${m.title}" loading="lazy"/>
+            <div class="video-play-overlay">
+              <div class="play-icon-circle"></div>
+              <div class="media-badge-tag">點擊全螢幕播放 ${m.title}</div>
             </div>
-            <div class="sheet-close-btn" onclick="closeBottomSheet()">✕</div>
-        </div>
-        <div class="sheet-content" id="sheet-body"></div>
-    </div>
-    <div id="lightbox">
-        <div class="lightbox-close" onclick="closeLightbox()">✕</div>
-        <div class="lightbox-btn prev" onclick="switchLightbox(-1)">❮</div>
-        <div id="lightbox-media-container">
-            <img id="lightbox-img" src="" alt="大圖" style="display:none;">
-            <iframe id="lightbox-iframe" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display:none;"></iframe>
-        </div>
-        <div class="lightbox-btn next" onclick="switchLightbox(1)">❯</div>
-        <a id="lightbox-download-link" class="lightbox-download" href="" target="_blank" download>
-            📥 下載原始檔案 / 開啟
-        </a>
-    </div>
+          </div>`;
+      } else if (m.type === 'drive_doc') {
+        return `
+          <div class="gallery-media-item ${activeCls}" data-download="${m.downloadUrl}" onclick="openLightbox('${mediaEncoded}', ${idx}, event)">
+            <div class="doc-preview-card">
+              <div style="font-size:36px;">📄</div>
+              <div>點擊預覽檔案</div>
+            </div>
+          </div>`;
+      } else {
+        return `
+          <div class="gallery-media-item ${activeCls}" data-download="${m.downloadUrl}" onclick="openLightbox('${mediaEncoded}', ${idx}, event)">
+            <img class="gallery-img" src="${m.viewUrl}" alt="${item.temple}" loading="lazy"/>
+            <div class="media-badge-tag" style="position:absolute;top:8px; left: 8px;">🔍 點擊放大相片</div>
+          </div>`;
+      }
+    }).join('');
+    
+    const controlsHtml = item.media.length > 1
+      ? `<div class="gallery-btn prev" onclick="switchGallery(this, -1, event)"><</div>
+         <div class="gallery-btn next" onclick="switchGallery(this, 1, event)">></div>
+         <div class="gallery-counter">1 / ${item.media.length}</div>`
+      : '';
+      
+    const downloadBtnHtml = `<a class="gallery-download-btn" href="${item.media[0].downloadUrl}" target="_blank" download title="下載" onclick="event.stopPropagation();">📥</a>`;
+    galleryHtml = `<div class="gallery-container" id="gallery-${itemIdx}">${downloadBtnHtml}${mediaItemsHtml}${controlsHtml}</div>`;
+  }
+  
+  return `
+    <div class="popup-dynamic-content">
+      <div class="font-resizer-bar">
+        <span style="font-size:11px;color:#94a3b8;">字體: </span>
+        <button class="font-btn" onclick="adjustFontScale(-0.15)">A-</button>
+        <button class="font-btn" onclick="adjustFontScale(0.15)">A+</button>
+      </div>
+      ${galleryHtml}
+      <div class="popup-temple-name">
+        <span>${item.temple}</span>
+        <span class="popup-tag">${item.country}</span>
+      </div>
+      <div class="popup-row">
+        <div class="popup-label">開荒點傳師名單</div>
+        <div class="popup-masters">${mastersBadges}</div>
+      </div>
+      <div class="popup-row">
+        <div class="popup-label">所在國家/地區</div>
+        <div class="popup-location">${item.country}</div>
+      </div>
+      <div class="popup-row">
+        <div class="popup-label">開荒地址</div>
+        <div class="popup-address">${item.address || '地址詳見紀錄'}</div>
+      </div>
+    </div>`;
+}
 
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script>
-        let allTemples = [];
-        const isMobileDevice = () => window.innerWidth <= 768 || ('ontouchstart' in window);
-        
-        // 初始化地圖
-        const map = L.map('map', {
-            center: [20.0, 50.0],
-            zoom: 3,
-            minZoom: 2,
-            maxZoom: 20,
-            zoomControl: false,
-            scrollWheelZoom: true,
-            touchZoom: true
-        });
-        
-        L.control.zoom({ position: isMobileDevice() ? 'topright' : 'bottomright' }).addTo(map);
-        L.tileLayer('https://mt1.google.com/vt/lyrs=y&hl=zh-TW&gl=TW&x={x}&y={y}&z={z}', {
-            maxZoom: 20,
-            subdomains: ['mt0', 'mt1', 'mt2', 'mt3'],
-            attribution: '© Google Satellite Maps'
-        }).addTo(map);
+function renderMarkers(dataToRender, shouldZoom) {
+  markerLayerGroup.clearLayers();
+  const seenCoords = {};
+  
+  dataToRender.forEach((item, itemIdx) => {
+    let lat = item.lat;
+    let lng = item.lng;
+    const coordKey = lat.toFixed(4) + '_' + lng.toFixed(4);
+    
+    if (seenCoords[coordKey]) {
+      const angle = seenCoords[coordKey] * (Math.PI / 3);
+      lat += 0.0035 * Math.sin(angle);
+      lng += 0.0035 * Math.cos(angle);
+      seenCoords[coordKey]++;
+    } else {
+      seenCoords[coordKey] = 1;
+    }
+    
+    const marker = L.marker([lat, lng], { icon: createRadiantGoldIcon(), riseOnHover: true });
+    const contentHtml = buildCardHtml(item, itemIdx);
+    
+    if (!isMobileDevice()) {
+      marker.bindPopup(contentHtml, { autoClose: true, closeOnClick: true, maxWidth: 380 });
+    }
+    
+    marker.on('click', () => {
+      clearAutoCloseTimer();
+      map.flyTo([lat, lng], Math.max(map.getZoom(), 11), { duration: 1.0 });
+      if (isMobileDevice()) {
+        openBottomSheet(contentHtml);
+      } else {
+        marker.openPopup();
+      }
+    });
+    
+    marker.on('mouseover', () => {
+      if (!isMobileDevice()) {
+        marker.openPopup();
+        startAutoCloseTimer(1000);
+      }
+    });
+    
+    marker.on('mouseout', () => {
+      if (!isMobileDevice() && !isInsidePopup) {
+        startAutoCloseTimer(1000);
+      }
+    });
+    
+    markerLayerGroup.addLayer(marker);
+  });
+  
+  if (shouldZoom && dataToRender.length > 0) {
+    if (dataToRender.length === 1) {
+      map.flyTo([dataToRender[0].lat, dataToRender[0].lng], 12, { duration: 1.2 });
+    } else {
+      map.flyToBounds(markerLayerGroup.getBounds().pad(0.35), { duration: 1.2 });
+    }
+  }
+}
 
-        // 🚀 方案 A 核心改造：使用 Fetch 異步讀取靜態 data.json
-        async function loadMapData() {
-            try {
-                // 未來上傳至 GitHub Pages 後，這裡會自動抓取同目錄下的 data.json
-                const response = await fetch('data.json');
-                if (!response.ok) throw new Error('無法讀取 data.json 檔案');
-                
-                const serverData = await response.json();
-                allTemples = serverData.temples || [];
-                
-                // 更新 HUD 統計面板
-                if (serverData.stats) {
-                    document.getElementById('stat-countries').innerText = serverData.stats.countries;
-                    document.getElementById('stat-temples').innerText = serverData.stats.temples;
-                    document.getElementById('stat-masters').innerText = serverData.stats.masters;
-                }
-                document.getElementById('search-hint').innerText = `顯示全部 ${allTemples.length} 個佛堂據點`;
-                
-                // 渲染地圖圖標
-                renderMarkers(allTemples, false);
-                
-                // 關閉 Loading 動畫遮罩
-                const loader = document.getElementById('map-loader');
-                loader.style.opacity = '0';
-                setTimeout(() => loader.style.display = 'none', 500);
-                
-            } catch (error) {
-                console.error('資料載入失敗:', error);
-                document.getElementById('map-loader').innerHTML = `
-                    <div class="loader-text" style="color: #ff4d4d;">❌ 載入失敗：${error.message}</div>
-                    <div style="color: #cbd5e1; font-size:12px; margin-top:10px;">請確保 data.json 與網頁放在同一個目錄下。</div>
-                `;
-            }
-        }
+// 搜尋功能
+document.getElementById('search-box').addEventListener('input', (e) => {
+  const query = e.target.value.toLowerCase().trim();
+  if (!query) {
+    document.getElementById('search-hint').innerText = `顯示全部 ${allTemples.length} 個佛堂據點`;
+    renderMarkers(allTemples, false);
+    map.flyTo([20.0, 50.0], 3, { duration: 1.0 });
+    return;
+  }
+  
+  const filtered = allTemples.filter(d =>
+    d.temple.toLowerCase().includes(query) ||
+    d.country.toLowerCase().includes(query) ||
+    d.masters.some(m => m.toLowerCase().includes(query)) ||
+    d.address.toLowerCase().includes(query)
+  );
+  
+  document.getElementById('search-hint').innerText = `顯示 ${filtered.length} / ${allTemples.length} 個佛堂據點`;
+  renderMarkers(filtered, true);
+});
 
-        let currentHudScale = 1.0;
-        function adjustHudScale(delta) {
-            currentHudScale = Math.min(Math.max(currentHudScale + delta, 0.75), 1.8);
-            document.documentElement.style.setProperty('--hud-scale', currentHudScale);
-        }
-        let currentFontScale = 1.0;
-        function adjustFontScale(delta) {
-            currentFontScale = Math.min(Math.max(currentFontScale + delta, 0.8), 1.8);
-            document.documentElement.style.setProperty('--font-scale', currentFontScale);
-        }
-        function resetFontScale() {
-            currentFontScale = 1.0;
-            document.documentElement.style.setProperty('--font-scale', 1.0);
-        }
-        function toggleHud() {
-            document.getElementById('hud-header').classList.toggle('collapsed');
-        }
-        function createRadiantGoldIcon() {
-            return L.divIcon({
-                className: 'custom-gold-pin',
-                html: '<div class="radiant-gold-marker"><div class="marker-pulse"></div><div class="marker-core"></div></div>',
-                iconSize: [34, 34],
-                iconAnchor: [17, 17],
-                popupAnchor: [0, -17]
-            });
-        }
-        let autoCloseTimer = null;
-        let isLightboxActive = false;
-        let isInsidePopup = false;
-        function startAutoCloseTimer(delay = 1000) {
-            if (isMobileDevice()) return;
-            clearAutoCloseTimer();
-            if (isLightboxActive || isInsidePopup) return;
-            autoCloseTimer = setTimeout(() => {
-                if (!isInsidePopup && !isLightboxActive) {
-                    map.closePopup();
-                }
-            }, delay);
-        }
-        function clearAutoCloseTimer() {
-            if (autoCloseTimer) {
-                clearTimeout(autoCloseTimer);
-                autoCloseTimer = null;
-            }
-        }
-        window.switchGallery = function(btn, step, e) {
-            if (e) e.stopPropagation();
-            clearAutoCloseTimer();
-            const container = btn.closest('.gallery-container');
-            const items = container.querySelectorAll('.gallery-media-item');
-            const counter = container.querySelector('.gallery-counter');
-            const downloadBtn = container.querySelector('.gallery-download-btn');
-            let activeIndex = 0;
-            
-            items.forEach((item, idx) => {
-                if (item.classList.contains('active')) activeIndex = idx;
-                item.classList.remove('active');
-            });
-            let nextIndex = (activeIndex + step + items.length) % items.length;
-            const nextItem = items[nextIndex];
-            nextItem.classList.add('active');
-            
-            if (counter) counter.innerText = `${nextIndex + 1} / ${items.length}`;
-            if (downloadBtn) downloadBtn.href = nextItem.getAttribute('data-download');
-        };
-        let currentMediaList = [];
-        let currentMediaIndex = 0;
-        window.openLightbox = function(mediaJsonStr, startIndex, e) {
-            if (e) e.stopPropagation();
-            try {
-                currentMediaList = JSON.parse(decodeURIComponent(mediaJsonStr));
-            } catch (err) { return; }
-            if (!currentMediaList || currentMediaList.length === 0) return;
-            currentMediaIndex = startIndex || 0;
-            isLightboxActive = true;
-            clearAutoCloseTimer();
-            updateLightboxUI();
-            document.getElementById('lightbox').classList.add('active');
-            initPinchZoom();
-        };
-        window.closeLightbox = function() {
-            document.getElementById('lightbox').classList.remove('active');
-            document.getElementById('lightbox-iframe').src = '';
-            isLightboxActive = false;
-            resetImgZoom();
-            startAutoCloseTimer(1000);
-        };
-        window.switchLightbox = function(step) {
-            currentMediaIndex = (currentMediaIndex + step + currentMediaList.length) % currentMediaList.length;
-            resetImgZoom();
-            updateLightboxUI();
-        };
-        function updateLightboxUI() {
-            const item = currentMediaList[currentMediaIndex];
-            const imgEl = document.getElementById('lightbox-img');
-            const iframeEl = document.getElementById('lightbox-iframe');
-            const dlBtn = document.getElementById('lightbox-download-link');
-            dlBtn.href = item.downloadUrl || item.viewUrl || item.embedUrl;
-            if (item.type === 'youtube' || item.type === 'drive_video' || item.type === 'drive_doc') {
-                imgEl.style.display = 'none';
-                iframeEl.style.display = 'block';
-                iframeEl.src = item.embedUrl;
-                
-                if (item.type === 'youtube') {
-                    dlBtn.innerHTML = '🌐 前往 YouTube 觀看';
-                } else if (item.type === 'drive_video') {
-                    dlBtn.innerHTML = '🎬 下載 / 另開高畫質影片';
-                } else {
-                    dlBtn.innerHTML = '📄 下載原始檔案';
-                }
-            } else {
-                iframeEl.style.display = 'none';
-                iframeEl.src = '';
-                imgEl.style.display = 'block';
-                imgEl.src = item.viewUrl;
-                dlBtn.innerHTML = '📥 下載原始高清照片';
-            }
-        }
-        let imgScale = 1;
-        function resetImgZoom() {
-            imgScale = 1;
-            const img = document.getElementById('lightbox-img');
-            if (img) img.style.transform = `scale(1)`;
-        }
-        function initPinchZoom() {
-            const container = document.getElementById('lightbox-media-container');
-            const img = document.getElementById('lightbox-img');
-            let initialDist = 0;
-            container.ontouchstart = function(e) {
-                if (e.touches.length === 2) {
-                    initialDist = Math.hypot(
-                        e.touches[0].pageX - e.touches[1].pageX,
-                        e.touches[0].pageY - e.touches[1].pageY
-                    );
-                }
-            };
-            container.ontouchmove = function(e) {
-                if (e.touches.length === 2 && initialDist > 0) {
-                    const currentDist = Math.hypot(
-                        e.touches[0].pageX - e.touches[1].pageX,
-                        e.touches[0].pageY - e.touches[1].pageY
-                    );
-                    const factor = currentDist / initialDist;
-                    imgScale = Math.min(Math.max(imgScale * factor, 0.8), 4.0);
-                    img.style.transform = `scale(${imgScale})`;
-                    initialDist = currentDist;
-                }
-            };
-        }
-        function openBottomSheet(htmlContent) {
-            const sheet = document.getElementById('mobile-bottom-sheet');
-            const body = document.getElementById('sheet-body');
-            body.innerHTML = htmlContent;
-            sheet.classList.add('open');
-        }
-        function closeBottomSheet() {
-            document.getElementById('mobile-bottom-sheet').classList.remove('open');
-        }
-        map.on('popupopen', function(e) {
-            const popupNode = e.popup.getElement();
-            if (popupNode) {
-                popupNode.addEventListener('mouseenter', () => { isInsidePopup = true; clearAutoCloseTimer(); });
-                popupNode.addEventListener('mousemove', () => { isInsidePopup = true; clearAutoCloseTimer(); });
-                popupNode.addEventListener('mouseleave', () => { isInsidePopup = false; startAutoCloseTimer(1000); });
-            }
-        });
-        map.on('popupclose', function() { isInsidePopup = false; clearAutoCloseTimer(); });
-        
-        let markerLayerGroup = L.featureGroup().addTo(map);
-        function buildCardHtml(item, itemIdx) {
-            const mastersBadges = item.masters.length > 0 
-                ? item.masters.map(m => `<span class="master-badge">${m}</span>`).join('')
-                : `<span class="master-badge" style="opacity:0.6;">未載明</span>`;
-            let galleryHtml = '';
-            if (item.media && item.media.length > 0) {
-                const mediaEncoded = encodeURIComponent(JSON.stringify(item.media));
-                const mediaItemsHtml = item.media.map((m, idx) => {
-                    const activeCls = idx === 0 ? 'active' : '';
-                    if (m.type === 'youtube' || m.type === 'drive_video') {
-                        return `
-                            <div class="gallery-media-item ${activeCls}" data-download="${m.downloadUrl}" onclick="openLightbox('${mediaEncoded}', ${idx}, event)">
-                                <img class="gallery-img" src="${m.thumbUrl || 'https://images.unsplash.com/photo-1518173946687-a4c8a383392e?w=600'}" alt="${m.title}" loading="lazy"/>
-                                <div class="video-play-overlay">
-                                    <div class="play-icon-circle">▶</div>
-                                    <div class="media-badge-tag">點擊全螢幕播放 ${m.title}</div>
-                                </div>
-                            </div>`;
-                    } else if (m.type === 'drive_doc') {
-                        return `
-                            <div class="gallery-media-item ${activeCls}" data-download="${m.downloadUrl}" onclick="openLightbox('${mediaEncoded}', ${idx}, event)">
-                                <div class="doc-preview-card">
-                                    <div style="font-size:36px;">📄</div>
-                                    <div>點擊預覽檔案</div>
-                                </div>
-                            </div>`;
-                    } else {
-                        return `
-                            <div class="gallery-media-item ${activeCls}" data-download="${m.downloadUrl}" onclick="openLightbox('${mediaEncoded}', ${idx}, event)">
-                                <img class="gallery-img" src="${m.viewUrl}" alt="${item.temple}" loading="lazy"/>
-                                <div class="media-badge-tag" style="position:absolute;top:8px;left:8px;">🔍 點擊放大相片</div>
-                            </div>`;
-                    }
-                }).join('');
-                const controlsHtml = item.media.length > 1 
-                    ? `<div class="gallery-btn prev" onclick="switchGallery(this, -1, event)">❮</div>
-                       <div class="gallery-btn next" onclick="switchGallery(this, 1, event)">❯</div>
-                       <div class="gallery-counter">1 / ${item.media.length}</div>`
-                    : '';
-                const downloadBtnHtml = `<a class="gallery-download-btn" href="${item.media[0].downloadUrl}" target="_blank" download title="下載" onclick="event.stopPropagation();">📥</a>`;
-                galleryHtml = `<div class="gallery-container" id="gallery-${itemIdx}">${downloadBtnHtml}${mediaItemsHtml}${controlsHtml}</div>`;
-            }
-            return `
-                <div class="popup-dynamic-content">
-                    <div class="font-resizer-bar">
-                        <span style="font-size:11px;color:#94a3b8;">字體：</span>
-                        <button class="font-btn" onclick="adjustFontScale(-0.15)">A-</button>
-                        <button class="font-btn" onclick="adjustFontScale(0.15)">A+</button>
-                    </div>
-                    ${galleryHtml}
-                    <div class="popup-temple-name">
-                        <span>🏛️ ${item.temple}</span>
-                        <span class="popup-tag">${item.country}</span>
-                    </div>
-                    <div class="popup-row">
-                        <div class="popup-label">開荒點傳師名單</div>
-                        <div class="popup-masters">${mastersBadges}</div>
-                    </div>
-                    <div class="popup-row">
-                        <div class="popup-label">所在國家 / 地區</div>
-                        <div class="popup-location">📍 ${item.country}</div>
-                    </div>
-                    <div class="popup-row">
-                        <div class="popup-label">開荒地址</div>
-                        <div class="popup-address">${item.address || '地址詳見紀錄'}</div>
-                    </div>
-                </div>
-            `;
-        }
-        function renderMarkers(dataToRender, shouldZoom) {
-            markerLayerGroup.clearLayers();
-            const seenCoords = {};
-            dataToRender.forEach((item, itemIdx) => {
-                let lat = item.lat;
-                let lng = item.lng;
-                const coordKey = lat.toFixed(4) + '_' + lng.toFixed(4);
-                if (seenCoords[coordKey]) {
-                    const angle = seenCoords[coordKey] * (Math.PI / 3);
-                    lat += 0.0035 * Math.sin(angle);
-                    lng += 0.0035 * Math.cos(angle);
-                    seenCoords[coordKey]++;
-                } else {
-                    seenCoords[coordKey] = 1;
-                }
-                const marker = L.marker([lat, lng], { icon: createRadiantGoldIcon(), riseOnHover: true });
-                const contentHtml = buildCardHtml(item, itemIdx);
-                if (!isMobileDevice()) {
-                    marker.bindPopup(contentHtml, { autoClose: true, closeOnClick: true, maxWidth: 380 });
-                }
-                marker.on('click', () => {
-                    clearAutoCloseTimer();
-                    map.flyTo([lat, lng], Math.max(map.getZoom(), 11), { duration: 1.0 });
-                    if (isMobileDevice()) {
-                        openBottomSheet(contentHtml);
-                    } else {
-                        marker.openPopup();
-                    }
-                });
-                marker.on('mouseover', () => {
-                    if (!isMobileDevice()) {
-                        marker.openPopup();
-                        startAutoCloseTimer(1000);
-                    }
-                });
-                marker.on('mouseout', () => {
-                    if (!isMobileDevice() && !isInsidePopup) {
-                        startAutoCloseTimer(1000);
-                    }
-                });
-                markerLayerGroup.addLayer(marker);
-            });
-            if (shouldZoom && dataToRender.length > 0) {
-                if (dataToRender.length === 1) {
-                    map.flyTo([dataToRender[0].lat, dataToRender[0].lng], 12, { duration: 1.2 });
-                } else {
-                    map.flyToBounds(markerLayerGroup.getBounds().pad(0.35), { duration: 1.2 });
-                }
-            }
-        }
+window.addEventListener('resize', () => {
+  map.invalidateSize();
+});
 
-        // 搜尋功能
-        document.getElementById('search-box').addEventListener('input', (e) => {
-            const query = e.target.value.toLowerCase().trim();
-            if (!query) {
-                document.getElementById('search-hint').innerText = `顯示全部 ${allTemples.length} 個佛堂據點`;
-                renderMarkers(allTemples, false);
-                map.flyTo([20.0, 50.0], 3, { duration: 1.0 });
-                return;
-            }
-            const filtered = allTemples.filter(d => 
-                d.temple.toLowerCase().includes(query) ||
-                d.country.toLowerCase().includes(query) ||
-                d.masters.some(m => m.toLowerCase().includes(query)) ||
-                d.address.toLowerCase().includes(query)
-            );
-            document.getElementById('search-hint').innerText = `顯示 ${filtered.length} / ${allTemples.length} 個佛堂據點`;
-            renderMarkers(filtered, true);
-        });
-
-        window.addEventListener('resize', () => {
-            map.invalidateSize();
-        });
-
-        // 執行載入
-        window.onload = loadMapData;
-    </script>
+// 執行載入
+window.onload = loadMapData;
+</script>
 </body>
 </html>
