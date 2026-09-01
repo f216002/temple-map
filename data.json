@@ -401,40 +401,7 @@
         "吳秀莉",
         "李承勝"
       ],
-      "media": [
-        {
-          "type": "image",
-          "id": "1PC-rtzkhlrqmTtk8s329bbWFFAKL_1I8",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1PC-rtzkhlrqmTtk8s329bbWFFAKL_1I8",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1PC-rtzkhlrqmTtk8s329bbWFFAKL_1I8",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1PC-rtzkhlrqmTtk8s329bbWFFAKL_1I8",
-          "title": "629405572257021987.jpg"
-        },
-        {
-          "type": "image",
-          "id": "174o_e1dzsBv_830bvNOcRXqYFXY-gfI9",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/174o_e1dzsBv_830bvNOcRXqYFXY-gfI9",
-          "viewUrl": "https://lh3.googleusercontent.com/d/174o_e1dzsBv_830bvNOcRXqYFXY-gfI9",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=174o_e1dzsBv_830bvNOcRXqYFXY-gfI9",
-          "title": "179200_0.jpg"
-        },
-        {
-          "type": "image",
-          "id": "18ohCToOSw6uJVMUkKp7M7YTidHOfuFCm",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/18ohCToOSw6uJVMUkKp7M7YTidHOfuFCm",
-          "viewUrl": "https://lh3.googleusercontent.com/d/18ohCToOSw6uJVMUkKp7M7YTidHOfuFCm",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=18ohCToOSw6uJVMUkKp7M7YTidHOfuFCm",
-          "title": "179199_0.jpg"
-        },
-        {
-          "type": "youtube",
-          "id": "ZlJb1SOXXWM",
-          "thumbUrl": "https://img.youtube.com/vi/ZlJb1SOXXWM/hqdefault.jpg",
-          "embedUrl": "https://www.youtube.com/embed/ZlJb1SOXXWM?autoplay=1&rel=0",
-          "downloadUrl": "https://www.youtube.com/watch?v=ZlJb1SOXXWM",
-          "title": "YouTube 影片"
-        }
-      ],
+      "media": [],
       "city": "印尼"
     },
     {
@@ -492,6 +459,22 @@
       "masters": [
         "李秀荷",
         "楊淑香"
+      ],
+      "media": [],
+      "city": "印尼"
+    },
+    {
+      "country": "印尼",
+      "temple": "和光佛堂",
+      "address": "Jl. Puri Anjasmono Blok J1/9 Tawangsari Semarang Barat 50144 Indonesia",
+      "lat": -6.988772838152482,
+      "lng": 110.40432217630222,
+      "masters": [
+        "張振豐",
+        "林玉玲",
+        "萬蘭青",
+        "蔡季洪",
+        "陳讚昌"
       ],
       "media": [
         {
@@ -603,16 +586,12 @@
     },
     {
       "country": "印尼",
-      "temple": "和光佛堂",
-      "address": "Jl. Puri Anjasmono Blok J1/9 Tawangsari Semarang Barat 50144 Indonesia",
-      "lat": -6.988772838152482,
-      "lng": 110.40432217630222,
+      "temple": "和泗佛堂",
+      "address": "jalan PLOSO TIMUR 5 A no 46 ,SURABAYA ,JAWA TIMUR ,INDONESIA\n印尼國泗水市東區伯洛普五巷四十六號",
+      "lat": -7.255216083700367,
+      "lng": 112.77515022348398,
       "masters": [
-        "張振豐",
-        "林玉玲",
-        "萬蘭青",
-        "蔡季洪",
-        "陳讚昌"
+        "吳敏義"
       ],
       "media": [
         {
@@ -636,12 +615,12 @@
     },
     {
       "country": "印尼",
-      "temple": "和泗佛堂",
-      "address": "jalan PLOSO TIMUR 5 A no 46 ,SURABAYA ,JAWA TIMUR ,INDONESIA\n印尼國泗水市東區伯洛普五巷四十六號",
-      "lat": -7.255216083700367,
-      "lng": 112.77515022348398,
+      "temple": "和信佛堂",
+      "address": "Pendidikan II No 6A, Sidakarya Denpasar Selatan Bali",
+      "lat": -8.708005428705167,
+      "lng": 115.22899285959087,
       "masters": [
-        "吳敏義"
+        "梁詩美"
       ],
       "media": [
         {
@@ -657,12 +636,12 @@
     },
     {
       "country": "印尼",
-      "temple": "和信佛堂",
-      "address": "Pendidikan II No 6A, Sidakarya Denpasar Selatan Bali",
-      "lat": -8.708005428705167,
-      "lng": 115.22899285959087,
+      "temple": "和善佛院",
+      "address": "Sunter Kemayoran No168   Jakarta Utara Indonesia",
+      "lat": -6.160614057729638,
+      "lng": 106.87427681769259,
       "masters": [
-        "梁詩美"
+        "翁士婷等"
       ],
       "media": [
         {
@@ -790,35 +769,6 @@
     },
     {
       "country": "印尼",
-      "temple": "和善佛院",
-      "address": "Sunter Kemayoran No168   Jakarta Utara Indonesia",
-      "lat": -6.160614057729638,
-      "lng": 106.87427681769259,
-      "masters": [
-        "翁士婷等"
-      ],
-      "media": [
-        {
-          "type": "image",
-          "id": "15vpqqjgMXkGjDWdiAjdFPO0-vO_6lqJk",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/15vpqqjgMXkGjDWdiAjdFPO0-vO_6lqJk",
-          "viewUrl": "https://lh3.googleusercontent.com/d/15vpqqjgMXkGjDWdiAjdFPO0-vO_6lqJk",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=15vpqqjgMXkGjDWdiAjdFPO0-vO_6lqJk",
-          "title": "629405639583989965.jpg"
-        },
-        {
-          "type": "image",
-          "id": "18zNJwxUJQb9h18bKde7OUJk1qLgAT2AM",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/18zNJwxUJQb9h18bKde7OUJk1qLgAT2AM",
-          "viewUrl": "https://lh3.googleusercontent.com/d/18zNJwxUJQb9h18bKde7OUJk1qLgAT2AM",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=18zNJwxUJQb9h18bKde7OUJk1qLgAT2AM",
-          "title": "80233.jpg"
-        }
-      ],
-      "city": "印尼"
-    },
-    {
-      "country": "印尼",
       "temple": "和發佛堂",
       "address": "Jl. Fatahillah, Sulanjana, Kec. Jambi Tim., Kota Jambi, Jambi 36123",
       "lat": 15,
@@ -826,200 +776,7 @@
       "masters": [
         "徐悅華"
       ],
-      "media": [
-        {
-          "type": "youtube",
-          "id": "z9H2tbHXPL0",
-          "thumbUrl": "https://img.youtube.com/vi/z9H2tbHXPL0/hqdefault.jpg",
-          "embedUrl": "https://www.youtube.com/embed/z9H2tbHXPL0?autoplay=1&rel=0",
-          "downloadUrl": "https://youtu.be/z9H2tbHXPL0?si=eoVf8a4zJoYtYHfE",
-          "title": "YouTube 影片"
-        },
-        {
-          "type": "image",
-          "id": "1lbKVUqo9hF3U8rlGiUwuim7CcTRKx1Q9",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1lbKVUqo9hF3U8rlGiUwuim7CcTRKx1Q9",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1lbKVUqo9hF3U8rlGiUwuim7CcTRKx1Q9",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1lbKVUqo9hF3U8rlGiUwuim7CcTRKx1Q9",
-          "title": "Peresmian Balikpapan (257 of 332).jpg"
-        },
-        {
-          "type": "image",
-          "id": "1NHCv24U8UrCzg45wZr3qazEi-jtT8sij",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1NHCv24U8UrCzg45wZr3qazEi-jtT8sij",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1NHCv24U8UrCzg45wZr3qazEi-jtT8sij",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1NHCv24U8UrCzg45wZr3qazEi-jtT8sij",
-          "title": "BPP 4 (125 of 144).jpg"
-        },
-        {
-          "type": "image",
-          "id": "1_SKkOg8Jk9CPEUBydy8fCKa2fBnl9Mmo",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1_SKkOg8Jk9CPEUBydy8fCKa2fBnl9Mmo",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1_SKkOg8Jk9CPEUBydy8fCKa2fBnl9Mmo",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1_SKkOg8Jk9CPEUBydy8fCKa2fBnl9Mmo",
-          "title": "BPP 4 (8 of 144).jpg"
-        },
-        {
-          "type": "image",
-          "id": "1dJV2n11vxn3Z_xpmeKNBtG6y7OduWXKI",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1dJV2n11vxn3Z_xpmeKNBtG6y7OduWXKI",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1dJV2n11vxn3Z_xpmeKNBtG6y7OduWXKI",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1dJV2n11vxn3Z_xpmeKNBtG6y7OduWXKI",
-          "title": "BPP 4 (4 of 144).jpg"
-        },
-        {
-          "type": "image",
-          "id": "12_d_f83GJzS0fUaYqrCCgn0YH4srga1-",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/12_d_f83GJzS0fUaYqrCCgn0YH4srga1-",
-          "viewUrl": "https://lh3.googleusercontent.com/d/12_d_f83GJzS0fUaYqrCCgn0YH4srga1-",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=12_d_f83GJzS0fUaYqrCCgn0YH4srga1-",
-          "title": "和新. 11.jpeg"
-        },
-        {
-          "type": "image",
-          "id": "1vslYGSrNTz47fDaHKE76xGeHmHkOg2sE",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1vslYGSrNTz47fDaHKE76xGeHmHkOg2sE",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1vslYGSrNTz47fDaHKE76xGeHmHkOg2sE",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1vslYGSrNTz47fDaHKE76xGeHmHkOg2sE",
-          "title": "和新. 12.jpeg"
-        },
-        {
-          "type": "image",
-          "id": "1XtJHE4zDKwGvyKk5zjF-QEdRLg50WZNx",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1XtJHE4zDKwGvyKk5zjF-QEdRLg50WZNx",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1XtJHE4zDKwGvyKk5zjF-QEdRLg50WZNx",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1XtJHE4zDKwGvyKk5zjF-QEdRLg50WZNx",
-          "title": "和新. 10.jpeg"
-        },
-        {
-          "type": "image",
-          "id": "1Ip7v-bKJA-SI-8_5x87RZtzk26CDUjI5",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1Ip7v-bKJA-SI-8_5x87RZtzk26CDUjI5",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1Ip7v-bKJA-SI-8_5x87RZtzk26CDUjI5",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1Ip7v-bKJA-SI-8_5x87RZtzk26CDUjI5",
-          "title": "和新. 17.png"
-        },
-        {
-          "type": "image",
-          "id": "1n9yC9IrIDMcKewiiCezgW2wl-WgVkngZ",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1n9yC9IrIDMcKewiiCezgW2wl-WgVkngZ",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1n9yC9IrIDMcKewiiCezgW2wl-WgVkngZ",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1n9yC9IrIDMcKewiiCezgW2wl-WgVkngZ",
-          "title": "和新. 13.png"
-        },
-        {
-          "type": "image",
-          "id": "1Ay23Q0CXfp-JMTiBAJKAr64SLkgmmrgi",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1Ay23Q0CXfp-JMTiBAJKAr64SLkgmmrgi",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1Ay23Q0CXfp-JMTiBAJKAr64SLkgmmrgi",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1Ay23Q0CXfp-JMTiBAJKAr64SLkgmmrgi",
-          "title": "和新. 16.png"
-        },
-        {
-          "type": "image",
-          "id": "1L7tfjfG1Yy6tOdOUQacbDPq_Qc_vgFAP",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1L7tfjfG1Yy6tOdOUQacbDPq_Qc_vgFAP",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1L7tfjfG1Yy6tOdOUQacbDPq_Qc_vgFAP",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1L7tfjfG1Yy6tOdOUQacbDPq_Qc_vgFAP",
-          "title": "和新. 08.jpeg"
-        },
-        {
-          "type": "image",
-          "id": "1bb7A9awsUoMEzLdsQfb8R6cyFplyepwu",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1bb7A9awsUoMEzLdsQfb8R6cyFplyepwu",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1bb7A9awsUoMEzLdsQfb8R6cyFplyepwu",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1bb7A9awsUoMEzLdsQfb8R6cyFplyepwu",
-          "title": "和新. 09.jpeg"
-        },
-        {
-          "type": "image",
-          "id": "1boHyijmfjnMsYjVcfJJqNHwh7KIckQwe",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1boHyijmfjnMsYjVcfJJqNHwh7KIckQwe",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1boHyijmfjnMsYjVcfJJqNHwh7KIckQwe",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1boHyijmfjnMsYjVcfJJqNHwh7KIckQwe",
-          "title": "和新. 04.jpeg"
-        },
-        {
-          "type": "image",
-          "id": "1sLByeV0h4CuEOMhmgCwMbodaNinbORA2",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1sLByeV0h4CuEOMhmgCwMbodaNinbORA2",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1sLByeV0h4CuEOMhmgCwMbodaNinbORA2",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1sLByeV0h4CuEOMhmgCwMbodaNinbORA2",
-          "title": "和新. 05.jpeg"
-        },
-        {
-          "type": "image",
-          "id": "1sHhOsNrRKJypdo_sUDTUyuNqpgrdREy0",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1sHhOsNrRKJypdo_sUDTUyuNqpgrdREy0",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1sHhOsNrRKJypdo_sUDTUyuNqpgrdREy0",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1sHhOsNrRKJypdo_sUDTUyuNqpgrdREy0",
-          "title": "和新. 06.jpeg"
-        },
-        {
-          "type": "image",
-          "id": "1GqKeRmOEiAh93EbOuq2xuE0e9w549QYj",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1GqKeRmOEiAh93EbOuq2xuE0e9w549QYj",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1GqKeRmOEiAh93EbOuq2xuE0e9w549QYj",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1GqKeRmOEiAh93EbOuq2xuE0e9w549QYj",
-          "title": "和新. 07.jpeg"
-        },
-        {
-          "type": "image",
-          "id": "1lPECpYDnOptieet1Gw81J6ek_Zo8a-Vp",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1lPECpYDnOptieet1Gw81J6ek_Zo8a-Vp",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1lPECpYDnOptieet1Gw81J6ek_Zo8a-Vp",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1lPECpYDnOptieet1Gw81J6ek_Zo8a-Vp",
-          "title": "和新. 03.jpeg"
-        },
-        {
-          "type": "image",
-          "id": "1D7pd1Nheo4diBW2TXcm9ugCKYoWRR5nB",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1D7pd1Nheo4diBW2TXcm9ugCKYoWRR5nB",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1D7pd1Nheo4diBW2TXcm9ugCKYoWRR5nB",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1D7pd1Nheo4diBW2TXcm9ugCKYoWRR5nB",
-          "title": "和新. 01.jpeg"
-        },
-        {
-          "type": "image",
-          "id": "1npXDQ-zjBfDvjDeAru_9ci4ud8BwFQZR",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1npXDQ-zjBfDvjDeAru_9ci4ud8BwFQZR",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1npXDQ-zjBfDvjDeAru_9ci4ud8BwFQZR",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1npXDQ-zjBfDvjDeAru_9ci4ud8BwFQZR",
-          "title": "和新. 14.jpeg"
-        },
-        {
-          "type": "image",
-          "id": "19vYyxIQh5hJm3rCo3esYr8nkxualhLKg",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/19vYyxIQh5hJm3rCo3esYr8nkxualhLKg",
-          "viewUrl": "https://lh3.googleusercontent.com/d/19vYyxIQh5hJm3rCo3esYr8nkxualhLKg",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=19vYyxIQh5hJm3rCo3esYr8nkxualhLKg",
-          "title": "和新. 15.jpeg"
-        },
-        {
-          "type": "image",
-          "id": "1AAWZNico-ehrJqZWxE3nr4W3z5AsgEHj",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1AAWZNico-ehrJqZWxE3nr4W3z5AsgEHj",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1AAWZNico-ehrJqZWxE3nr4W3z5AsgEHj",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1AAWZNico-ehrJqZWxE3nr4W3z5AsgEHj",
-          "title": "和新. 02.jpeg"
-        },
-        {
-          "type": "drive_doc",
-          "id": "1fv49M19PPwImhnRyHlJiTDOKO2bEruqC",
-          "thumbUrl": "",
-          "embedUrl": "https://drive.google.com/file/d/1fv49M19PPwImhnRyHlJiTDOKO2bEruqC/preview",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1fv49M19PPwImhnRyHlJiTDOKO2bEruqC",
-          "title": "印尼 - 巴厘巴板 - 和新佛堂– BALIKPAPAN 2026.docx"
-        },
-        {
-          "type": "image",
-          "id": "1cRRA7Yg0PRiZsmUNviJ2cMOZztzgDrj9",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1cRRA7Yg0PRiZsmUNviJ2cMOZztzgDrj9",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1cRRA7Yg0PRiZsmUNviJ2cMOZztzgDrj9",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1cRRA7Yg0PRiZsmUNviJ2cMOZztzgDrj9",
-          "title": "和新. 18.png"
-        }
-      ],
+      "media": [],
       "city": "印尼"
     },
     {
@@ -1280,83 +1037,7 @@
       "masters": [
         "陳韻竹"
       ],
-      "media": [
-        {
-          "type": "youtube",
-          "id": "0Im_bEmQihw",
-          "thumbUrl": "https://img.youtube.com/vi/0Im_bEmQihw/hqdefault.jpg",
-          "embedUrl": "https://www.youtube.com/embed/0Im_bEmQihw?autoplay=1&rel=0",
-          "downloadUrl": "https://www.youtube.com/watch?v=0Im_bEmQihw&t=16s",
-          "title": "YouTube 影片"
-        },
-        {
-          "type": "youtube",
-          "id": "Sw3Vmehthyk",
-          "thumbUrl": "https://img.youtube.com/vi/Sw3Vmehthyk/hqdefault.jpg",
-          "embedUrl": "https://www.youtube.com/embed/Sw3Vmehthyk?autoplay=1&rel=0",
-          "downloadUrl": "https://www.youtube.com/watch?v=Sw3Vmehthyk&t=91s",
-          "title": "YouTube 影片"
-        },
-        {
-          "type": "drive_video",
-          "id": "1I2581AJqbwZhIgydIOdgRMfTVeWVze5b",
-          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=1I2581AJqbwZhIgydIOdgRMfTVeWVze5b",
-          "embedUrl": "https://drive.google.com/file/d/1I2581AJqbwZhIgydIOdgRMfTVeWVze5b/preview",
-          "viewUrl": "https://drive.google.com/file/d/1I2581AJqbwZhIgydIOdgRMfTVeWVze5b/view",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1I2581AJqbwZhIgydIOdgRMfTVeWVze5b",
-          "title": "IMG_7250.MOV"
-        },
-        {
-          "type": "drive_video",
-          "id": "1ZOC3sRbp2ybGTJmNaHXsdytnAe2pxtlF",
-          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=1ZOC3sRbp2ybGTJmNaHXsdytnAe2pxtlF",
-          "embedUrl": "https://drive.google.com/file/d/1ZOC3sRbp2ybGTJmNaHXsdytnAe2pxtlF/preview",
-          "viewUrl": "https://drive.google.com/file/d/1ZOC3sRbp2ybGTJmNaHXsdytnAe2pxtlF/view",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1ZOC3sRbp2ybGTJmNaHXsdytnAe2pxtlF",
-          "title": "IMG_7246.MOV"
-        },
-        {
-          "type": "drive_video",
-          "id": "1fE6_WOD0ur6COW4VElYU2zmov2cnTTXE",
-          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=1fE6_WOD0ur6COW4VElYU2zmov2cnTTXE",
-          "embedUrl": "https://drive.google.com/file/d/1fE6_WOD0ur6COW4VElYU2zmov2cnTTXE/preview",
-          "viewUrl": "https://drive.google.com/file/d/1fE6_WOD0ur6COW4VElYU2zmov2cnTTXE/view",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1fE6_WOD0ur6COW4VElYU2zmov2cnTTXE",
-          "title": "IMG_7210.MOV"
-        },
-        {
-          "type": "image",
-          "id": "1Cf8XVF2zE7JlPB9J-J3JDP9Q32-NsrR3",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1Cf8XVF2zE7JlPB9J-J3JDP9Q32-NsrR3",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1Cf8XVF2zE7JlPB9J-J3JDP9Q32-NsrR3",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1Cf8XVF2zE7JlPB9J-J3JDP9Q32-NsrR3",
-          "title": "印德04.jpg"
-        },
-        {
-          "type": "image",
-          "id": "1GaE0AMdai-qKoXTRzTEFdvTdT9O_YylA",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1GaE0AMdai-qKoXTRzTEFdvTdT9O_YylA",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1GaE0AMdai-qKoXTRzTEFdvTdT9O_YylA",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1GaE0AMdai-qKoXTRzTEFdvTdT9O_YylA",
-          "title": "印德03.jpg"
-        },
-        {
-          "type": "image",
-          "id": "1sBQGS2YDn9eq_A2V-XnyW2deVAHmnM0w",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1sBQGS2YDn9eq_A2V-XnyW2deVAHmnM0w",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1sBQGS2YDn9eq_A2V-XnyW2deVAHmnM0w",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1sBQGS2YDn9eq_A2V-XnyW2deVAHmnM0w",
-          "title": "印德02.jpg"
-        },
-        {
-          "type": "image",
-          "id": "15takfQhzYCSp4d0uTEL-4HJzhC8lwYfk",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/15takfQhzYCSp4d0uTEL-4HJzhC8lwYfk",
-          "viewUrl": "https://lh3.googleusercontent.com/d/15takfQhzYCSp4d0uTEL-4HJzhC8lwYfk",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=15takfQhzYCSp4d0uTEL-4HJzhC8lwYfk",
-          "title": "印德01.jpg"
-        }
-      ],
+      "media": [],
       "city": "印尼"
     },
     {
@@ -1368,75 +1049,7 @@
       "masters": [
         "蔡淑如"
       ],
-      "media": [
-        {
-          "type": "image",
-          "id": "1J-ud5KlqC17hTE4pfa-Ahdi6iSs3p6N6",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1J-ud5KlqC17hTE4pfa-Ahdi6iSs3p6N6",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1J-ud5KlqC17hTE4pfa-Ahdi6iSs3p6N6",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1J-ud5KlqC17hTE4pfa-Ahdi6iSs3p6N6",
-          "title": "629416761837748228.jpg"
-        },
-        {
-          "type": "image",
-          "id": "1R4sJ8FNWg-6cX8i2gQaR2hu0MW5nxNJq",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1R4sJ8FNWg-6cX8i2gQaR2hu0MW5nxNJq",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1R4sJ8FNWg-6cX8i2gQaR2hu0MW5nxNJq",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1R4sJ8FNWg-6cX8i2gQaR2hu0MW5nxNJq",
-          "title": "629416760797299390.jpg"
-        },
-        {
-          "type": "drive_video",
-          "id": "1eDctgWzzbqHIqYya7TMl3NhA6ezFKx7T",
-          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=1eDctgWzzbqHIqYya7TMl3NhA6ezFKx7T",
-          "embedUrl": "https://drive.google.com/file/d/1eDctgWzzbqHIqYya7TMl3NhA6ezFKx7T/preview",
-          "viewUrl": "https://drive.google.com/file/d/1eDctgWzzbqHIqYya7TMl3NhA6ezFKx7T/view",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1eDctgWzzbqHIqYya7TMl3NhA6ezFKx7T",
-          "title": "9e258fb5-31bc-4e8a-8bc1-bc15eea481a7.MP4"
-        },
-        {
-          "type": "drive_video",
-          "id": "1-GSRDT36NvnQ1PiLWsi7dOKwxsHT4UHe",
-          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=1-GSRDT36NvnQ1PiLWsi7dOKwxsHT4UHe",
-          "embedUrl": "https://drive.google.com/file/d/1-GSRDT36NvnQ1PiLWsi7dOKwxsHT4UHe/preview",
-          "viewUrl": "https://drive.google.com/file/d/1-GSRDT36NvnQ1PiLWsi7dOKwxsHT4UHe/view",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1-GSRDT36NvnQ1PiLWsi7dOKwxsHT4UHe",
-          "title": "e15fe5a2-2ff2-4cae-ac45-410535e2f014.MP4"
-        },
-        {
-          "type": "drive_video",
-          "id": "1_RGy2XXDc3QTsDur1Z8trekCtXz6q_Sq",
-          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=1_RGy2XXDc3QTsDur1Z8trekCtXz6q_Sq",
-          "embedUrl": "https://drive.google.com/file/d/1_RGy2XXDc3QTsDur1Z8trekCtXz6q_Sq/preview",
-          "viewUrl": "https://drive.google.com/file/d/1_RGy2XXDc3QTsDur1Z8trekCtXz6q_Sq/view",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1_RGy2XXDc3QTsDur1Z8trekCtXz6q_Sq",
-          "title": "VIDEO-2026-08-06-09-16-32.MP4"
-        },
-        {
-          "type": "image",
-          "id": "1d_t9YSo0CIcYAgRigqg55A1NNycWikV-",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1d_t9YSo0CIcYAgRigqg55A1NNycWikV-",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1d_t9YSo0CIcYAgRigqg55A1NNycWikV-",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1d_t9YSo0CIcYAgRigqg55A1NNycWikV-",
-          "title": "IMG_7223.JPG"
-        },
-        {
-          "type": "image",
-          "id": "1-nYDbmzKAcrXMTwT8jDELgV45BHHLYXS",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1-nYDbmzKAcrXMTwT8jDELgV45BHHLYXS",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1-nYDbmzKAcrXMTwT8jDELgV45BHHLYXS",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1-nYDbmzKAcrXMTwT8jDELgV45BHHLYXS",
-          "title": "IMG_7222.JPG"
-        },
-        {
-          "type": "image",
-          "id": "1Tbg0A0K9T2r56Qp4DIaimp6FWLQFTqsk",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1Tbg0A0K9T2r56Qp4DIaimp6FWLQFTqsk",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1Tbg0A0K9T2r56Qp4DIaimp6FWLQFTqsk",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1Tbg0A0K9T2r56Qp4DIaimp6FWLQFTqsk",
-          "title": "IMG_7224.JPG"
-        }
-      ],
+      "media": [],
       "city": "印尼"
     },
     {
@@ -1649,16 +1262,7 @@
         "徐溫童",
         "莊惠華"
       ],
-      "media": [
-        {
-          "type": "image",
-          "id": "1in17m5OR3AS-GBJeuyDFL7J9DzFi7jm4",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1in17m5OR3AS-GBJeuyDFL7J9DzFi7jm4",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1in17m5OR3AS-GBJeuyDFL7J9DzFi7jm4",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1in17m5OR3AS-GBJeuyDFL7J9DzFi7jm4",
-          "title": "妙長落成.jpg"
-        }
-      ],
+      "media": [],
       "city": "柬埔寨"
     },
     {
@@ -1674,90 +1278,7 @@
         "王浩呈",
         "陳麗寬"
       ],
-      "media": [
-        {
-          "type": "image",
-          "id": "1BmtLh0VCcIcoDbKMh1DhrnbSZrN4ZbY2",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1BmtLh0VCcIcoDbKMh1DhrnbSZrN4ZbY2",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1BmtLh0VCcIcoDbKMh1DhrnbSZrN4ZbY2",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1BmtLh0VCcIcoDbKMh1DhrnbSZrN4ZbY2",
-          "title": "S__3522581.jpg"
-        },
-        {
-          "type": "image",
-          "id": "16qpn8q_I5cAWBR1-wmHGbnjemnxDVyeq",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/16qpn8q_I5cAWBR1-wmHGbnjemnxDVyeq",
-          "viewUrl": "https://lh3.googleusercontent.com/d/16qpn8q_I5cAWBR1-wmHGbnjemnxDVyeq",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=16qpn8q_I5cAWBR1-wmHGbnjemnxDVyeq",
-          "title": "400E3718-54F4-4656-A01E-348E8AD7C753.jpg"
-        },
-        {
-          "type": "image",
-          "id": "18L52w2lyiwUP8TioOFDWKU9UJHf6--NG",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/18L52w2lyiwUP8TioOFDWKU9UJHf6--NG",
-          "viewUrl": "https://lh3.googleusercontent.com/d/18L52w2lyiwUP8TioOFDWKU9UJHf6--NG",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=18L52w2lyiwUP8TioOFDWKU9UJHf6--NG",
-          "title": "688630CB-B4F0-4B40-84F0-1D333FF51E5E.jpg"
-        },
-        {
-          "type": "image",
-          "id": "1FfgO6LE3obXxkOz214lJzmFsDMt1WQwV",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1FfgO6LE3obXxkOz214lJzmFsDMt1WQwV",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1FfgO6LE3obXxkOz214lJzmFsDMt1WQwV",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1FfgO6LE3obXxkOz214lJzmFsDMt1WQwV",
-          "title": "B12131B7-50BB-4363-9E08-43E3828FD297.jpg"
-        },
-        {
-          "type": "image",
-          "id": "1TGhKN4r9hJFdGdvr5JFm-uB4EkqH-4bw",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1TGhKN4r9hJFdGdvr5JFm-uB4EkqH-4bw",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1TGhKN4r9hJFdGdvr5JFm-uB4EkqH-4bw",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1TGhKN4r9hJFdGdvr5JFm-uB4EkqH-4bw",
-          "title": "53FE5AD2-7F6A-4C4F-A1D2-751B4E9088E6.jpg"
-        },
-        {
-          "type": "image",
-          "id": "1acjVMb7oOIH_dy5jJX2_PbpXUjHspMQC",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1acjVMb7oOIH_dy5jJX2_PbpXUjHspMQC",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1acjVMb7oOIH_dy5jJX2_PbpXUjHspMQC",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1acjVMb7oOIH_dy5jJX2_PbpXUjHspMQC",
-          "title": "8AC6CC3A-E0DA-42D2-AAB9-5570DC3D9FAA.jpg"
-        },
-        {
-          "type": "image",
-          "id": "1gg1lEa5XePopsSZR2HmkU87BcZUxZPrJ",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1gg1lEa5XePopsSZR2HmkU87BcZUxZPrJ",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1gg1lEa5XePopsSZR2HmkU87BcZUxZPrJ",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1gg1lEa5XePopsSZR2HmkU87BcZUxZPrJ",
-          "title": "8CAF7799-8939-4565-9098-3CFB2570C10F.jpg"
-        },
-        {
-          "type": "drive_video",
-          "id": "1k_G_SqOtZAroJzDcOoWKcWBY0wg3khIc",
-          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=1k_G_SqOtZAroJzDcOoWKcWBY0wg3khIc",
-          "embedUrl": "https://drive.google.com/file/d/1k_G_SqOtZAroJzDcOoWKcWBY0wg3khIc/preview",
-          "viewUrl": "https://drive.google.com/file/d/1k_G_SqOtZAroJzDcOoWKcWBY0wg3khIc/view",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1k_G_SqOtZAroJzDcOoWKcWBY0wg3khIc",
-          "title": "推動搖籃的手.mp4"
-        },
-        {
-          "type": "image",
-          "id": "1lkNnUKBCCmc6pOLFS0VetD6SFIFwz-5O",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1lkNnUKBCCmc6pOLFS0VetD6SFIFwz-5O",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1lkNnUKBCCmc6pOLFS0VetD6SFIFwz-5O",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1lkNnUKBCCmc6pOLFS0VetD6SFIFwz-5O",
-          "title": "38B51E71-44DC-491E-BC1E-73A3F55C03A2.jpg"
-        },
-        {
-          "type": "drive_video",
-          "id": "1nR-Q3CxQ-CJGUFfpt0j7-WXs4IKfppeL",
-          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=1nR-Q3CxQ-CJGUFfpt0j7-WXs4IKfppeL",
-          "embedUrl": "https://drive.google.com/file/d/1nR-Q3CxQ-CJGUFfpt0j7-WXs4IKfppeL/preview",
-          "viewUrl": "https://drive.google.com/file/d/1nR-Q3CxQ-CJGUFfpt0j7-WXs4IKfppeL/view",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1nR-Q3CxQ-CJGUFfpt0j7-WXs4IKfppeL",
-          "title": "和宣佛堂落成.mp4"
-        }
-      ],
+      "media": [],
       "city": "柬埔寨"
     },
     {
@@ -1780,11 +1301,11 @@
       "media": [
         {
           "type": "image",
-          "id": "1mkQzDu-X8FfSGTNQM4BbbHWeeG4PqPfh",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1mkQzDu-X8FfSGTNQM4BbbHWeeG4PqPfh",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1mkQzDu-X8FfSGTNQM4BbbHWeeG4PqPfh",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1mkQzDu-X8FfSGTNQM4BbbHWeeG4PqPfh",
-          "title": "S__3522578.jpg"
+          "id": "1in17m5OR3AS-GBJeuyDFL7J9DzFi7jm4",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1in17m5OR3AS-GBJeuyDFL7J9DzFi7jm4",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1in17m5OR3AS-GBJeuyDFL7J9DzFi7jm4",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1in17m5OR3AS-GBJeuyDFL7J9DzFi7jm4",
+          "title": "妙長落成.jpg"
         }
       ],
       "city": "柬埔寨"
@@ -2045,56 +1566,7 @@
         "黃世揚",
         "黃崇偉"
       ],
-      "media": [
-        {
-          "type": "image",
-          "id": "13sfiJ7N2ykxpeueetkgBlaxWv_IZ4tI4",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/13sfiJ7N2ykxpeueetkgBlaxWv_IZ4tI4",
-          "viewUrl": "https://lh3.googleusercontent.com/d/13sfiJ7N2ykxpeueetkgBlaxWv_IZ4tI4",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=13sfiJ7N2ykxpeueetkgBlaxWv_IZ4tI4",
-          "title": "unnamed (3).webp"
-        },
-        {
-          "type": "image",
-          "id": "1ULYvy9HAU9Tmp1NoXZrQXWHoOrRjCdFn",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1ULYvy9HAU9Tmp1NoXZrQXWHoOrRjCdFn",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1ULYvy9HAU9Tmp1NoXZrQXWHoOrRjCdFn",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1ULYvy9HAU9Tmp1NoXZrQXWHoOrRjCdFn",
-          "title": "unnamed (2).webp"
-        },
-        {
-          "type": "image",
-          "id": "1VGGwEQgHG5rxUyDMrrlUDHgsaFQMq2ya",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1VGGwEQgHG5rxUyDMrrlUDHgsaFQMq2ya",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1VGGwEQgHG5rxUyDMrrlUDHgsaFQMq2ya",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1VGGwEQgHG5rxUyDMrrlUDHgsaFQMq2ya",
-          "title": "unnamed (1).webp"
-        },
-        {
-          "type": "image",
-          "id": "18Q05Co_8p3xQ2lNd1RjiMAilagcD25mc",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/18Q05Co_8p3xQ2lNd1RjiMAilagcD25mc",
-          "viewUrl": "https://lh3.googleusercontent.com/d/18Q05Co_8p3xQ2lNd1RjiMAilagcD25mc",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=18Q05Co_8p3xQ2lNd1RjiMAilagcD25mc",
-          "title": "unnamed.webp"
-        },
-        {
-          "type": "image",
-          "id": "1dpldIsEEdWuNz54TS3H3-8kpAQuHhZe9",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1dpldIsEEdWuNz54TS3H3-8kpAQuHhZe9",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1dpldIsEEdWuNz54TS3H3-8kpAQuHhZe9",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1dpldIsEEdWuNz54TS3H3-8kpAQuHhZe9",
-          "title": "D7F23899-22BF-4CD5-B7A8-E39F6FDDAECD.png"
-        },
-        {
-          "type": "image",
-          "id": "1FXkWHHHAfEGu320ZFqw7dVeumge7XeVr",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1FXkWHHHAfEGu320ZFqw7dVeumge7XeVr",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1FXkWHHHAfEGu320ZFqw7dVeumge7XeVr",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1FXkWHHHAfEGu320ZFqw7dVeumge7XeVr",
-          "title": "messageImage_1787626711287.jpg"
-        }
-      ],
+      "media": [],
       "city": "柬埔寨"
     },
     {
@@ -2184,89 +1656,7 @@
       "masters": [
         "張淑卿"
       ],
-      "media": [
-        {
-          "type": "image",
-          "id": "1nd7wfQPYgF7TD34J-9s9DdeV6HagdT6i",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1nd7wfQPYgF7TD34J-9s9DdeV6HagdT6i",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1nd7wfQPYgF7TD34J-9s9DdeV6HagdT6i",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1nd7wfQPYgF7TD34J-9s9DdeV6HagdT6i",
-          "title": "97D2498F56832BE2194690D4549019BF3339B120.jpeg"
-        },
-        {
-          "type": "image",
-          "id": "1_c_KDght0tKptYA8qWmHilc0IY38fXXT",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1_c_KDght0tKptYA8qWmHilc0IY38fXXT",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1_c_KDght0tKptYA8qWmHilc0IY38fXXT",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1_c_KDght0tKptYA8qWmHilc0IY38fXXT",
-          "title": "48676_0.jpg"
-        },
-        {
-          "type": "image",
-          "id": "1_heQLXx46GlpsX5On3uraYaOFPtaB2C4",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1_heQLXx46GlpsX5On3uraYaOFPtaB2C4",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1_heQLXx46GlpsX5On3uraYaOFPtaB2C4",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1_heQLXx46GlpsX5On3uraYaOFPtaB2C4",
-          "title": "50734_0.jpg"
-        },
-        {
-          "type": "image",
-          "id": "111E0ganTiMck_2sCnPshlrpVw1SpGirC",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/111E0ganTiMck_2sCnPshlrpVw1SpGirC",
-          "viewUrl": "https://lh3.googleusercontent.com/d/111E0ganTiMck_2sCnPshlrpVw1SpGirC",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=111E0ganTiMck_2sCnPshlrpVw1SpGirC",
-          "title": "50732_0.jpg"
-        },
-        {
-          "type": "image",
-          "id": "1OUqaIt4eI799OFns1D_6ZsOzqxtt3baj",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1OUqaIt4eI799OFns1D_6ZsOzqxtt3baj",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1OUqaIt4eI799OFns1D_6ZsOzqxtt3baj",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1OUqaIt4eI799OFns1D_6ZsOzqxtt3baj",
-          "title": "50735_0.jpg"
-        },
-        {
-          "type": "image",
-          "id": "1sng-g_NlsEJ6Pp4b5VDE5PCSA75b2Ccv",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1sng-g_NlsEJ6Pp4b5VDE5PCSA75b2Ccv",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1sng-g_NlsEJ6Pp4b5VDE5PCSA75b2Ccv",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1sng-g_NlsEJ6Pp4b5VDE5PCSA75b2Ccv",
-          "title": "50736_0.jpg"
-        },
-        {
-          "type": "image",
-          "id": "1Hej1bJAfmqKE8ohzvOVvbugRH34bkDJU",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1Hej1bJAfmqKE8ohzvOVvbugRH34bkDJU",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1Hej1bJAfmqKE8ohzvOVvbugRH34bkDJU",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1Hej1bJAfmqKE8ohzvOVvbugRH34bkDJU",
-          "title": "50738_0.jpg"
-        },
-        {
-          "type": "image",
-          "id": "1f5BQPWlJBW1zBTWSI1HKRl6jy9hgpt-N",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1f5BQPWlJBW1zBTWSI1HKRl6jy9hgpt-N",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1f5BQPWlJBW1zBTWSI1HKRl6jy9hgpt-N",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1f5BQPWlJBW1zBTWSI1HKRl6jy9hgpt-N",
-          "title": "50737_0.jpg"
-        },
-        {
-          "type": "drive_video",
-          "id": "1G7VlCSQlsP2YiBHS11dCouf3I60EEntU",
-          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=1G7VlCSQlsP2YiBHS11dCouf3I60EEntU",
-          "embedUrl": "https://drive.google.com/file/d/1G7VlCSQlsP2YiBHS11dCouf3I60EEntU/preview",
-          "viewUrl": "https://drive.google.com/file/d/1G7VlCSQlsP2YiBHS11dCouf3I60EEntU/view",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1G7VlCSQlsP2YiBHS11dCouf3I60EEntU",
-          "title": "e2fbb89e-a8fd-43b8-b21d-015ed88f41a2.mp4"
-        },
-        {
-          "type": "image",
-          "id": "1sA4JGycHy0hg5Mi5780iip8-JvLI53Yb",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1sA4JGycHy0hg5Mi5780iip8-JvLI53Yb",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1sA4JGycHy0hg5Mi5780iip8-JvLI53Yb",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1sA4JGycHy0hg5Mi5780iip8-JvLI53Yb",
-          "title": "50518.jpg"
-        }
-      ],
+      "media": [],
       "city": "美國"
     },
     {
@@ -2420,16 +1810,7 @@
       "masters": [
         "洪筱媗"
       ],
-      "media": [
-        {
-          "type": "image",
-          "id": "1P_f320OT4xld8Huj0qi6TaERF2UEdY4u",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1P_f320OT4xld8Huj0qi6TaERF2UEdY4u",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1P_f320OT4xld8Huj0qi6TaERF2UEdY4u",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1P_f320OT4xld8Huj0qi6TaERF2UEdY4u",
-          "title": "S__4276253.jpg"
-        }
-      ],
+      "media": [],
       "city": "泰國"
     },
     {
@@ -2495,121 +1876,7 @@
       "masters": [
         "許欽漢"
       ],
-      "media": [
-        {
-          "type": "youtube",
-          "id": "vO6UcYBWlrQ",
-          "thumbUrl": "https://img.youtube.com/vi/vO6UcYBWlrQ/hqdefault.jpg",
-          "embedUrl": "https://www.youtube.com/embed/vO6UcYBWlrQ?autoplay=1&rel=0",
-          "downloadUrl": "https://youtu.be/vO6UcYBWlrQ?si=VQO9lQqUCxQq2OQ9",
-          "title": "YouTube 影片"
-        },
-        {
-          "type": "youtube",
-          "id": "UBCbCEezizc",
-          "thumbUrl": "https://img.youtube.com/vi/UBCbCEezizc/hqdefault.jpg",
-          "embedUrl": "https://www.youtube.com/embed/UBCbCEezizc?autoplay=1&rel=0",
-          "downloadUrl": "https://www.youtube.com/watch?v=UBCbCEezizc",
-          "title": "YouTube 影片"
-        },
-        {
-          "type": "youtube",
-          "id": "-ZPzUfs4Fyc",
-          "thumbUrl": "https://img.youtube.com/vi/-ZPzUfs4Fyc/hqdefault.jpg",
-          "embedUrl": "https://www.youtube.com/embed/-ZPzUfs4Fyc?autoplay=1&rel=0",
-          "downloadUrl": "https://youtu.be/-ZPzUfs4Fyc",
-          "title": "YouTube 影片"
-        },
-        {
-          "type": "image",
-          "id": "19yoHQcveL8VGLd1tHrCkxmi7ttWij9KA",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/19yoHQcveL8VGLd1tHrCkxmi7ttWij9KA",
-          "viewUrl": "https://lh3.googleusercontent.com/d/19yoHQcveL8VGLd1tHrCkxmi7ttWij9KA",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=19yoHQcveL8VGLd1tHrCkxmi7ttWij9KA",
-          "title": "629414818566635708.jpg"
-        },
-        {
-          "type": "image",
-          "id": "1vJy7dFZkko9I-uhoNSSyHOw6s_ApKO2D",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1vJy7dFZkko9I-uhoNSSyHOw6s_ApKO2D",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1vJy7dFZkko9I-uhoNSSyHOw6s_ApKO2D",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1vJy7dFZkko9I-uhoNSSyHOw6s_ApKO2D",
-          "title": "S__160374792.jpg"
-        },
-        {
-          "type": "image",
-          "id": "1ErzZ5VPyJGLiA4H9js6EbuMGEG8WT-UJ",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1ErzZ5VPyJGLiA4H9js6EbuMGEG8WT-UJ",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1ErzZ5VPyJGLiA4H9js6EbuMGEG8WT-UJ",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1ErzZ5VPyJGLiA4H9js6EbuMGEG8WT-UJ",
-          "title": "messageImage_1787420247436.jpg"
-        },
-        {
-          "type": "image",
-          "id": "1bNhwLASAkQ7T6KAPcW0ZIy6zpB3fEId8",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1bNhwLASAkQ7T6KAPcW0ZIy6zpB3fEId8",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1bNhwLASAkQ7T6KAPcW0ZIy6zpB3fEId8",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1bNhwLASAkQ7T6KAPcW0ZIy6zpB3fEId8",
-          "title": "messageImage_1787421951609.jpg"
-        },
-        {
-          "type": "image",
-          "id": "13k-CAeA_uw3ht8JAFpRLfwtgugk1eH7Y",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/13k-CAeA_uw3ht8JAFpRLfwtgugk1eH7Y",
-          "viewUrl": "https://lh3.googleusercontent.com/d/13k-CAeA_uw3ht8JAFpRLfwtgugk1eH7Y",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=13k-CAeA_uw3ht8JAFpRLfwtgugk1eH7Y",
-          "title": "57612.jpg"
-        },
-        {
-          "type": "image",
-          "id": "14_4WHyIF5JjCuRRtif1Vhix3h-NDxz0f",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/14_4WHyIF5JjCuRRtif1Vhix3h-NDxz0f",
-          "viewUrl": "https://lh3.googleusercontent.com/d/14_4WHyIF5JjCuRRtif1Vhix3h-NDxz0f",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=14_4WHyIF5JjCuRRtif1Vhix3h-NDxz0f",
-          "title": "57613.jpg"
-        },
-        {
-          "type": "image",
-          "id": "16DZ-ynlah1c0_c2P_wlcexr4iQoaAVGg",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/16DZ-ynlah1c0_c2P_wlcexr4iQoaAVGg",
-          "viewUrl": "https://lh3.googleusercontent.com/d/16DZ-ynlah1c0_c2P_wlcexr4iQoaAVGg",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=16DZ-ynlah1c0_c2P_wlcexr4iQoaAVGg",
-          "title": "57644.jpg"
-        },
-        {
-          "type": "image",
-          "id": "1XWHw-Cja-jliN329uaY8kboSooV2__WI",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1XWHw-Cja-jliN329uaY8kboSooV2__WI",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1XWHw-Cja-jliN329uaY8kboSooV2__WI",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1XWHw-Cja-jliN329uaY8kboSooV2__WI",
-          "title": "57646.jpg"
-        },
-        {
-          "type": "image",
-          "id": "1a75yymuWPl1R7hRiEzwv34hPI6Of5N7d",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1a75yymuWPl1R7hRiEzwv34hPI6Of5N7d",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1a75yymuWPl1R7hRiEzwv34hPI6Of5N7d",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1a75yymuWPl1R7hRiEzwv34hPI6Of5N7d",
-          "title": "57645.jpg"
-        },
-        {
-          "type": "image",
-          "id": "1hSFIGZwMT9yPLITtt-PzQr8D8oxHcgW8",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1hSFIGZwMT9yPLITtt-PzQr8D8oxHcgW8",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1hSFIGZwMT9yPLITtt-PzQr8D8oxHcgW8",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1hSFIGZwMT9yPLITtt-PzQr8D8oxHcgW8",
-          "title": "57643.jpg"
-        },
-        {
-          "type": "drive_video",
-          "id": "1xACMQOt6EGHLCn0R_voQyvSjUrJsNKuJ",
-          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=1xACMQOt6EGHLCn0R_voQyvSjUrJsNKuJ",
-          "embedUrl": "https://drive.google.com/file/d/1xACMQOt6EGHLCn0R_voQyvSjUrJsNKuJ/preview",
-          "viewUrl": "https://drive.google.com/file/d/1xACMQOt6EGHLCn0R_voQyvSjUrJsNKuJ/view",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1xACMQOt6EGHLCn0R_voQyvSjUrJsNKuJ",
-          "title": "明金講堂讀經會考.mp4"
-        }
-      ],
+      "media": [],
       "city": "泰國"
     },
     {
@@ -2627,24 +1894,7 @@
         "黃文源",
         "黃溫芳"
       ],
-      "media": [
-        {
-          "type": "image",
-          "id": "1MQ1S1owhfZ98LrYaD_4E10_KTSk3E6bz",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1MQ1S1owhfZ98LrYaD_4E10_KTSk3E6bz",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1MQ1S1owhfZ98LrYaD_4E10_KTSk3E6bz",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1MQ1S1owhfZ98LrYaD_4E10_KTSk3E6bz",
-          "title": "629414844420325717.jpg"
-        },
-        {
-          "type": "image",
-          "id": "1QMsZG89fNDomHgjLw4AqwwzBDCrXpfXx",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1QMsZG89fNDomHgjLw4AqwwzBDCrXpfXx",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1QMsZG89fNDomHgjLw4AqwwzBDCrXpfXx",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1QMsZG89fNDomHgjLw4AqwwzBDCrXpfXx",
-          "title": "S__160505873_0.jpg"
-        }
-      ],
+      "media": [],
       "city": "馬來西亞"
     },
     {
@@ -2842,24 +2092,7 @@
       "masters": [
         "劉曉芳"
       ],
-      "media": [
-        {
-          "type": "image",
-          "id": "10ZYyA_NaChaagRhflGk1conwTICx5mQ5",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/10ZYyA_NaChaagRhflGk1conwTICx5mQ5",
-          "viewUrl": "https://lh3.googleusercontent.com/d/10ZYyA_NaChaagRhflGk1conwTICx5mQ5",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=10ZYyA_NaChaagRhflGk1conwTICx5mQ5",
-          "title": "33823_0.jpg"
-        },
-        {
-          "type": "image",
-          "id": "19BoTvs0hP96MEHSUTgoeOnxQXOWunaI9",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/19BoTvs0hP96MEHSUTgoeOnxQXOWunaI9",
-          "viewUrl": "https://lh3.googleusercontent.com/d/19BoTvs0hP96MEHSUTgoeOnxQXOWunaI9",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=19BoTvs0hP96MEHSUTgoeOnxQXOWunaI9",
-          "title": "33824_0.jpg"
-        }
-      ],
+      "media": [],
       "city": "馬來西亞"
     },
     {
@@ -3150,34 +2383,7 @@
       "masters": [
         "黃文章"
       ],
-      "media": [
-        {
-          "type": "image",
-          "id": "108nVeONwnYt8Niosgja0atBQS2vI1cpA",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/108nVeONwnYt8Niosgja0atBQS2vI1cpA",
-          "viewUrl": "https://lh3.googleusercontent.com/d/108nVeONwnYt8Niosgja0atBQS2vI1cpA",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=108nVeONwnYt8Niosgja0atBQS2vI1cpA",
-          "title": "7865BC33-EC56-458E-8042-D0F986C95675.jpg"
-        },
-        {
-          "type": "drive_video",
-          "id": "160-zx8D2viOzGT_wbaYDgLCkKBoDeTMt",
-          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=160-zx8D2viOzGT_wbaYDgLCkKBoDeTMt",
-          "embedUrl": "https://drive.google.com/file/d/160-zx8D2viOzGT_wbaYDgLCkKBoDeTMt/preview",
-          "viewUrl": "https://drive.google.com/file/d/160-zx8D2viOzGT_wbaYDgLCkKBoDeTMt/view",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=160-zx8D2viOzGT_wbaYDgLCkKBoDeTMt",
-          "title": "AF83ABFD899BAEE2FD603A6AFD82F646D4863541.mp4"
-        },
-        {
-          "type": "drive_video",
-          "id": "1q6QcHqf3xB_ELTfyUUqNoYgkvHzvbqZT",
-          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=1q6QcHqf3xB_ELTfyUUqNoYgkvHzvbqZT",
-          "embedUrl": "https://drive.google.com/file/d/1q6QcHqf3xB_ELTfyUUqNoYgkvHzvbqZT/preview",
-          "viewUrl": "https://drive.google.com/file/d/1q6QcHqf3xB_ELTfyUUqNoYgkvHzvbqZT/view",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1q6QcHqf3xB_ELTfyUUqNoYgkvHzvbqZT",
-          "title": "E9F7FC91021D3B3DA89C5B9316E0F69CEA8C8922.mp4"
-        }
-      ],
+      "media": [],
       "city": "越南"
     },
     {
@@ -3189,16 +2395,7 @@
       "masters": [
         "彭道錦"
       ],
-      "media": [
-        {
-          "type": "image",
-          "id": "1FCVFl2YHZX9uOrLTRu008TPxovPgyN2r",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1FCVFl2YHZX9uOrLTRu008TPxovPgyN2r",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1FCVFl2YHZX9uOrLTRu008TPxovPgyN2r",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1FCVFl2YHZX9uOrLTRu008TPxovPgyN2r",
-          "title": "越南03區.jpg"
-        }
-      ],
+      "media": [],
       "city": "越南"
     },
     {
@@ -3229,19 +2426,29 @@
       "media": [
         {
           "type": "image",
-          "id": "1NkfJm6USu8SCN1_p7nc9h43Rmi57x29O",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1NkfJm6USu8SCN1_p7nc9h43Rmi57x29O",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1NkfJm6USu8SCN1_p7nc9h43Rmi57x29O",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1NkfJm6USu8SCN1_p7nc9h43Rmi57x29O",
-          "title": "S__22102072.jpg"
+          "id": "108nVeONwnYt8Niosgja0atBQS2vI1cpA",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/108nVeONwnYt8Niosgja0atBQS2vI1cpA",
+          "viewUrl": "https://lh3.googleusercontent.com/d/108nVeONwnYt8Niosgja0atBQS2vI1cpA",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=108nVeONwnYt8Niosgja0atBQS2vI1cpA",
+          "title": "7865BC33-EC56-458E-8042-D0F986C95675.jpg"
         },
         {
-          "type": "image",
-          "id": "16zO9NDjzHhnOjePT3x5IdZSBSVuP2ZKL",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/16zO9NDjzHhnOjePT3x5IdZSBSVuP2ZKL",
-          "viewUrl": "https://lh3.googleusercontent.com/d/16zO9NDjzHhnOjePT3x5IdZSBSVuP2ZKL",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=16zO9NDjzHhnOjePT3x5IdZSBSVuP2ZKL",
-          "title": "S__19636595.jpg"
+          "type": "drive_video",
+          "id": "160-zx8D2viOzGT_wbaYDgLCkKBoDeTMt",
+          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=160-zx8D2viOzGT_wbaYDgLCkKBoDeTMt",
+          "embedUrl": "https://drive.google.com/file/d/160-zx8D2viOzGT_wbaYDgLCkKBoDeTMt/preview",
+          "viewUrl": "https://drive.google.com/file/d/160-zx8D2viOzGT_wbaYDgLCkKBoDeTMt/view",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=160-zx8D2viOzGT_wbaYDgLCkKBoDeTMt",
+          "title": "AF83ABFD899BAEE2FD603A6AFD82F646D4863541.mp4"
+        },
+        {
+          "type": "drive_video",
+          "id": "1q6QcHqf3xB_ELTfyUUqNoYgkvHzvbqZT",
+          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=1q6QcHqf3xB_ELTfyUUqNoYgkvHzvbqZT",
+          "embedUrl": "https://drive.google.com/file/d/1q6QcHqf3xB_ELTfyUUqNoYgkvHzvbqZT/preview",
+          "viewUrl": "https://drive.google.com/file/d/1q6QcHqf3xB_ELTfyUUqNoYgkvHzvbqZT/view",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1q6QcHqf3xB_ELTfyUUqNoYgkvHzvbqZT",
+          "title": "E9F7FC91021D3B3DA89C5B9316E0F69CEA8C8922.mp4"
         }
       ],
       "city": "越南"
@@ -3336,16 +2543,7 @@
         "何德孝",
         "陳麒安"
       ],
-      "media": [
-        {
-          "type": "image",
-          "id": "17Oy9Dw8DYt2nJfn7FoM-iMJAr8J20wyB",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/17Oy9Dw8DYt2nJfn7FoM-iMJAr8J20wyB",
-          "viewUrl": "https://lh3.googleusercontent.com/d/17Oy9Dw8DYt2nJfn7FoM-iMJAr8J20wyB",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=17Oy9Dw8DYt2nJfn7FoM-iMJAr8J20wyB",
-          "title": "14427.jpg"
-        }
-      ],
+      "media": [],
       "city": "越南"
     },
     {
@@ -3390,24 +2588,7 @@
       "masters": [
         "郭迦南"
       ],
-      "media": [
-        {
-          "type": "image",
-          "id": "1LrM2vtdxtQSkKcoefc7c3YzXR5wD9A5R",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1LrM2vtdxtQSkKcoefc7c3YzXR5wD9A5R",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1LrM2vtdxtQSkKcoefc7c3YzXR5wD9A5R",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1LrM2vtdxtQSkKcoefc7c3YzXR5wD9A5R",
-          "title": "629641246289166511.jpg"
-        },
-        {
-          "type": "image",
-          "id": "1F5ynlykJAE7FDT8AFIyBXr2ZGbS6g9nr",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1F5ynlykJAE7FDT8AFIyBXr2ZGbS6g9nr",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1F5ynlykJAE7FDT8AFIyBXr2ZGbS6g9nr",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1F5ynlykJAE7FDT8AFIyBXr2ZGbS6g9nr",
-          "title": "629414373332877313.jpg"
-        }
-      ],
+      "media": [],
       "city": "新加坡"
     },
     {
@@ -3444,11 +2625,19 @@
       "media": [
         {
           "type": "image",
-          "id": "1jwsb33by_S5swcc485PW2MyIQ52ACvm1",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1jwsb33by_S5swcc485PW2MyIQ52ACvm1",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1jwsb33by_S5swcc485PW2MyIQ52ACvm1",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1jwsb33by_S5swcc485PW2MyIQ52ACvm1",
-          "title": "629157187955982748.jpg"
+          "id": "1LrM2vtdxtQSkKcoefc7c3YzXR5wD9A5R",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1LrM2vtdxtQSkKcoefc7c3YzXR5wD9A5R",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1LrM2vtdxtQSkKcoefc7c3YzXR5wD9A5R",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1LrM2vtdxtQSkKcoefc7c3YzXR5wD9A5R",
+          "title": "629641246289166511.jpg"
+        },
+        {
+          "type": "image",
+          "id": "1F5ynlykJAE7FDT8AFIyBXr2ZGbS6g9nr",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/1F5ynlykJAE7FDT8AFIyBXr2ZGbS6g9nr",
+          "viewUrl": "https://lh3.googleusercontent.com/d/1F5ynlykJAE7FDT8AFIyBXr2ZGbS6g9nr",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1F5ynlykJAE7FDT8AFIyBXr2ZGbS6g9nr",
+          "title": "629414373332877313.jpg"
         }
       ],
       "city": "德國"
@@ -3517,120 +2706,7 @@
         "林翠娟",
         "黃美芳"
       ],
-      "media": [
-        {
-          "type": "image",
-          "id": "1T1dmUMXcBRNxrrjfq59fkcUC_Fiyy0Sk",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1T1dmUMXcBRNxrrjfq59fkcUC_Fiyy0Sk",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1T1dmUMXcBRNxrrjfq59fkcUC_Fiyy0Sk",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1T1dmUMXcBRNxrrjfq59fkcUC_Fiyy0Sk",
-          "title": "A43CACD61F78416E7F6FFF2E7BF796477723EAD8.jpeg"
-        },
-        {
-          "type": "image",
-          "id": "108Np5wXKvfS5cT4s5Euv2tW2pQIP8eRp",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/108Np5wXKvfS5cT4s5Euv2tW2pQIP8eRp",
-          "viewUrl": "https://lh3.googleusercontent.com/d/108Np5wXKvfS5cT4s5Euv2tW2pQIP8eRp",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=108Np5wXKvfS5cT4s5Euv2tW2pQIP8eRp",
-          "title": "明誠佛堂_200912_2.jpg"
-        },
-        {
-          "type": "image",
-          "id": "12GqoQJqkKmuJH2sizjJC6vis_HsTCPW8",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/12GqoQJqkKmuJH2sizjJC6vis_HsTCPW8",
-          "viewUrl": "https://lh3.googleusercontent.com/d/12GqoQJqkKmuJH2sizjJC6vis_HsTCPW8",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=12GqoQJqkKmuJH2sizjJC6vis_HsTCPW8",
-          "title": "明誠佛堂_200912_3.jpg"
-        },
-        {
-          "type": "image",
-          "id": "1Aje8L-ex7ImN77pfVtqHHunhyu-oYkdo",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1Aje8L-ex7ImN77pfVtqHHunhyu-oYkdo",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1Aje8L-ex7ImN77pfVtqHHunhyu-oYkdo",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1Aje8L-ex7ImN77pfVtqHHunhyu-oYkdo",
-          "title": "明誠佛堂_200912_12.jpg"
-        },
-        {
-          "type": "image",
-          "id": "1Cwx5hMMRf39wQP8GZlXZdFCY2viOFAaq",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1Cwx5hMMRf39wQP8GZlXZdFCY2viOFAaq",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1Cwx5hMMRf39wQP8GZlXZdFCY2viOFAaq",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1Cwx5hMMRf39wQP8GZlXZdFCY2viOFAaq",
-          "title": "43145.jpg"
-        },
-        {
-          "type": "image",
-          "id": "1Kn6P2A0db7mkossIisMLZaiV4wVKL73s",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1Kn6P2A0db7mkossIisMLZaiV4wVKL73s",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1Kn6P2A0db7mkossIisMLZaiV4wVKL73s",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1Kn6P2A0db7mkossIisMLZaiV4wVKL73s",
-          "title": "IMAG6505.jpg"
-        },
-        {
-          "type": "image",
-          "id": "1SuSTcnKubXtD-zWYpnKml7dl3Lp9Y9UP",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1SuSTcnKubXtD-zWYpnKml7dl3Lp9Y9UP",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1SuSTcnKubXtD-zWYpnKml7dl3Lp9Y9UP",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1SuSTcnKubXtD-zWYpnKml7dl3Lp9Y9UP",
-          "title": "明誠佛堂_200912.jpg"
-        },
-        {
-          "type": "image",
-          "id": "1TbFzTct6JSElSeAWkFiYwVLmHFlnN2IK",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1TbFzTct6JSElSeAWkFiYwVLmHFlnN2IK",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1TbFzTct6JSElSeAWkFiYwVLmHFlnN2IK",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1TbFzTct6JSElSeAWkFiYwVLmHFlnN2IK",
-          "title": "IMAG6530.jpg"
-        },
-        {
-          "type": "drive_doc",
-          "id": "1X-Kcev2uQbEkIVU80OQ_tQIW19J_d1yM",
-          "thumbUrl": "",
-          "embedUrl": "https://drive.google.com/file/d/1X-Kcev2uQbEkIVU80OQ_tQIW19J_d1yM/preview",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1X-Kcev2uQbEkIVU80OQ_tQIW19J_d1yM",
-          "title": ".picasa.ini"
-        },
-        {
-          "type": "image",
-          "id": "1X3B2sMx7MhigEJL43l4bsoh8IJDbikNV",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1X3B2sMx7MhigEJL43l4bsoh8IJDbikNV",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1X3B2sMx7MhigEJL43l4bsoh8IJDbikNV",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1X3B2sMx7MhigEJL43l4bsoh8IJDbikNV",
-          "title": "43193.jpg"
-        },
-        {
-          "type": "image",
-          "id": "1aOP9OP4aMQ1ztmXho2WOVQ7mYwURsUkA",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1aOP9OP4aMQ1ztmXho2WOVQ7mYwURsUkA",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1aOP9OP4aMQ1ztmXho2WOVQ7mYwURsUkA",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1aOP9OP4aMQ1ztmXho2WOVQ7mYwURsUkA",
-          "title": "43194.jpg"
-        },
-        {
-          "type": "image",
-          "id": "1j16ivVwXb2yQ7XTNEizrUTMp_gNb96bg",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1j16ivVwXb2yQ7XTNEizrUTMp_gNb96bg",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1j16ivVwXb2yQ7XTNEizrUTMp_gNb96bg",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1j16ivVwXb2yQ7XTNEizrUTMp_gNb96bg",
-          "title": "明誠佛堂_200912_1.jpg"
-        },
-        {
-          "type": "image",
-          "id": "1oy9qcyeoNvfpuqIszM_hfcOMA8iJwqrN",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1oy9qcyeoNvfpuqIszM_hfcOMA8iJwqrN",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1oy9qcyeoNvfpuqIszM_hfcOMA8iJwqrN",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1oy9qcyeoNvfpuqIszM_hfcOMA8iJwqrN",
-          "title": "S__8904840.jpg"
-        },
-        {
-          "type": "image",
-          "id": "1uEIPuKoDcRVSqj_sYxR1PMH5P2BbLfBm",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/1uEIPuKoDcRVSqj_sYxR1PMH5P2BbLfBm",
-          "viewUrl": "https://lh3.googleusercontent.com/d/1uEIPuKoDcRVSqj_sYxR1PMH5P2BbLfBm",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=1uEIPuKoDcRVSqj_sYxR1PMH5P2BbLfBm",
-          "title": "明誠佛堂_200912_0.jpg"
-        }
-      ],
+      "media": [],
       "city": "墨西哥"
     },
     {
