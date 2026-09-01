@@ -601,6 +601,27 @@
     },
     {
       "country": "印尼",
+      "temple": "和信佛堂",
+      "address": "Pendidikan II No 6A, Sidakarya Denpasar Selatan Bali",
+      "lat": -8.708005428705167,
+      "lng": 115.22899285959087,
+      "masters": [
+        "梁詩美"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "id": "10HSF_FW8G8ND9xTrLwqtgKiRhKFuGyvT",
+          "thumbUrl": "https://lh3.googleusercontent.com/d/10HSF_FW8G8ND9xTrLwqtgKiRhKFuGyvT",
+          "viewUrl": "https://lh3.googleusercontent.com/d/10HSF_FW8G8ND9xTrLwqtgKiRhKFuGyvT",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=10HSF_FW8G8ND9xTrLwqtgKiRhKFuGyvT",
+          "title": "995835A5EDF9A44874A6EC740A21F2C0D090F1F1.jpeg"
+        }
+      ],
+      "city": "印尼"
+    },
+    {
+      "country": "印尼",
       "temple": "和善佛院",
       "address": "Sunter Kemayoran No168   Jakarta Utara Indonesia",
       "lat": -6.160614057729638,
@@ -2825,23 +2846,11 @@
       ],
       "media": [],
       "city": "韓國"
-    },
-    {
-      "country": "韓國",
-      "temple": "釜山浦項市佛堂",
-      "address": "1.포항시 북구 장상동1578-1 장성대림골든103동1702\n2.慶尚北道浦項市北區長山洞 1578-1 長城大林黃金 103 棟 1702室",
-      "lat": 36.068,
-      "lng": 129.378,
-      "masters": [
-        "陳昭伶"
-      ],
-      "media": [],
-      "city": "韓國"
     }
   ],
   "stats": {
     "countries": 27,
     "temples": 105,
-    "masters": 254
+    "masters": 255
   }
 }
