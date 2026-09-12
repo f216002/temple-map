@@ -2605,12 +2605,13 @@
       ],
       "media": [
         {
-          "type": "image",
-          "id": "17Oy9Dw8DYt2nJfn7FoM-iMJAr8J20wyB",
-          "thumbUrl": "https://lh3.googleusercontent.com/d/17Oy9Dw8DYt2nJfn7FoM-iMJAr8J20wyB",
-          "viewUrl": "https://lh3.googleusercontent.com/d/17Oy9Dw8DYt2nJfn7FoM-iMJAr8J20wyB",
-          "downloadUrl": "https://drive.google.com/uc?export=download&id=17Oy9Dw8DYt2nJfn7FoM-iMJAr8J20wyB",
-          "title": "14427.jpg"
+          "type": "drive_video",
+          "id": "1EnisrQdOC5kMGzqpwj8h_SgZMLJHQjjt",
+          "thumbUrl": "https://drive.google.com/thumbnail?sz=w800&id=1EnisrQdOC5kMGzqpwj8h_SgZMLJHQjjt",
+          "embedUrl": "https://drive.google.com/file/d/1EnisrQdOC5kMGzqpwj8h_SgZMLJHQjjt/preview",
+          "viewUrl": "https://drive.google.com/file/d/1EnisrQdOC5kMGzqpwj8h_SgZMLJHQjjt/view",
+          "downloadUrl": "https://drive.google.com/uc?export=download&id=1EnisrQdOC5kMGzqpwj8h_SgZMLJHQjjt",
+          "title": "He Guang FHD3.mp4"
         }
       ],
       "city": "新加坡"
