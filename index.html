@@ -7,9 +7,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
 <title>全球開荒佛堂互動地圖</title>
-<link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon-v2.png?v=20260912-2">
-<link rel="apple-touch-icon-precomposed" sizes="180x180" href="./apple-touch-icon-precomposed.png?v=20260912-2">
-<link rel="icon" type="image/png" sizes="180x180" href="./apple-touch-icon-v2.png?v=20260912-2">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -84,19 +81,6 @@ body, html { width: 100%; height: 100%; overflow: hidden; background-color: #0b1
   padding-top: calc(8px * var(--hud-scale)); 
   margin-bottom: calc(10px * var(--hud-scale)); 
 }
-
-.refresh-data-btn {
-  margin-left: auto; align-self: center; flex: 0 0 auto;
-  width: calc(34px * var(--hud-scale)); height: calc(34px * var(--hud-scale));
-  border-radius: 50%; border: 1.5px solid #ffd700;
-  background: rgba(255, 215, 0, 0.12); color: #ffd700;
-  display: flex; align-items: center; justify-content: center;
-  font-size: calc(20px * var(--hud-scale)); font-weight: 900;
-  line-height: 1; cursor: pointer; user-select: none;
-  box-shadow: 0 0 10px rgba(255, 215, 0, 0.18);
-}
-.refresh-data-btn:active { background: #ffd700; color: #0f172a; transform: scale(0.94); }
-
 .stat-item { display: flex; flex-direction: column; }
 .stat-num { 
   font-size: calc(22px * var(--hud-scale)); font-weight: 900; color: #ffd700; 
@@ -334,7 +318,6 @@ body, html { width: 100%; height: 100%; overflow: hidden; background-color: #0b1
       <span class="stat-num" id="stat-masters">-</span>
       <span class="stat-lbl">點傳師</span>
     </div>
-    <button class="refresh-data-btn" onclick="forceRefresh()" title="重新整理最新資料" aria-label="重新整理最新資料">↻</button>
   </div>
   <div class="search-box-wrapper">
     <input type="text" id="search-box" class="search-input" placeholder="🔍 搜尋國家、佛堂、點傳師或地址...">
@@ -437,13 +420,6 @@ function adjustFontScale(delta) {
 function resetFontScale() {
   currentFontScale = 1.0;
   document.documentElement.style.setProperty('--font-scale', 1.0);
-}
-
-
-function forceRefresh() {
-  const url = new URL(window.location.href);
-  url.searchParams.set('_refresh', Date.now().toString());
-  window.location.replace(url.toString());
 }
 
 // 💡 核心優化：跨裝置通用收合開關機制
