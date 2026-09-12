@@ -1,0 +1,27 @@
+name: Generate 512 icon
+'on':
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/fix-icon-512.yml'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install image tools
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq imagemagick
+      - name: Generate exact 512 PNG
+        run: |
+          convert icons/apple-touch-icon.png -resize 512x512! -alpha off PNG24:icons/icon-512.png
+          identify icons/apple-touch-icon.png icons/icon-192.png icons/icon-512.png icons/favicon-32.png
+      - name: Commit
+        run: |
+          rm -f .github/workflows/fix-icon-512.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add icons/icon-512.png .github/workflows/fix-icon-512.yml
+          git commit -m "Generate verified 512px app icon" || exit 0
+          git push
