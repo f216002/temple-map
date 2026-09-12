@@ -1,5 +1,5 @@
 name: Setup iPhone icons
-on:
+'on':
   push:
     branches: [main]
     paths:
@@ -26,20 +26,7 @@ jobs:
           from pathlib import Path
           p=Path('index.html')
           s=p.read_text(encoding='utf-8')
-          start=s.index('<head>')+len('<head>')
-          title='全球開荒佛堂地圖'
-          block='''
-  <meta name="description" content="全球開荒佛堂與開荒點傳師互動地圖">
-  <meta name="theme-color" content="#0b4f8a">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="apple-mobile-web-app-title" content="全球開荒佛堂">
-  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png?v=20260912-3">
-  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png?v=20260912-3">
-  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png?v=20260912-3">
-  <link rel="manifest" href="manifest.webmanifest?v=20260912-3">
-'''
-          # Remove all previous icon / manifest / Apple web-app meta lines, preserving unrelated head content.
+          block='''  <meta name="description" content="全球開荒佛堂與開荒點傳師互動地圖">\n  <meta name="theme-color" content="#0b4f8a">\n  <meta name="apple-mobile-web-app-capable" content="yes">\n  <meta name="apple-mobile-web-app-status-bar-style" content="default">\n  <meta name="apple-mobile-web-app-title" content="全球開荒佛堂">\n  <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png?v=20260912-3">\n  <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png?v=20260912-3">\n  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png?v=20260912-3">\n  <link rel="manifest" href="manifest.webmanifest?v=20260912-3">\n'''
           lines=s.splitlines()
           remove_keys=('rel="apple-touch-icon"','rel="apple-touch-icon-precomposed"','rel="icon"','rel="manifest"','name="theme-color"','name="apple-mobile-web-app-capable"','name="apple-mobile-web-app-status-bar-style"','name="apple-mobile-web-app-title"','name="description"')
           lines=[line for line in lines if not any(k in line for k in remove_keys)]
