@@ -658,6 +658,14 @@
       "media": [
         {
           "type": "youtube",
+          "id": "FaN7TXtDYYI",
+          "thumbUrl": "https://img.youtube.com/vi/FaN7TXtDYYI/hqdefault.jpg",
+          "embedUrl": "https://www.youtube.com/embed/FaN7TXtDYYI?autoplay=1&rel=0",
+          "downloadUrl": "https://www.youtube.com/watch?v=FaN7TXtDYYI",
+          "title": "YouTube 影片"
+        },
+        {
+          "type": "youtube",
           "id": "a7l7xgJFuso",
           "thumbUrl": "https://img.youtube.com/vi/a7l7xgJFuso/hqdefault.jpg",
           "embedUrl": "https://www.youtube.com/embed/a7l7xgJFuso?autoplay=1&rel=0",
